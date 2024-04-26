@@ -1,0 +1,1178 @@
+{
+  "sections": {
+    "323076ff-8d2f-456b-a8f6-746786b5340f": {
+      "type": "slideshow",
+      "blocks": {
+        "1725c6c3-8410-484e-b559-87446f686f0c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Whats_Next_Desktop_01_No_Copy.png",
+            "mobile_image": "shopify://shop_images/M_Whats_Next_Mobile_01_No_Copy.png",
+            "title": "Pleasure",
+            "title_mobile": "",
+            "subheading": "KNOWING IT TAKES A LITTLE \nPAIN TO GET THERE",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 194,
+            "heading_font_size_mobile": 56,
+            "subheading_font_size_desktop": 35,
+            "subheading_font_size_mobile": 14,
+            "heading_font_family": "itc-avant-garde-pro-xlt",
+            "font_scale": "stay-large",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-left",
+            "content_position_mobile": "bottom-left",
+            "nudge_text_x-axis_desktop": 6.5,
+            "nudge_text_y-axis_desktop": 5,
+            "nudge_text_x-axis_mobile": 7,
+            "nudge_text_y-axis_mobile": 7,
+            "heading_drop_shadow": true,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 20,
+            "nudge_subheading_y-axis_mobile": -0.5,
+            "nudge_subheading_y-axis_desktop": -1,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_font_family": "helvetica-neue-thin",
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#cccccc",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_qJ6H3J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DESKTOP_-_PLEASURE_10.jpg",
+            "mobile_image": "shopify://shop_images/M0BILE_-_PLEASURE_3.jpg",
+            "title": "Pleasure",
+            "title_mobile": "",
+            "subheading": "KNOWING IT TAKES A LITTLE \nPAIN TO GET THERE",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 194,
+            "heading_font_size_mobile": 64,
+            "subheading_font_size_desktop": 35,
+            "subheading_font_size_mobile": 14,
+            "heading_font_family": "itc-avant-garde-pro-xlt",
+            "font_scale": "stay-large",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "top-right",
+            "content_position_mobile": "bottom-left",
+            "nudge_text_x-axis_desktop": -5,
+            "nudge_text_y-axis_desktop": -10,
+            "nudge_text_x-axis_mobile": 7,
+            "nudge_text_y-axis_mobile": 7,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 40,
+            "nudge_subheading_y-axis_mobile": -0.5,
+            "nudge_subheading_y-axis_desktop": -1,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_font_family": "helvetica-neue-thin",
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16071078969494__323076ff-8d2f-456b-a8f6-746786b5340f-image-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DESKTOP_-_PLEASURE_1.jpg",
+            "mobile_image": "shopify://shop_images/M0BILE_-_PLEASURE_1.jpg",
+            "title": "Pleasure",
+            "title_mobile": "",
+            "subheading": "KNOWING IT TAKES A LITTLE PAIN TO\nGET THERE",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 194,
+            "heading_font_size_mobile": 64,
+            "subheading_font_size_desktop": 35,
+            "subheading_font_size_mobile": 14,
+            "heading_font_family": "itc-avant-garde-pro-xlt",
+            "font_scale": "stay-large",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "top-left",
+            "content_position_mobile": "bottom-left",
+            "nudge_text_x-axis_desktop": 6.5,
+            "nudge_text_y-axis_desktop": -15,
+            "nudge_text_x-axis_mobile": 7,
+            "nudge_text_y-axis_mobile": 7,
+            "heading_drop_shadow": true,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 20,
+            "nudge_subheading_y-axis_mobile": -0.5,
+            "nudge_subheading_y-axis_desktop": -1,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_font_family": "helvetica-neue-thin",
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#cccccc",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16071078969494__323076ff-8d2f-456b-a8f6-746786b5340f-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DESKTOP_-_PLEASURE_2.jpg",
+            "mobile_image": "shopify://shop_images/MOBILE_-_PLEASURE_1.jpg",
+            "title": "Pleasure",
+            "title_mobile": "",
+            "subheading": "KNOWING IT TAKES A LITTLE\nPAIN TO GET THERE",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 140,
+            "heading_font_size_mobile": 64,
+            "subheading_font_size_desktop": 35,
+            "subheading_font_size_mobile": 14,
+            "heading_font_family": "itc-avant-garde-pro-xlt",
+            "font_scale": "default",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "top-right",
+            "content_position_mobile": "bottom-left",
+            "nudge_text_x-axis_desktop": -5,
+            "nudge_text_y-axis_desktop": -10.5,
+            "nudge_text_x-axis_mobile": 7,
+            "nudge_text_y-axis_mobile": 7,
+            "heading_drop_shadow": true,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 20,
+            "nudge_subheading_y-axis_mobile": -0.5,
+            "nudge_subheading_y-axis_desktop": -1,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_font_family": "helvetica-neue-thin",
+            "subheading_uppercase": true,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#cccccc",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "1725c6c3-8410-484e-b559-87446f686f0c",
+        "image_qJ6H3J",
+        "template--16071078969494__323076ff-8d2f-456b-a8f6-746786b5340f-image-2",
+        "template--16071078969494__323076ff-8d2f-456b-a8f6-746786b5340f-image-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "background_type": "full_width",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "aa18ff9f-ede0-47f5-8a53-63d62c29047d": {
+      "type": "variant-collection-new",
+      "blocks": {
+        "template--15942754533526__aa18ff9f-ede0-47f5-8a53-63d62c29047d-1676636640e95fea90-0": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "pleasure",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "32fde58c-8bd3-44a2-9656-74bf8d961afc": {
+          "type": "variant-collection",
+          "disabled": true,
+          "settings": {
+            "product": "business",
+            "subheading": "Business",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15942754533526__aa18ff9f-ede0-47f5-8a53-63d62c29047d-1676636640e95fea90-0",
+        "32fde58c-8bd3-44a2-9656-74bf8d961afc"
+      ],
+      "custom_css": [
+        "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
+        "img.product-item__primary-image {max-height: 275px; object-fit: cover; position: relative;}",
+        ".product-item__image-wrapper {max-height: 235px;}",
+        ".product-list__inner {gap: 64px var(--product-list-column-gap);}",
+        ".variant-collection {padding-bottom: 40px !important;}",
+        ".vertical-breather {padding-top: 24px;}",
+        "@media screen and (min-width: 940px) {.vertical-breather {padding-top: var(--vertical-breather); }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 3,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#ffffff",
+        "text_color": "#191919",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1661987067f4300c36": {
+      "type": "variant-collection",
+      "blocks": {
+        "16619870677ce180aa-0": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "pleasure",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "16619870677ce180aa-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Leisure",
+        "title": "Pleasure",
+        "content": "",
+        "products_count": 12,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#fbfbfb",
+        "text_color": "#000000",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ec680da2-0d44-4265-bb68-d940f8df76fe": {
+      "type": "variant-collection-new",
+      "blocks": {
+        "template--15942754533526__ec680da2-0d44-4265-bb68-d940f8df76fe-1676636640e95fea90-0": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "business",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15942754533526__ec680da2-0d44-4265-bb68-d940f8df76fe-1676636640e95fea90-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Business",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#ffffff",
+        "text_color": "#191919",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "static-lens-collection": {
+      "type": "static-lens-collection",
+      "blocks": {
+        "836c6622-f633-446b-a5be-caf807d19308": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify://shop_images/Business_lens_Gray_3qtr.56.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Gray",
+            "link_text": "",
+            "link_url": "/pages/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "3ea35824-0039-47be-a8e7-6204e3152311": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify://shop_images/Business_lens_Sepia_3qtr.64.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Sepia",
+            "link_text": "",
+            "link_url": "/pages/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "36cbc251-5f79-4f9e-94c0-f3e1845f1d53": {
+          "type": "item-2",
+          "settings": {
+            "image": "shopify://shop_images/Pleasure_Lens_Gray_Polar_3qtr.95.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Gray",
+            "link_text": "",
+            "link_url": "/pages/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "44f9f46e-c98a-431f-baa7-6dd00be3c465": {
+          "type": "item-2",
+          "settings": {
+            "image": "shopify://shop_images/Pleasure_Lens_Sepia_Polar_3qtr.84.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Sepia",
+            "link_text": "",
+            "link_url": "/pages/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "836c6622-f633-446b-a5be-caf807d19308",
+        "3ea35824-0039-47be-a8e7-6204e3152311",
+        "36cbc251-5f79-4f9e-94c0-f3e1845f1d53",
+        "44f9f46e-c98a-431f-baa7-6dd00be3c465"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "title": "Standard Lenses",
+        "subheading": "Everyday use",
+        "title2": "Polarized Lenses",
+        "subheading2": "Water Sports | Outdoors",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "small",
+        "spacing": "normal",
+        "background": "#ffffff",
+        "text_color": "#191919"
+      }
+    },
+    "076effdb-df1c-4179-8dd8-06d8681edc1c": {
+      "type": "static-lens-collection",
+      "blocks": {
+        "b15d25df-b4ac-4561-9631-c0165146229e": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify://shop_images/2048_2048_pleasure_pdp_0001s_0004_pleasure_copper_mirrored_revised_3qtr.1017.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Copper",
+            "link_text": "",
+            "link_url": "/pages/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "d8f401df-a7bf-4f7f-897b-6978a785d1de": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify://shop_images/Business_lens_Obsidian_Plasmachromatic_3qtr.44.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Obsidian",
+            "link_text": "",
+            "link_url": "/pages/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "78a207bc-8154-4da1-bc5e-e1fb5227c96b": {
+          "type": "item-2",
+          "settings": {
+            "image": "shopify://shop_images/Pleasure_Lens_Obsidian_Plasmachromatic_3qtr.72.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Obsidian<br>Coming Soon",
+            "link_text": "",
+            "link_url": "/pages/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "b15d25df-b4ac-4561-9631-c0165146229e",
+        "d8f401df-a7bf-4f7f-897b-6978a785d1de",
+        "78a207bc-8154-4da1-bc5e-e1fb5227c96b"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "title": "Plasmachromatic Lenses",
+        "subheading": "Advanced Light Filtration System",
+        "title2": "Plasmachromatic Polarized",
+        "subheading2": "Plasma + Polar",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "small",
+        "spacing": "normal",
+        "background": "#ffffff",
+        "text_color": "#191919"
+      }
+    },
+    "166200293690459eff": {
+      "type": "variant-collection",
+      "blocks": {
+        "1662002936712e91a5-0": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "business",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "1662002936712e91a5-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Leisure",
+        "title": "Business",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#fbfbfb",
+        "text_color": "#000000",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "d5915d14-aaa1-461e-95aa-154e78361794": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify://shop_images/2160x1000_0007_Day-2_9579.jpg",
+        "title": "",
+        "title_mobile": "",
+        "subheading": "",
+        "subheading_mobile": "",
+        "content": "",
+        "panel_link": "",
+        "heading_font_size_desktop": 82,
+        "heading_font_size_mobile": 26,
+        "subheading_font_size_desktop": 30,
+        "subheading_font_size_mobile": 16,
+        "font_scale": "default",
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "text_align_desktop": "center",
+        "text_align_mobile": "center",
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000000",
+        "heading_drop_shadow_opacity": 16,
+        "nudge_subheading_y-axis_mobile": 0,
+        "nudge_subheading_y-axis_desktop": 0,
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "max_width_container": false,
+        "background_type": "full_width",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "1657045016427725fc": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify://shop_images/Business_MatBlk_transTurqWalrs2160x1080_copy.jpg",
+        "title": "LEISURE",
+        "title_mobile": "",
+        "subheading": "",
+        "subheading_mobile": "",
+        "content": "<p>Everyday Eyewear designed for open roads and mellow days.</p>",
+        "panel_link": "",
+        "heading_font_size_desktop": 82,
+        "heading_font_size_mobile": 26,
+        "subheading_font_size_desktop": 30,
+        "subheading_font_size_mobile": 16,
+        "font_scale": "default",
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "text_align_desktop": "center",
+        "text_align_mobile": "center",
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000000",
+        "heading_drop_shadow_opacity": 16,
+        "nudge_subheading_y-axis_mobile": 0,
+        "nudge_subheading_y-axis_desktop": 0,
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "max_width_container": false,
+        "background_type": "full_width",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "accb61ff-dfc2-4aae-a658-ebf2c293dc43": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "accb61ff-dfc2-4aae-a658-ebf2c293dc43"
+      ],
+      "disabled": true,
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    },
+    "165704614349662bd1": {
+      "type": "featured-collections",
+      "blocks": {
+        "16570461435ef01962-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "sunglasses",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16570461435ef01962-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Leisure",
+        "use_impact": false,
+        "title": "PLEASURE",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "#ffffff",
+        "text_color": "#000000",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16573189255e726d48": {
+      "type": "timeline",
+      "blocks": {
+        "1657318925fec2f8fb-0": {
+          "type": "item",
+          "settings": {
+            "label": "",
+            "title": "HYDRO",
+            "content": "<p>PRINTS</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "1657318925fec2f8fb-1": {
+          "type": "item",
+          "settings": {
+            "label": "",
+            "title": "CAMO",
+            "content": "<p>prints</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "1657318925fec2f8fb-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/manufacturing_video1_0.jpg",
+            "label": "",
+            "title": "SOLIDS",
+            "content": "<p>COLOR</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657318925fec2f8fb-0",
+        "1657318925fec2f8fb-1",
+        "1657318925fec2f8fb-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "text_position": "middle",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_background": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16573194757d85d87c": {
+      "type": "featured-collections",
+      "blocks": {
+        "165731947555f1c0de-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "sunglasses",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "165731947555f1c0de-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "LEISURE",
+        "use_impact": false,
+        "title": "BUSINESS",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "#bfbfbf",
+        "text_color": "#000000",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657320321031b92ed": {
+      "type": "featured-collections",
+      "blocks": {
+        "1657320321255a576d-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "place-holder-collection",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657320321255a576d-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Your title",
+        "use_impact": false,
+        "title": "Collection",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16585205940290ba28": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify://shop_images/Business_MatBlk_transTurqWalrs2160x1080_copy.jpg",
+        "title": "RX",
+        "title_mobile": "",
+        "subheading": "Available in",
+        "subheading_mobile": "",
+        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+        "panel_link": "",
+        "heading_font_size_desktop": 82,
+        "heading_font_size_mobile": 26,
+        "subheading_font_size_desktop": 30,
+        "subheading_font_size_mobile": 16,
+        "font_scale": "default",
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "text_align_desktop": "center",
+        "text_align_mobile": "center",
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000000",
+        "heading_drop_shadow_opacity": 16,
+        "nudge_subheading_y-axis_mobile": 0,
+        "nudge_subheading_y-axis_desktop": 0,
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "max_width_container": false,
+        "background_type": "full_width",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "165852067643b1b37d": {
+      "type": "featured-collections",
+      "blocks": {
+        "1658520676c35429ae-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "sunglasses",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658520676c35429ae-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "use_impact": false,
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1659194976e155addd": {
+      "type": "collection-list",
+      "blocks": {
+        "1659194976d914844e-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "place-holder-collection",
+            "image": "shopify://shop_images/1100x1400_placeholder.png",
+            "subheading": "Leisure",
+            "title": "BUSINESS BLACK",
+            "link_text": "buy",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1659194976d914844e-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1659194976d914844e-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1659194976d914844e-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1659194976d914844e-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1659194976d914844e-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "1659194976d914844e-0",
+        "1659194976d914844e-1",
+        "1659194976d914844e-2",
+        "1659194976d914844e-3",
+        "1659194976d914844e-4",
+        "1659194976d914844e-5"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "LEISURE",
+        "title": "BUSINESS",
+        "background": "#bfbfbf",
+        "text_color": "#000000"
+      }
+    },
+    "ce7922f5-03e9-4679-937e-f17ca0e41145": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16029444243606__ce7922f5-03e9-4679-937e-f17ca0e41145-16870589452ad38cbd-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_comparison_Business_Pleasure_Desktop.svg",
+            "mobile_image": "shopify://shop_images/M_comparison_Business_Pleasure_Mobile.svg",
+            "title": "",
+            "title_mobile": "",
+            "subheading": "",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 118,
+            "heading_font_size_mobile": 50,
+            "subheading_font_size_desktop": 22,
+            "subheading_font_size_mobile": 16,
+            "heading_font_family": "itc-avant-garde-pro-xlt",
+            "font_scale": "default",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 40,
+            "nudge_subheading_y-axis_mobile": 0,
+            "nudge_subheading_y-axis_desktop": 0,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_font_family": "helvetica-neue-thin",
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16029444243606__ce7922f5-03e9-4679-937e-f17ca0e41145-16870589452ad38cbd-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "auto",
+        "background_type": "full_width",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "47744468-f2e8-4732-b4b8-773e49ebb6ae": {
+      "type": "rich-text-image",
+      "disabled": true,
+      "custom_css": [
+        ".vertical-breather {padding: 0;}"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "content": "",
+        "image": "shopify://shop_images/M_comparison_Business_Pleasure_Desktop_Only_Image.svg",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 2160 1105\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <defs>\n    <style>\n      .cls-desktop1, .cls-desktop10, .cls-desktop12 {\n        fill: none;\n      }\n\n      .cls-desktop2 {\n        clip-path: url(#desktop-clip-M_comparison_Business_Pleasure_Desktop);\n      }\n\n      .cls-desktop3 {\n        fill: url(#desktop-pattern);\n      }\n\n      .cls-desktop4, .cls-desktop5 {\n        fill: #696969;\n      }\n\n      .cls-desktop4 {\n        font-size: 168px;\n        font-family: ITCAvantGardePro-XLt, ITC Avant Garde Gothic Pro;\n        letter-spacing: -0.02em;\n      }\n\n      .cls-desktop5 {\n        font-size: 39px;\n      }\n\n      .cls-desktop5, .cls-desktop6, .cls-desktop7 {\n        font-family: HelveticaNeue, Helvetica Neue;\n      }\n\n      .cls-desktop6, .cls-desktop7 {\n        fill: #e2a829;\n      }\n\n      .cls-desktop6 {\n        font-size: 30px;\n      }\n\n      .cls-desktop7 {\n        font-size: 33px;\n      }\n\n      .cls-desktop8 {\n        clip-path: url(#desktop-clip-path-desktop);\n      }\n\n      .cls-desktop9 {\n        fill: url(#desktop-linear-gradient);\n      }\n\n      .cls-desktop10, .cls-desktop12 {\n        stroke: #e2a829;\n        stroke-linecap: round;\n      }\n\n      .cls-desktop10 {\n        stroke-width: 4px;\n      }\n\n      .cls-desktop11 {\n        clip-path: url(#desktop-clip-path-desktop-4);\n      }\n\n      .cls-desktop12 {\n        stroke-width: 5px;\n      }\n\n      .cls-desktop13 {\n        clip-path: url(#desktop-clip-path-desktop-7);\n      }\n    </style>\n    <pattern id=\"desktop-pattern\" width=\"1\" height=\"1\" viewbox=\"109.125 79.664 1905.149 860.593\">\n      \n    </pattern>\n    <clippath id=\"desktop-clip-path-desktop\">\n      <path id=\"desktop-Path_4\" data-name=\"Path 4\" class=\"cls-desktop1\" d=\"M.006,20.755,0,27.642,9.689,8.451,20.02,27.629,20,20.671,9.567,0ZM14.911,46.939l-5.345-27.8Z\" transform=\"translate(0 0)\"></path>\n    </clippath>\n    <lineargradient id=\"desktop-linear-gradient\" x1=\"0.212\" y1=\"0.497\" x2=\"0.537\" y2=\"0.497\" gradientunits=\"objectBoundingBox\">\n      <stop offset=\"0\" stop-color=\"#ffea3d\"></stop>\n      <stop offset=\"0.1\" stop-color=\"#ffcd3a\"></stop>\n      <stop offset=\"0.2\" stop-color=\"#ffb038\"></stop>\n      <stop offset=\"0.3\" stop-color=\"#ff9636\"></stop>\n      <stop offset=\"0.4\" stop-color=\"#ff8534\"></stop>\n      <stop offset=\"0.5\" stop-color=\"#ffa036\"></stop>\n      <stop offset=\"0.6\" stop-color=\"#ffb738\"></stop>\n      <stop offset=\"0.7\" stop-color=\"#ffca3a\"></stop>\n      <stop offset=\"0.8\" stop-color=\"#ffda3b\"></stop>\n      <stop offset=\"0.9\" stop-color=\"#ffe53c\"></stop>\n      <stop offset=\"1\" stop-color=\"#ffea3d\"></stop>\n    </lineargradient>\n    <clippath id=\"desktop-clip-path-desktop-4\">\n      <path id=\"desktop-Path_4-4\" data-name=\"Path 4\" class=\"cls-desktop1\" d=\"M.006,20.755,0,27.642,9.689,8.451,20.02,27.629,20,20.671,9.567,0ZM14.911,46.939l-5.345-27.8Z\"></path>\n    </clippath>\n    <clippath id=\"desktop-clip-path-desktop-7\">\n      <path id=\"desktop-Path_4-7\" data-name=\"Path 4\" class=\"cls-desktop1\" d=\"M.006,20.755,0,27.642,9.689,8.451,20.02,27.629,20,20.671,9.567,0ZM14.911,46.939l-5.345-27.8Z\" transform=\"translate(0)\"></path>\n    </clippath>\n    <clippath id=\"desktop-clip-M_comparison_Business_Pleasure_Desktop\">\n      <rect width=\"2160\" height=\"1105\"></rect>\n    </clippath>\n  </defs>\n  <g id=\"desktop-M_comparison_Business_Pleasure_Desktop\" class=\"cls-desktop2\">\n    \n    <rect id=\"desktop-_37d39c3b99628c055f30a4955a76d053\" data-name=\"37d39c3b99628c055f30a4955a76d053\" class=\"cls-desktop3\" width=\"2123\" height=\"959\" transform=\"translate(19 162)\"></rect>\n    <text id=\"desktop-BUSINESS_OR_PLEASURE\" data-name=\"BUSINESS  OR  PLEASURE\" class=\"cls-desktop4\" transform=\"translate(168 255)\"><tspan x=\"0\" y=\"0\" xml:space=\"preserve\">BUSINESS  OR  PLEASURE</tspan></text>\n    <text id=\"desktop-TEMPLE_LENGTH\" data-name=\"TEMPLE LENGTH\" class=\"cls-desktop5\" transform=\"translate(1423 727)\"><tspan x=\"0\" y=\"0\">TEMPLE LENGTH</tspan></text>\n    <text id=\"desktop-TEMPLE_LENGTH-2\" data-name=\"TEMPLE LENGTH\" class=\"cls-desktop5\" transform=\"translate(407 727)\"><tspan x=\"0\" y=\"0\">TEMPLE LENGTH</tspan></text>\n    <text id=\"desktop-rx-able\" class=\"cls-desktop6\" transform=\"translate(501 1027)\"><tspan x=\"0\" y=\"0\">RX-ABLE</tspan></text>\n    <text id=\"desktop-rx-aDAPTABLE\" class=\"cls-desktop6\" transform=\"translate(1472 1027)\"><tspan x=\"0\" y=\"0\">RX-ADAPTABLE</tspan></text>\n    <text id=\"desktop-LENS_GEOMETRY\" data-name=\"LENS GEOMETRY\" class=\"cls-desktop5\" transform=\"translate(564 425)\"><tspan x=\"-161.792\" y=\"0\">LENS GEOMETRY</tspan></text>\n    <text id=\"desktop-LENS_GEOMETRY-2\" data-name=\"LENS GEOMETRY\" class=\"cls-desktop5\" transform=\"translate(1581 425)\"><tspan x=\"-161.792\" y=\"0\">LENS GEOMETRY</tspan></text>\n    <text id=\"desktop-_4-BASE\" data-name=\"4-BASE\" class=\"cls-desktop7\" transform=\"translate(564 467)\"><tspan x=\"-58.361\" y=\"0\">4-BASE</tspan></text>\n    <text id=\"desktop-_6-BASE\" data-name=\"6-BASE\" class=\"cls-desktop7\" transform=\"translate(1581 467)\"><tspan x=\"-58.361\" y=\"0\">6-BASE</tspan></text>\n    <text id=\"desktop-_134_MM\" data-name=\"134 MM\" class=\"cls-desktop7\" transform=\"translate(1581 769)\"><tspan x=\"-60.852\" y=\"0\">134 MM</tspan></text>\n    <text id=\"desktop-_137_MM\" data-name=\"137 MM\" class=\"cls-desktop7\" transform=\"translate(564 769)\"><tspan x=\"-60.852\" y=\"0\">137 MM</tspan></text>\n    <text id=\"desktop-LENS_HEIGHT_\" data-name=\"LENS HEIGHT \" class=\"cls-desktop5\" transform=\"translate(949 873)\"><tspan x=\"0\" y=\"0\">LENS HEIGHT </tspan></text>\n    <text id=\"desktop-_40_MM\" data-name=\"40 MM\" class=\"cls-desktop7\" transform=\"translate(1285 870)\"><tspan x=\"0\" y=\"0\">40 MM</tspan></text>\n    <text id=\"desktop-_37_MM\" data-name=\"37 MM\" class=\"cls-desktop7\" transform=\"translate(775 870)\"><tspan x=\"0\" y=\"0\">37 MM</tspan></text>\n    <g id=\"desktop-Group_16\" data-name=\"Group 16\" transform=\"translate(897.445 869.942) rotate(-90)\">\n      <g id=\"desktop-Group_4\" data-name=\"Group 4\" class=\"cls-desktop8\" transform=\"translate(0 0)\">\n        <g id=\"desktop-Group_3\" data-name=\"Group 3\" transform=\"translate(-58.29 89.925) rotate(-90)\">\n          <path id=\"desktop-Path_3\" data-name=\"Path 3\" class=\"cls-desktop9\" d=\"M203.051,0V137.365H0V0Z\" transform=\"translate(0 0)\"></path>\n        </g>\n      </g>\n    </g>\n    <g id=\"desktop-Group_17\" data-name=\"Group 17\" transform=\"translate(1265.31 849.922) rotate(90)\">\n      <g id=\"desktop-Group_4-2\" data-name=\"Group 4\" class=\"cls-desktop8\" transform=\"translate(0 0)\">\n        <g id=\"desktop-Group_3-2\" data-name=\"Group 3\" transform=\"translate(-58.29 89.925) rotate(-90)\">\n          <path id=\"desktop-Path_3-2\" data-name=\"Path 3\" class=\"cls-desktop9\" d=\"M203.051,0V137.365H0V0Z\" transform=\"translate(0 0)\"></path>\n        </g>\n      </g>\n    </g>\n    <g id=\"desktop-Group_23\" data-name=\"Group 23\" transform=\"translate(1307.281 647.154)\">\n      <line id=\"desktop-Line_4\" data-name=\"Line 4\" class=\"cls-desktop10\" x1=\"744.814\" transform=\"translate(8.956 10.01)\"></line>\n      <g id=\"desktop-Group_14\" data-name=\"Group 14\" transform=\"translate(761.763 0) rotate(90)\">\n        <g id=\"desktop-Group_4-3\" data-name=\"Group 4\" class=\"cls-desktop8\" transform=\"translate(0 0)\">\n          <g id=\"desktop-Group_3-3\" data-name=\"Group 3\" transform=\"translate(-58.29 89.925) rotate(-90)\">\n            <path id=\"desktop-Path_3-3\" data-name=\"Path 3\" class=\"cls-desktop9\" d=\"M203.051,0V137.365H0V0Z\" transform=\"translate(0 0)\"></path>\n          </g>\n        </g>\n      </g>\n      <g id=\"desktop-Group_15\" data-name=\"Group 15\" transform=\"translate(0 20.02) rotate(-90)\">\n        <g id=\"desktop-Group_4-4\" data-name=\"Group 4\" class=\"cls-desktop11\" transform=\"translate(0 0)\">\n          <g id=\"desktop-Group_3-4\" data-name=\"Group 3\" transform=\"translate(-58.29 89.925) rotate(-90)\">\n            <path id=\"desktop-Path_3-4\" data-name=\"Path 3\" class=\"cls-desktop9\" d=\"M203.051,0V137.365H0V0Z\" transform=\"translate(0 0)\"></path>\n          </g>\n        </g>\n      </g>\n    </g>\n    <g id=\"desktop-Group_25\" data-name=\"Group 25\" transform=\"translate(53.421 648.308)\">\n      <path id=\"desktop-Path_5\" data-name=\"Path 5\" class=\"cls-desktop10\" d=\"M844.469,0H0\" transform=\"translate(5.667 10.01)\"></path>\n      <g id=\"desktop-Group_12\" data-name=\"Group 12\" transform=\"translate(0 20.02) rotate(-90)\">\n        <g id=\"desktop-Group_4-5\" data-name=\"Group 4\" class=\"cls-desktop8\" transform=\"translate(0 0)\">\n          <g id=\"desktop-Group_3-5\" data-name=\"Group 3\" transform=\"translate(-58.29 89.925) rotate(-90)\">\n            <path id=\"desktop-Path_3-5\" data-name=\"Path 3\" class=\"cls-desktop9\" d=\"M203.051,0V137.365H0V0Z\"></path>\n          </g>\n        </g>\n      </g>\n      <g id=\"desktop-Group_13\" data-name=\"Group 13\" transform=\"translate(858.992 0) rotate(90)\">\n        <g id=\"desktop-Group_4-6\" data-name=\"Group 4\" class=\"cls-desktop8\" transform=\"translate(0 0)\">\n          <g id=\"desktop-Group_3-6\" data-name=\"Group 3\" transform=\"translate(-58.29 89.925) rotate(-90)\">\n            <path id=\"desktop-Path_3-6\" data-name=\"Path 3\" class=\"cls-desktop9\" d=\"M203.051,0V137.365H0V0Z\"></path>\n          </g>\n        </g>\n      </g>\n    </g>\n    <g id=\"desktop-Group_27\" data-name=\"Group 27\" transform=\"translate(1053.267 548.569)\">\n      <line id=\"desktop-Line_3\" data-name=\"Line 3\" class=\"cls-desktop12\" y1=\"209.595\" transform=\"translate(10.01 7.542)\"></line>\n      <g id=\"desktop-Group_8\" data-name=\"Group 8\" transform=\"translate(20.02 226.176) rotate(-180)\">\n        <g id=\"desktop-Group_4-7\" data-name=\"Group 4\" class=\"cls-desktop13\" transform=\"translate(0 0)\">\n          <g id=\"desktop-Group_3-7\" data-name=\"Group 3\" transform=\"translate(-58.29 89.925) rotate(-90)\">\n            <path id=\"desktop-Path_3-7\" data-name=\"Path 3\" class=\"cls-desktop9\" d=\"M203.051,0V137.365H0V0Z\" transform=\"translate(0 0)\"></path>\n          </g>\n        </g>\n      </g>\n      <g id=\"desktop-Group_9\" data-name=\"Group 9\" transform=\"translate(0 0)\">\n        <g id=\"desktop-Group_4-8\" data-name=\"Group 4\" class=\"cls-desktop13\" transform=\"translate(0 0)\">\n          <g id=\"desktop-Group_3-8\" data-name=\"Group 3\" transform=\"translate(-58.29 89.925) rotate(-90)\">\n            <path id=\"desktop-Path_3-8\" data-name=\"Path 3\" class=\"cls-desktop9\" d=\"M203.051,0V137.365H0V0Z\" transform=\"translate(0 0)\"></path>\n          </g>\n        </g>\n      </g>\n    </g>\n    <g id=\"desktop-Group_28\" data-name=\"Group 28\" transform=\"translate(1085.572 548.569)\">\n      <line id=\"desktop-Line_3-2\" data-name=\"Line 3\" class=\"cls-desktop10\" y1=\"230.092\" transform=\"translate(10.01 9.332)\"></line>\n      <g id=\"desktop-Group_10\" data-name=\"Group 10\" transform=\"translate(0.354 0)\">\n        <g id=\"desktop-Group_4-9\" data-name=\"Group 4\" class=\"cls-desktop13\" transform=\"translate(0 0)\">\n          <g id=\"desktop-Group_3-9\" data-name=\"Group 3\" transform=\"translate(-58.29 89.925) rotate(-90)\">\n            <path id=\"desktop-Path_3-9\" data-name=\"Path 3\" class=\"cls-desktop9\" d=\"M203.051,0V137.365H0V0Z\" transform=\"translate(0 0)\"></path>\n          </g>\n        </g>\n      </g>\n      <g id=\"desktop-Group_11\" data-name=\"Group 11\" transform=\"translate(20.02 244.596) rotate(-180)\">\n        <g id=\"desktop-Group_4-10\" data-name=\"Group 4\" class=\"cls-desktop13\" transform=\"translate(0 0)\">\n          <g id=\"desktop-Group_3-10\" data-name=\"Group 3\" transform=\"translate(-58.29 89.925) rotate(-90)\">\n            <path id=\"desktop-Path_3-10\" data-name=\"Path 3\" class=\"cls-desktop9\" d=\"M203.051,0V137.365H0V0Z\" transform=\"translate(0 0)\"></path>\n          </g>\n        </g>\n      </g>\n    </g>\n  </g>\n</svg>",
+        "mobile_image": "shopify://shop_images/M_comparison_Business_Pleasure_Mobile_Only_Image.svg",
+        "svg_mobile": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 1000 1590\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <defs>\n    <style>\n      .cls-1, .cls-11, .cls-8 {\n        fill: none;\n      }\n\n      .cls-2 {\n        clip-path: url(#clip-M_comparison_Business_Pleasure_Mobile);\n      }\n\n      .cls-3 {\n        fill: url(#pattern);\n      }\n\n      .cls-4 {\n        fill: url(#pattern-2);\n      }\n\n      .cls-5, .cls-6 {\n        fill: #696969;\n      }\n\n      .cls-5 {\n        font-size: 143px;\n        font-family: ITCAvantGardePro-XLt, ITC Avant Garde Gothic Pro;\n        letter-spacing: -0.02em;\n      }\n\n      .cls-14, .cls-6 {\n        font-size: 25px;\n      }\n\n      .cls-14, .cls-6, .cls-7 {\n        font-family: HelveticaNeue, Helvetica Neue;\n      }\n\n      .cls-14, .cls-7 {\n        fill: #e2a829;\n      }\n\n      .cls-7 {\n        font-size: 18px;\n      }\n\n      .cls-11, .cls-8 {\n        stroke: #e2a829;\n        stroke-linecap: round;\n      }\n\n      .cls-8 {\n        stroke-width: 4px;\n      }\n\n      .cls-9 {\n        clip-path: url(#clip-path);\n      }\n\n      .cls-10 {\n        fill: url(#linear-gradient);\n      }\n\n      .cls-11 {\n        stroke-width: 5px;\n      }\n\n      .cls-12 {\n        clip-path: url(#clip-path-3);\n      }\n\n      .cls-13 {\n        clip-path: url(#clip-path-8);\n      }\n    </style>\n    <pattern id=\"pattern\" width=\"1\" height=\"1\" viewbox=\"39.605 -34.553 1152.891 521.107\">\n      \n    </pattern>\n    <pattern id=\"pattern-2\" width=\"1\" height=\"1\" viewbox=\"-84.198 -72.475 1320.688 596.951\">\n      \n    </pattern>\n    <clippath id=\"clip-path\">\n      <path id=\"Path_4\" data-name=\"Path 4\" class=\"cls-1\" d=\"M0,13.6l0,4.512L6.347,5.536,13.115,18.1,13.1,13.541,6.267,0ZM9.768,30.749l-3.5-18.212Z\" transform=\"translate(0 0)\"></path>\n    </clippath>\n    <lineargradient id=\"linear-gradient\" x1=\"0.212\" y1=\"0.497\" x2=\"0.537\" y2=\"0.497\" gradientunits=\"objectBoundingBox\">\n      <stop offset=\"0\" stop-color=\"#ffea3d\"></stop>\n      <stop offset=\"0.1\" stop-color=\"#ffcd3a\"></stop>\n      <stop offset=\"0.2\" stop-color=\"#ffb038\"></stop>\n      <stop offset=\"0.3\" stop-color=\"#ff9636\"></stop>\n      <stop offset=\"0.4\" stop-color=\"#ff8534\"></stop>\n      <stop offset=\"0.5\" stop-color=\"#ffa036\"></stop>\n      <stop offset=\"0.6\" stop-color=\"#ffb738\"></stop>\n      <stop offset=\"0.7\" stop-color=\"#ffca3a\"></stop>\n      <stop offset=\"0.8\" stop-color=\"#ffda3b\"></stop>\n      <stop offset=\"0.9\" stop-color=\"#ffe53c\"></stop>\n      <stop offset=\"1\" stop-color=\"#ffea3d\"></stop>\n    </lineargradient>\n    <clippath id=\"clip-path-3\">\n      <path id=\"Path_4-3\" data-name=\"Path 4\" class=\"cls-1\" d=\"M0,13.6l0,4.512L6.347,5.536,13.115,18.1,13.1,13.541,6.267,0ZM9.768,30.749l-3.5-18.212Z\" transform=\"translate(0)\"></path>\n    </clippath>\n    <clippath id=\"clip-path-8\">\n      <path id=\"Path_4-8\" data-name=\"Path 4\" class=\"cls-1\" d=\"M0,13.6l0,4.512L6.347,5.536,13.115,18.1,13.1,13.541,6.267,0ZM9.768,30.749l-3.5-18.212Z\"></path>\n    </clippath>\n    <clippath id=\"clip-M_comparison_Business_Pleasure_Mobile\">\n      <rect width=\"1000\" height=\"1590\"></rect>\n    </clippath>\n  </defs>\n  <g id=\"M_comparison_Business_Pleasure_Mobile\" class=\"cls-2\">\n    <rect width=\"1000\" height=\"1590\" fill=\"transparent\"></rect>\n    <rect id=\"_1e72ad6de6ab4f546fbbb855460842dc\" data-name=\"1e72ad6de6ab4f546fbbb855460842dc\" class=\"cls-3\" width=\"1000\" height=\"452\" transform=\"translate(-90 662)\"></rect>\n    <rect id=\"c1b69defee7983a37f8e9e899049e821\" class=\"cls-4\" width=\"1000\" height=\"452\" transform=\"translate(-80 1089)\"></rect>\n    <text id=\"BUSINESS_OR_PLEASURE\" data-name=\"BUSINESS OR PLEASURE\" class=\"cls-5\" transform=\"translate(500 193)\"><tspan x=\"-288.073\" y=\"0\">BUSINESS</tspan><tspan x=\"-99.027\" y=\"156\">OR</tspan><tspan x=\"-304.018\" y=\"312\">PLEASURE</tspan></text>\n    <text id=\"TEMPLE_LENGTH\" data-name=\"TEMPLE LENGTH\" class=\"cls-6\" transform=\"translate(399 655)\"><tspan x=\"0\" y=\"0\">TEMPLE LENGTH</tspan></text>\n    <text id=\"LENS_HEIGHT\" data-name=\"LENS HEIGHT\" class=\"cls-6\" transform=\"translate(727 655)\"><tspan x=\"0\" y=\"0\">LENS HEIGHT</tspan></text>\n    <text id=\"LENS_HEIGHT-2\" data-name=\"LENS HEIGHT\" class=\"cls-6\" transform=\"translate(727 1097)\"><tspan x=\"0\" y=\"0\">LENS HEIGHT</tspan></text>\n    <text id=\"LENS_GEOMETRY\" data-name=\"LENS GEOMETRY\" class=\"cls-6\" transform=\"translate(208 654)\"><tspan x=\"-103.713\" y=\"0\">LENS GEOMETRY</tspan></text>\n    <text id=\"_4-BASE\" data-name=\"4-BASE\" class=\"cls-7\" transform=\"translate(215 681)\"><tspan x=\"-31.833\" y=\"0\">4-BASE</tspan></text>\n    <text id=\"_137_MM\" data-name=\"137 MM\" class=\"cls-7\" transform=\"translate(504 683)\"><tspan x=\"-33.192\" y=\"0\">137 MM</tspan></text>\n    <text id=\"_37_MM\" data-name=\"37 MM\" class=\"cls-7\" transform=\"translate(808 683)\"><tspan x=\"-28.188\" y=\"0\">37 MM</tspan></text>\n    <text id=\"_40_MM\" data-name=\"40 MM\" class=\"cls-7\" transform=\"translate(808 1125)\"><tspan x=\"-28.188\" y=\"0\">40 MM</tspan></text>\n    <g id=\"Group_33\" data-name=\"Group 33\" transform=\"translate(128.648 892.096)\">\n      <path id=\"Path_5\" data-name=\"Path 5\" class=\"cls-8\" d=\"M553.192,0H0\" transform=\"translate(3.712 6.557)\"></path>\n      <g id=\"Group_12\" data-name=\"Group 12\" transform=\"translate(0 13.115) rotate(-90)\">\n        <g id=\"Group_4\" data-name=\"Group 4\" class=\"cls-9\" transform=\"translate(0 0)\">\n          <g id=\"Group_3\" data-name=\"Group 3\" transform=\"translate(-38.184 58.908) rotate(-90)\">\n            <path id=\"Path_3\" data-name=\"Path 3\" class=\"cls-10\" d=\"M133.014,0V89.985H0V0Z\"></path>\n          </g>\n        </g>\n      </g>\n      <g id=\"Group_13\" data-name=\"Group 13\" transform=\"translate(562.705 0) rotate(90)\">\n        <g id=\"Group_4-2\" data-name=\"Group 4\" class=\"cls-9\" transform=\"translate(0 0)\">\n          <g id=\"Group_3-2\" data-name=\"Group 3\" transform=\"translate(-38.184 58.908) rotate(-90)\">\n            <path id=\"Path_3-2\" data-name=\"Path 3\" class=\"cls-10\" d=\"M133.014,0V89.985H0V0Z\"></path>\n          </g>\n        </g>\n      </g>\n    </g>\n    <g id=\"Group_30\" data-name=\"Group 30\" transform=\"translate(861.66 797.76)\">\n      <line id=\"Line_3\" data-name=\"Line 3\" class=\"cls-11\" y1=\"137.301\" transform=\"translate(6.557 4.94)\"></line>\n      <g id=\"Group_8\" data-name=\"Group 8\" transform=\"translate(13.115 148.163) rotate(-180)\">\n        <g id=\"Group_4-3\" data-name=\"Group 4\" class=\"cls-12\" transform=\"translate(0 0)\">\n          <g id=\"Group_3-3\" data-name=\"Group 3\" transform=\"translate(-38.184 58.908) rotate(-90)\">\n            <path id=\"Path_3-3\" data-name=\"Path 3\" class=\"cls-10\" d=\"M133.014,0V89.985H0V0Z\" transform=\"translate(0 0)\"></path>\n          </g>\n        </g>\n      </g>\n      <g id=\"Group_9\" data-name=\"Group 9\" transform=\"translate(0 0)\">\n        <g id=\"Group_4-4\" data-name=\"Group 4\" class=\"cls-12\" transform=\"translate(0 0)\">\n          <g id=\"Group_3-4\" data-name=\"Group 3\" transform=\"translate(-38.184 58.908) rotate(-90)\">\n            <path id=\"Path_3-4\" data-name=\"Path 3\" class=\"cls-10\" d=\"M133.014,0V89.985H0V0Z\" transform=\"translate(0 0)\"></path>\n          </g>\n        </g>\n      </g>\n    </g>\n    <g id=\"Group_31\" data-name=\"Group 31\" transform=\"translate(854.871 1243.885)\">\n      <line id=\"Line_3-2\" data-name=\"Line 3\" class=\"cls-8\" y1=\"150.728\" transform=\"translate(6.557 6.113)\"></line>\n      <g id=\"Group_10\" data-name=\"Group 10\" transform=\"translate(0.232 0)\">\n        <g id=\"Group_4-5\" data-name=\"Group 4\" class=\"cls-12\" transform=\"translate(0 0)\">\n          <g id=\"Group_3-5\" data-name=\"Group 3\" transform=\"translate(-38.184 58.908) rotate(-90)\">\n            <path id=\"Path_3-5\" data-name=\"Path 3\" class=\"cls-10\" d=\"M133.014,0V89.985H0V0Z\" transform=\"translate(0 0)\"></path>\n          </g>\n        </g>\n      </g>\n      <g id=\"Group_11\" data-name=\"Group 11\" transform=\"translate(13.115 160.229) rotate(-180)\">\n        <g id=\"Group_4-6\" data-name=\"Group 4\" class=\"cls-12\" transform=\"translate(0 0)\">\n          <g id=\"Group_3-6\" data-name=\"Group 3\" transform=\"translate(-38.184 58.908) rotate(-90)\">\n            <path id=\"Path_3-6\" data-name=\"Path 3\" class=\"cls-10\" d=\"M133.014,0V89.985H0V0Z\" transform=\"translate(0 0)\"></path>\n          </g>\n        </g>\n      </g>\n    </g>\n    <g id=\"Group_32\" data-name=\"Group 32\" transform=\"translate(183 1334.989)\">\n      <line id=\"Line_4\" data-name=\"Line 4\" class=\"cls-8\" x1=\"487.91\" transform=\"translate(5.867 6.557)\"></line>\n      <g id=\"Group_14\" data-name=\"Group 14\" transform=\"translate(499.013 0) rotate(90)\">\n        <g id=\"Group_4-7\" data-name=\"Group 4\" class=\"cls-9\" transform=\"translate(0 0)\">\n          <g id=\"Group_3-7\" data-name=\"Group 3\" transform=\"translate(-38.184 58.908) rotate(-90)\">\n            <path id=\"Path_3-7\" data-name=\"Path 3\" class=\"cls-10\" d=\"M133.014,0V89.985H0V0Z\" transform=\"translate(0 0)\"></path>\n          </g>\n        </g>\n      </g>\n      <g id=\"Group_15\" data-name=\"Group 15\" transform=\"translate(0 13.115) rotate(-90)\">\n        <g id=\"Group_4-8\" data-name=\"Group 4\" class=\"cls-13\" transform=\"translate(0 0)\">\n          <g id=\"Group_3-8\" data-name=\"Group 3\" transform=\"translate(-38.184 58.908) rotate(-90)\">\n            <path id=\"Path_3-8\" data-name=\"Path 3\" class=\"cls-10\" d=\"M133.014,0V89.985H0V0Z\" transform=\"translate(0 0)\"></path>\n          </g>\n        </g>\n      </g>\n    </g>\n    <text id=\"TEMPLE_LENGTH-2\" data-name=\"TEMPLE LENGTH\" class=\"cls-6\" transform=\"translate(399 1098)\"><tspan x=\"0\" y=\"0\">TEMPLE LENGTH</tspan></text>\n    <text id=\"LENS_GEOMETRY-2\" data-name=\"LENS GEOMETRY\" class=\"cls-6\" transform=\"translate(215 1098)\"><tspan x=\"-103.713\" y=\"0\">LENS GEOMETRY</tspan></text>\n    <text id=\"_6-BASE\" data-name=\"6-BASE\" class=\"cls-7\" transform=\"translate(221 1125)\"><tspan x=\"-31.833\" y=\"0\">6-BASE</tspan></text>\n    <text id=\"_134_MM\" data-name=\"134 MM\" class=\"cls-7\" transform=\"translate(507 1126)\"><tspan x=\"-33.192\" y=\"0\">134 MM</tspan></text>\n    <text id=\"rx-able\" class=\"cls-14\" transform=\"translate(448 1010)\"><tspan x=\"0\" y=\"0\">RX-ABLE</tspan></text>\n    <text id=\"rx-aDAPTABLE\" class=\"cls-14\" transform=\"translate(409 1468)\"><tspan x=\"0\" y=\"0\">RX-ADAPTABLE</tspan></text>\n  </g>\n</svg>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "heading_font_size_desktop": 96,
+        "heading_font_size_mobile": 50,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "background": "#000000",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "af36176b-c8cf-4c8c-8c8c-6bd0c7297cff": {
+      "type": "slideshow",
+      "blocks": {
+        "25613edc-cdb6-47bc-9544-78cfa2e29d8f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_comparison_Business_Pleasure_Desktop_d2b4d6b5-c630-4771-8c4d-d6205fdaa17b.jpg",
+            "mobile_image": "shopify://shop_images/M_comparison_Business_Pleasure_Mobile_e6038f10-ad7b-4375-b403-352168622c3a.jpg",
+            "title": "",
+            "title_mobile": "",
+            "subheading": "",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 118,
+            "heading_font_size_mobile": 50,
+            "subheading_font_size_desktop": 22,
+            "subheading_font_size_mobile": 16,
+            "heading_font_family": "itc-avant-garde-pro-xlt",
+            "font_scale": "default",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 40,
+            "nudge_subheading_y-axis_mobile": -0.5,
+            "nudge_subheading_y-axis_desktop": -1,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_font_family": "helvetica-neue-thin",
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "25613edc-cdb6-47bc-9544-78cfa2e29d8f"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "background_type": "full_width",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "323076ff-8d2f-456b-a8f6-746786b5340f",
+    "aa18ff9f-ede0-47f5-8a53-63d62c29047d",
+    "1661987067f4300c36",
+    "ec680da2-0d44-4265-bb68-d940f8df76fe",
+    "static-lens-collection",
+    "076effdb-df1c-4179-8dd8-06d8681edc1c",
+    "166200293690459eff",
+    "d5915d14-aaa1-461e-95aa-154e78361794",
+    "1657045016427725fc",
+    "main",
+    "165704614349662bd1",
+    "16573189255e726d48",
+    "16573194757d85d87c",
+    "1657320321031b92ed",
+    "16585205940290ba28",
+    "165852067643b1b37d",
+    "1659194976e155addd",
+    "ce7922f5-03e9-4679-937e-f17ca0e41145",
+    "47744468-f2e8-4732-b4b8-773e49ebb6ae",
+    "af36176b-c8cf-4c8c-8c8c-6bd0c7297cff"
+  ]
+}

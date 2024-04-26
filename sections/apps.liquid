@@ -1,0 +1,46 @@
+{%- assign renderProduct = true -%}
+
+{%- if product.selected_variant.metafields.custom.hide_from_live == true or product.metafields.seo.hidden == 1 -%}
+  {% unless content_for_header contains "previewBarInjector.init();" or content_for_header contains "Shopify.designMode" %}
+    {%- assign renderProduct = false -%}
+  {% endunless %}
+{%- endif -%}
+
+<div class="{% if section.settings.include_horizontal_margins %}container{% endif %} {% if section.settings.include_vertical_margins %}vertical-breather{% endif %}">
+  {%- if renderProduct == true -%}
+    {%- for block in section.blocks -%}
+      {%- render block -%}
+    {%- endfor -%}
+  {%- endif-%}
+</div>
+
+{% schema %}
+{
+  "name": "Apps",
+  "class": "shopify-section--apps",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "include_horizontal_margins",
+      "label": "Include horizontal margins",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "include_vertical_margins",
+      "label": "Include vertical margins",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Apps"
+    }
+  ]
+}
+{% endschema %}

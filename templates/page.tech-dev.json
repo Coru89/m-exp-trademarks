@@ -1,0 +1,807 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "large"
+      }
+    },
+    "ceb0eeae-dc5f-4ebf-b839-83f7d9697809": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15950527692950__ceb0eeae-dc5f-4ebf-b839-83f7d9697809-1677209833393b2445-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-04-18_at_9.29.16_AM.png",
+            "title": "",
+            "subheading": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15950527692950__ceb0eeae-dc5f-4ebf-b839-83f7d9697809-1677209833393b2445-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Slide 2",
+            "subheading": "Tell your story",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15950527692950__ceb0eeae-dc5f-4ebf-b839-83f7d9697809-1677209833393b2445-0",
+        "template--15950527692950__ceb0eeae-dc5f-4ebf-b839-83f7d9697809-1677209833393b2445-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "72274fc1-a426-4303-8685-aacc57947029": {
+      "type": "before-after-section",
+      "settings": {
+        "header": "LENS TECHNOLOGy",
+        "subheading": "M9M",
+        "caption": "<p>The high-contrast Lenses are engineered to enhance color perception and improve visual acuity in varying light conditions.</p>",
+        "overlay_content_position": "top-left",
+        "imagebefore_desktop": "shopify://shop_images/M_Tech_M9M_Desktop_AFTER.jpg",
+        "imageafter_desktop": "shopify://shop_images/M_Tech_M9M_Desktop_BEFORE.jpg",
+        "imagebefore_mobile": "shopify://shop_images/M_Tech_Polarized_Mobile_BEFORE.jpg",
+        "imageafter_mobile": "shopify://shop_images/M_Tech_Polarized_Mobile_AFTER.jpg"
+      }
+    },
+    "0edee54d-36a8-4ae5-a6a7-745219016cb6": {
+      "type": "lens-slider",
+      "blocks": {
+        "d05775ee-7b3c-44b0-afe6-8c968e4a58c9": {
+          "type": "lens_item",
+          "settings": {
+            "title": "Grey M9M",
+            "lens_image": "shopify://shop_images/Giga_BLAZE_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        },
+        "67e32a83-1113-4d59-8fb6-2aaaaba419f5": {
+          "type": "lens_item",
+          "settings": {
+            "title": "Grey M9M",
+            "lens_image": "shopify://shop_images/Giga_FLASH_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        },
+        "69fdbabb-85d7-4666-9ad8-fe463728797a": {
+          "type": "lens_item",
+          "settings": {
+            "title": "Grey M9M",
+            "lens_image": "shopify://shop_images/Giga_BLAZE_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        },
+        "f4e3ecca-4dda-44bc-80a0-13446870624b": {
+          "type": "lens_item",
+          "settings": {
+            "title": "Grey M9M",
+            "lens_image": "shopify://shop_images/Giga_GLACIER_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        },
+        "712f49d8-aa2f-48d3-8b97-30619d5f24ac": {
+          "type": "lens_item",
+          "settings": {
+            "title": "Grey M9M",
+            "lens_image": "shopify://shop_images/Giga_BLAZE_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        }
+      },
+      "block_order": [
+        "d05775ee-7b3c-44b0-afe6-8c968e4a58c9",
+        "67e32a83-1113-4d59-8fb6-2aaaaba419f5",
+        "69fdbabb-85d7-4666-9ad8-fe463728797a",
+        "f4e3ecca-4dda-44bc-80a0-13446870624b",
+        "712f49d8-aa2f-48d3-8b97-30619d5f24ac"
+      ],
+      "settings": {
+        "title": "M9M Lens Options",
+        "products_count": 10,
+        "products_per_row": 3,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "09a65779-9793-4bf6-b148-10df80b12801": {
+      "type": "gallery",
+      "blocks": {
+        "template--15950527692950__09a65779-9793-4bf6-b148-10df80b12801-1677210474aeb201f3-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tech_lens_-1.png",
+            "caption": ""
+          }
+        },
+        "3700a8dd-1255-4846-a206-199b24ddd8f8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tech_lens_-3.png",
+            "caption": ""
+          }
+        },
+        "3432a4a1-724c-46a5-9104-a9541d70d9d6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tech_lens_800x1000_VA.png",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15950527692950__09a65779-9793-4bf6-b148-10df80b12801-1677210474aeb201f3-2",
+        "3700a8dd-1255-4846-a206-199b24ddd8f8",
+        "3432a4a1-724c-46a5-9104-a9541d70d9d6"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "M9M LENS OPTIONS",
+        "title": "",
+        "show_arrows": false,
+        "background": "#ffffff",
+        "text_color": "#191919"
+      }
+    },
+    "a4eb0185-549e-4d2d-b9fd-fbed3c1ceec8": {
+      "type": "slideshow",
+      "blocks": {
+        "ff54663b-83d1-4460-8308-c91d58480fac": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Tech_Plasmachromatic_Desktop_01.jpg",
+            "title": "PLASMOCHROMATIC",
+            "subheading": "These mirrored lenses reflect light away from your eyes, reducing glare and eye strain while giving you privacy",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "ff54663b-83d1-4460-8308-c91d58480fac"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "26ebcc7e-2237-4e13-a4a8-719be81dcae5": {
+      "type": "lens-slider",
+      "blocks": {
+        "d3d835c8-9d80-4835-be33-8a034c32f488": {
+          "type": "lens_item",
+          "settings": {
+            "title": "SEPIA PLASMACHROMATIC",
+            "lens_image": "shopify://shop_images/Giga_FLASH_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        },
+        "ac98d4cf-9944-43c1-9688-ec61fd2aeb9d": {
+          "type": "lens_item",
+          "settings": {
+            "title": "SEPIA PLASMACHROMATIC",
+            "lens_image": "shopify://shop_images/Giga_SEPIA_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        },
+        "38e836aa-10c5-4c1e-b30a-21f8b0868a2b": {
+          "type": "lens_item",
+          "settings": {
+            "title": "SEPIA PLASMACHROMATIC",
+            "lens_image": "shopify://shop_images/Giga_GLACIER_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        }
+      },
+      "block_order": [
+        "d3d835c8-9d80-4835-be33-8a034c32f488",
+        "ac98d4cf-9944-43c1-9688-ec61fd2aeb9d",
+        "38e836aa-10c5-4c1e-b30a-21f8b0868a2b"
+      ],
+      "settings": {
+        "title": "Plasmachromatic Lens Options",
+        "products_count": 8,
+        "products_per_row": 3,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "20354f9d-74ed-4fb4-8ab3-4c2e02ddb07c": {
+      "type": "gallery",
+      "blocks": {
+        "a88232d1-d480-4eb4-b1f7-31dc23030d71": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tech_lens_-1.png",
+            "caption": ""
+          }
+        },
+        "6bc0d748-1252-4f84-99c4-b91a90e070f9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tech_lens_-3.png",
+            "caption": ""
+          }
+        },
+        "7caf7638-4fa1-46d3-9162-c0913734c96b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tech_lens_800x1000_VA.png",
+            "caption": ""
+          }
+        },
+        "ed7130d9-700a-4072-a2d2-838edf1e095a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "a88232d1-d480-4eb4-b1f7-31dc23030d71",
+        "6bc0d748-1252-4f84-99c4-b91a90e070f9",
+        "7caf7638-4fa1-46d3-9162-c0913734c96b",
+        "ed7130d9-700a-4072-a2d2-838edf1e095a"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "PLASMACHROMATIC LENS OPTIONS",
+        "title": "",
+        "show_arrows": false,
+        "background": "#ffffff",
+        "text_color": "#191919"
+      }
+    },
+    "020fd511-6f2a-4dc4-9663-99b8cb72e8fe": {
+      "type": "before-after-section",
+      "settings": {
+        "header": "",
+        "subheading": "Polarized",
+        "caption": "<p>Our high-perfomance polarized lenses block 99.9% of reflective glare for the most vivid and detailed visual experiences.</p>",
+        "overlay_content_position": "bottom-left",
+        "imagebefore_desktop": "shopify://shop_images/M_Tech_Polarized_Desktop_AFTER.jpg",
+        "imageafter_desktop": "shopify://shop_images/M_Tech_Polarized_Desktop_BEFORE.jpg"
+      }
+    },
+    "35f6f6de-38b5-423a-ad59-ddbadf1f0189": {
+      "type": "before-after-section",
+      "settings": {
+        "header": "",
+        "subheading": "Res+",
+        "caption": "<p>HD lenses reduce distortion and offer a wider field of view, creating a superior and more detailed visual experience.</p>",
+        "overlay_content_position": "top-right",
+        "imagebefore_desktop": "shopify://shop_images/M_Tech_Res__Desktop_02_BEFORE.jpg",
+        "imageafter_desktop": "shopify://shop_images/M_Tech_Res__Desktop_02_AFTER.jpg",
+        "imagebefore_mobile": "shopify://shop_images/M_Tech_Polarized_Mobile_02_BEFORE.jpg",
+        "imageafter_mobile": "shopify://shop_images/M_Tech_Polarized_Mobile_02_AFTER_1.jpg"
+      }
+    },
+    "e0f1843d-f939-423a-b1bf-e7144941f569": {
+      "type": "slideshow",
+      "blocks": {
+        "ad130915-1828-43e5-abe1-248a3fa4a71a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Group_4116.jpg",
+            "mobile_image": "shopify://shop_images/Artboard_2_7ad5c9e3-d2cf-4528-86b4-791130600526.jpg",
+            "title": "POLARIZED",
+            "subheading": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "ad130915-1828-43e5-abe1-248a3fa4a71a"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "d9e4ca97-5f03-4713-8530-2883a11ab72d": {
+      "type": "lens-slider",
+      "blocks": {
+        "66ab47eb-e67b-407d-af6f-46ff5a0e4c73": {
+          "type": "lens_item",
+          "settings": {
+            "title": "Grey Polarized",
+            "lens_image": "shopify://shop_images/Giga_GLACIER_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        },
+        "a99b0b00-3757-4422-9167-c5e82a92d068": {
+          "type": "lens_item",
+          "settings": {
+            "title": "Grey Polarized",
+            "lens_image": "shopify://shop_images/Giga_BLAZE_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        },
+        "939f84c7-2408-45be-8007-c5c7279f9f01": {
+          "type": "lens_item",
+          "settings": {
+            "title": "Grey Polarized",
+            "lens_image": "shopify://shop_images/Giga_GLACIER_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        },
+        "a307d5ce-76c8-4c64-b35c-1fd31bc6eff0": {
+          "type": "lens_item",
+          "settings": {
+            "title": "Grey Polarized",
+            "lens_image": "shopify://shop_images/Giga_FLASH_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        },
+        "f6a16a48-a45d-4bbf-9a4f-26aea2e5e333": {
+          "type": "lens_item",
+          "settings": {
+            "title": "Grey Polarized",
+            "lens_image": "shopify://shop_images/Giga_BLAZE_Lens.png",
+            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
+          }
+        }
+      },
+      "block_order": [
+        "66ab47eb-e67b-407d-af6f-46ff5a0e4c73",
+        "a99b0b00-3757-4422-9167-c5e82a92d068",
+        "939f84c7-2408-45be-8007-c5c7279f9f01",
+        "a307d5ce-76c8-4c64-b35c-1fd31bc6eff0",
+        "f6a16a48-a45d-4bbf-9a4f-26aea2e5e333"
+      ],
+      "settings": {
+        "title": "Polarized Lens Options",
+        "products_count": 8,
+        "products_per_row": 3,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "43b5b045-a39c-460c-9feb-9b43b6f1191a": {
+      "type": "gallery",
+      "blocks": {
+        "ad7450a4-cc88-4df8-a94c-76d36043e075": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tech_lens_-1.png",
+            "caption": ""
+          }
+        },
+        "a4771f3e-c1bc-4e5b-b306-db209a12480e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tech_lens_-3.png",
+            "caption": ""
+          }
+        },
+        "c8ab54d4-3d69-44a0-9a9a-e228bbbdde42": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tech_lens_800x1000_VA.png",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "ad7450a4-cc88-4df8-a94c-76d36043e075",
+        "a4771f3e-c1bc-4e5b-b306-db209a12480e",
+        "c8ab54d4-3d69-44a0-9a9a-e228bbbdde42"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "POLARIZED LENS OPTIONS",
+        "title": "",
+        "show_arrows": false,
+        "background": "#ffffff",
+        "text_color": "#191919"
+      }
+    },
+    "f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15950527692950__f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa-1679247474ac6fb71f-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Group_4115.jpg",
+            "mobile_image": "shopify://shop_images/Artboard_1_a62e2ff0-6341-4d36-9913-208b11ae689b.jpg",
+            "title": "NON-HDO",
+            "subheading": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15950527692950__f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa-1679247474ac6fb71f-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "c8f7ac46-d0f7-4808-b0a7-602bbd3e4c76": {
+      "type": "slideshow",
+      "blocks": {
+        "3ae6fc04-d284-4c98-b6d0-b25b447824f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Tech_Eyefence_Desktop_03.jpg",
+            "title": "Eye Fence",
+            "subheading": "Eye Fence Impact Resistance protects your eyes from flying debris, UV rays, and other hazards.",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "3ae6fc04-d284-4c98-b6d0-b25b447824f5"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "fe014da0-6a33-405c-b4b7-9096fdd9915d": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/M_Carbon.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "M CARBON",
+            "content": "<p>Twice as strong and 25% lighter than acetate, this proprietary frame material offers superior comfort, durability, and perfromance.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Atomic_13.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Atomic 13",
+            "content": "<p>This high-purity aluminum is strong to take it yet lightweight enough to make for a comfortable fit all day long.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-0",
+        "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-1"
+      ],
+      "custom_css": [
+        ".multi-column__image-wrapper img {max-height: 300px;}",
+        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "M-MATERIALS",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "normal",
+        "background": "#000000",
+        "text_color": "#ffffff"
+      }
+    },
+    "b94428e8-336a-4948-b3fb-06ee7f4aae6a": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Thermo_Carbon.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Thermo Carbon",
+            "content": "<p>Combining proven impact resistance, maximum optical clarity, and superior lens durability.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Atomic_14.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "ATOMIC 14",
+            "content": "<p>Silicon nose and temple tips provide a high-comfort, no slip grip that keeps your eyewear in place.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-0",
+        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-1"
+      ],
+      "custom_css": [
+        ".multi-column__image-wrapper img {max-height: 300px;}",
+        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "normal",
+        "background": "#000000",
+        "text_color": "#ffffff"
+      }
+    },
+    "76168366-8546-453e-8bfb-8cfeb9280c10": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "FRAME TECHNOLOGY",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#191919",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7b8c6e37-074a-40a4-91be-445e6fad0e89": {
+      "type": "slideshow",
+      "blocks": {
+        "abe46ed9-4f0f-4729-b675-a1de289f0505": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Group_4117.jpg",
+            "mobile_image": "shopify://shop_images/dual-chamber-infusion-mobile.png",
+            "title": "Dual Chamber Infusion",
+            "subheading": "2 SHOT COLOR PROCESS.",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "abe46ed9-4f0f-4729-b675-a1de289f0505"
+      ],
+      "custom_css": [
+        ".slideshow__text-wrapper .heading--large {margin-bottom: 24px;}",
+        "@media screen and (min-width: 1000px) {.slideshow__text-wrapper .heading--large {margin-bottom: 40px; }}",
+        ".slideshow h2 {font-size: 24px;}",
+        "@media screen and (min-width: 740px) {.slideshow h2 {font-size: 54px; }}"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 4,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "d4fc4188-4f52-418e-82fb-31520e2c6db6": {
+      "type": "slideshow",
+      "blocks": {
+        "5c373ad6-7a66-400a-a553-fb430bc2e4dc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Group_4120.jpg",
+            "mobile_image": "shopify://shop_images/lens-clutch-mobile.png",
+            "title": "LENS CLUTCH",
+            "subheading": "THE QUICKEST, MOST SECURE WAY TO SWITCH LENSES.",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "5c373ad6-7a66-400a-a553-fb430bc2e4dc"
+      ],
+      "custom_css": [
+        ".content-box--text-right {width: 50%; margin-right: 0;}",
+        "@media screen and (min-width: 1000px) {.content-box--text-right {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-right: 24px; }}",
+        ".slideshow h2 {font-size: 24px;}",
+        "@media screen and (min-width: 740px) {.slideshow h2 {font-size: 54px; }}"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 4,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "36bbad3e-a34d-4690-a95e-6533fddaaceb": {
+      "type": "slideshow",
+      "blocks": {
+        "4355e355-d2c2-4b10-b0f2-48cfdaf7bae2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Group_4121.jpg",
+            "mobile_image": "shopify://shop_images/shackle-mobile.png",
+            "title": "SHACKLE",
+            "subheading": "DESIGNED TO ATTACHED TO THE FRAME'S BRIDGE.  ADJUSTABLE FOR DIFFERENT NOSE SIZES AND PROVIDES A SECURE, NON-SLIP FIT.",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "4355e355-d2c2-4b10-b0f2-48cfdaf7bae2"
+      ],
+      "custom_css": [
+        ".content-box--text-left {width: 50%; margin-left: 0;}",
+        "@media screen and (min-width: 1000px) {.content-box--text-left {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-left: 24px; }}",
+        ".slideshow h2 {font-size: 24px;}",
+        "@media screen and (min-width: 740px) {.slideshow h2 {font-size: 54px; }}"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 4,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "33c54064-20f3-4fa9-a120-ec84b819b213": {
+      "type": "slideshow",
+      "blocks": {
+        "ca9d8793-9ec0-4dc5-bb1b-104fb0c5c9fb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Group_4124.jpg",
+            "mobile_image": "shopify://shop_images/slics-mobile.png",
+            "title": "SLICS",
+            "subheading": "EAR SOCKS THAT PREVENT DISCOMFORT OR IRRITATION.",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "ca9d8793-9ec0-4dc5-bb1b-104fb0c5c9fb"
+      ],
+      "custom_css": [
+        ".content-box--text-right {width: 50%; margin-right: 0;}",
+        "@media screen and (min-width: 1000px) {.content-box--text-right {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-right: 24px; }}",
+        ".slideshow h2 {font-size: 24px;}",
+        "@media screen and (min-width: 740px) {.slideshow h2 {font-size: 54px; }}"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 4,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "6c0033db-94da-4fe5-9fb8-e3c0b26c9c56": {
+      "type": "newsletter",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify://shop_images/DIE-CAST.00_02_00_05.Still004.jpg",
+        "subheading": "Follow the M-experiments Journey",
+        "content": "<p>Always pushing the limits of technology. Join the Journey.</p>",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ceb0eeae-dc5f-4ebf-b839-83f7d9697809",
+    "72274fc1-a426-4303-8685-aacc57947029",
+    "0edee54d-36a8-4ae5-a6a7-745219016cb6",
+    "09a65779-9793-4bf6-b148-10df80b12801",
+    "a4eb0185-549e-4d2d-b9fd-fbed3c1ceec8",
+    "26ebcc7e-2237-4e13-a4a8-719be81dcae5",
+    "20354f9d-74ed-4fb4-8ab3-4c2e02ddb07c",
+    "020fd511-6f2a-4dc4-9663-99b8cb72e8fe",
+    "35f6f6de-38b5-423a-ad59-ddbadf1f0189",
+    "e0f1843d-f939-423a-b1bf-e7144941f569",
+    "d9e4ca97-5f03-4713-8530-2883a11ab72d",
+    "43b5b045-a39c-460c-9feb-9b43b6f1191a",
+    "f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa",
+    "c8f7ac46-d0f7-4808-b0a7-602bbd3e4c76",
+    "fe014da0-6a33-405c-b4b7-9096fdd9915d",
+    "b94428e8-336a-4948-b3fb-06ee7f4aae6a",
+    "76168366-8546-453e-8bfb-8cfeb9280c10",
+    "7b8c6e37-074a-40a4-91be-445e6fad0e89",
+    "d4fc4188-4f52-418e-82fb-31520e2c6db6",
+    "36bbad3e-a34d-4690-a95e-6533fddaaceb",
+    "33c54064-20f3-4fa9-a120-ec84b819b213",
+    "6c0033db-94da-4fe5-9fb8-e3c0b26c9c56"
+  ]
+}

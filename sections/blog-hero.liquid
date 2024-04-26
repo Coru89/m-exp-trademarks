@@ -1,0 +1,154 @@
+{%- assign image = article.metafields.custom.blog_hero_photo.value -%}
+
+{% if image != blank %}
+<section class="blog-hero">
+  <div class="blog-hero__media banner__media media{% if image == blank %} placeholder{% endif %}">
+      <img
+        srcset="
+          {%- if image.width >= 375 -%}{{ image | img_url: '375x' }} 375w,{%- endif -%}
+          {%- if image.width >= 750 -%}{{ image | img_url: '750x' }} 750w,{%- endif -%}
+          {%- if image.width >= 1100 -%}{{ image | img_url: '1100x' }} 1100w,{%- endif -%}
+          {%- if image.width >= 1500 -%}{{ image | img_url: '1500x' }} 1500w,{%- endif -%}
+          {%- if image.width >= 1780 -%}{{ image | img_url: '1780x' }} 1780w,{%- endif -%}
+          {%- if image.width >= 2000 -%}{{ image | img_url: '2000x' }} 2000w,{%- endif -%}
+          {%- if image.width >= 3000 -%}{{ image | img_url: '3000x' }} 3000w,{%- endif -%}
+          {%- if image.width >= 3840 -%}{{ image | img_url: '3840x' }} 3840w,{%- endif -%}
+          {{ image | img_url: 'master' }} {{ image.width }}w
+        "
+        sizes="100vw"
+        src="{{ image | img_url: '1500x' }}"
+        loading="eager"
+        alt="{{ image.alt | escape }}"
+        width="{{ image.width }}"
+        height="{{ image.width | divided_by: image.aspect_ratio }}"
+        class="blog-hero__image"
+      >
+    {% comment %} {% else %}
+      {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }} {% endcomment %}
+  </div>
+</section>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Hero",
+  "settings": [
+  
+  ],
+  "presets": [
+    {
+      "name": "Hero"
+    }
+  ]
+}
+{% endschema %}
+
+
+<style>
+
+.blog-hero {
+  position: relative;
+  width: 100%;
+}
+  
+@media screen and (min-width: 750px) {
+  .blog-hero {
+    background-position: unset;
+  }
+}
+  
+@media screen and (min-width: 1320px) {
+  .blog-hero {
+    background-position: unset;
+    height: 750px;
+    overflow: hidden;
+  }
+}
+  
+.blog-hero__wrapper {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+  
+@media screen and (min-width: 1320px) {
+  .blog-hero__wrapper {
+    padding: 0 16rem;
+  }
+}
+
+.blog-hero__media {
+  position: relative;
+}
+
+@media screen and (min-width: 1320px) {
+  .blog-hero__media {
+    height: 750px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+  .blog-hero__media::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+.blog-hero__image {
+  z-index: -1;
+}
+
+  @media screen and (min-width: 1320px) {
+    .blog-hero__image {
+      position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+  }
+.blog-hero__heading {
+  --color-foreground: rgb(255, 255, 255);
+  color: var(--color-foreground);
+  line-height: 1;
+  margin-bottom: 60px;
+  position: relative;
+}
+.blog-hero__heading::after {
+  background-color: var(--color-foreground);
+  bottom: 5px;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  width: 215px;
+}
+@media screen and (min-width: 750px) {
+  .blog-hero__heading {
+    margin-bottom: 96px;
+  }
+}
+.blog-hero .placeholder + .blog-hero__wrapper .blog-hero__heading {
+  color: #1d5b78;
+}
+.blog-hero .placeholder + .blog-hero__wrapper .blog-hero__heading::after {
+  background-color: #1d5b78;
+}
+
+</style>
+
+
+        
+
+        

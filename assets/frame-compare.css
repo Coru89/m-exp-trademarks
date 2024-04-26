@@ -1,0 +1,88 @@
+.frame-compare__heading {
+  text-align: center;
+  font-size: clamp(42px, calc(5vw + 1rem), 90px); }
+  @media screen and (min-width: 1000px) {
+    .frame-compare__heading h3 {
+      font-size: clamp(50px, calc(7vw + 1rem), 90px); } }
+  @media screen and (min-width: 1400px) {
+    .frame-compare__heading h3 {
+      font-size: clamp(50px, calc(10vw + 1rem), 90px); } }
+
+.frame-compare__title {
+  font-size: 36px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 0; }
+  @media screen and (min-width: 740px) {
+    .frame-compare__title {
+      font-size: 38px; } }
+  @media screen and (min-width: 1200px) {
+    .frame-compare__title {
+      font-size: 42px; } }
+
+.frame-compare__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0; }
+
+.frame-compare__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 6rem; }
+  @media screen and (min-width: 1000px) {
+    .frame-compare__item {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+
+.frame-compare__column {
+  text-align: center; }
+  @media screen and (min-width: 1200px) {
+    .frame-compare__column {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      width: 66.66%; } }
+
+.frame-compare__specs {
+  font-size: 16px;
+  white-space: nowrap; }
+  @media screen and (min-width: 420px) {
+    .frame-compare__specs {
+      font-size: 18px; } }
+  @media screen and (min-width: 1000px) {
+    .frame-compare__specs {
+      font-size: 20px;
+      white-space: nowrap; } }
+  @media screen and (min-width: 1200px) {
+    .frame-compare__specs {
+      width: 33.33%; } }
+  @media screen and (min-width: 1400px) {
+    .frame-compare__specs {
+      font-size: 22px; } }

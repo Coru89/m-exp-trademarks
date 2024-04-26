@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "b94c8fbc-d850-4d8c-9862-9ea26c5f155e": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https://vimeo.com/802142029",
+        "image": "shopify://shop_images/Group_4004.jpg",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    }
+  },
+  "order": [
+    "b94c8fbc-d850-4d8c-9862-9ea26c5f155e",
+    "main"
+  ]
+}

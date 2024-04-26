@@ -1,0 +1,192 @@
+{
+  "sections": {
+    "fa739212-9d38-4d98-b876-2ac04c4effc5": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify://shop_images/M_Website_2160x1080_06_cc983052-aa24-4e86-ab80-99758f041ad7.jpg",
+        "mobile_image": "shopify://shop_images/M_Website_1000x1400_06_01617366-ca06-4b93-a8f7-f493729967e7.jpg",
+        "title": "The Moments",
+        "title_mobile": "",
+        "subheading": "EMBRACE THE JOURNEY",
+        "content": "",
+        "heading_font_size_desktop": 104,
+        "heading_font_size_mobile": 50,
+        "subheading_font_size_desktop": 28,
+        "subheading_font_size_mobile": 16,
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "top-center",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": -10,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": -4,
+        "heading_drop_shadow": true,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_opacity": 80,
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "background_type": "full_width",
+        "text_color": "#C7C7C7",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "830c2257-c367-433c-a96e-50887de39db9": {
+      "type": "impact",
+      "blocks": {
+        "template--15898702741654__830c2257-c367-433c-a96e-50887de39db9-1674948253476c5fac-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Golf__moments_1edbdd61-e76d-45f4-9d49-17ffd2fdbd61.jpg",
+            "mobile_image": "shopify://shop_images/Golf_moments_mob_ad204508-55fe-4048-a59d-930f9c277a85.jpg",
+            "overlay_opacity": 0,
+            "title": "",
+            "title_mobile": "",
+            "subheading": "",
+            "heading_stroke_color": "#fff",
+            "heading_stroke_opacity": 100,
+            "heading_fill_color": "#000000",
+            "heading_fill_opacity": 0,
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "Heading_text_align": "center",
+            "heading_text_align_mobile": "center",
+            "subheading_text_align": "left",
+            "subheading_text_align_mobile": "left",
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_drop_shadow_opacity": 16,
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "nudge_subheading_y-axis_mobile": 0,
+            "nudge_subheading_y-axis_desktop": -2,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
+        },
+        "template--15898702741654__830c2257-c367-433c-a96e-50887de39db9-1674948253476c5fac-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Website_2160x1080_06_cc983052-aa24-4e86-ab80-99758f041ad7.jpg",
+            "mobile_image": "shopify://shop_images/M_Website_1000x1400_06_01617366-ca06-4b93-a8f7-f493729967e7.jpg",
+            "overlay_opacity": 30,
+            "title": "THE MOMENTS",
+            "title_mobile": "",
+            "subheading": "Embrace the journey",
+            "heading_stroke_color": "#ffffff",
+            "heading_stroke_opacity": 70,
+            "heading_fill_color": "#000000",
+            "heading_fill_opacity": 20,
+            "heading_font_size_desktop": 72,
+            "heading_font_size_mobile": 38,
+            "subheading_font_size_desktop": 28,
+            "subheading_font_size_mobile": 18,
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "top-center",
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": -10,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": -4,
+            "Heading_text_align": "center",
+            "heading_text_align_mobile": "center",
+            "subheading_text_align": "center",
+            "subheading_text_align_mobile": "center",
+            "heading_drop_shadow": true,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 65,
+            "subheading_uppercase": true,
+            "subheading_bold": true,
+            "nudge_subheading_y-axis_mobile": -0.5,
+            "nudge_subheading_y-axis_desktop": -2.5,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--15898702741654__830c2257-c367-433c-a96e-50887de39db9-1674948253476c5fac-0",
+        "template--15898702741654__830c2257-c367-433c-a96e-50887de39db9-1674948253476c5fac-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "2b0ceab2-1072-493f-b169-09998794f72d": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "2b0ceab2-1072-493f-b169-09998794f72d"
+      ],
+      "disabled": true,
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    },
+    "3647091a-8140-4a93-96d5-786b0e8b6b88": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "moments",
+        "subheading": "",
+        "title": "",
+        "articles_count": 3,
+        "stack_mobile": true,
+        "show_category": true,
+        "show_excerpt": false,
+        "show_author": false,
+        "show_date": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "fa739212-9d38-4d98-b876-2ac04c4effc5",
+    "830c2257-c367-433c-a96e-50887de39db9",
+    "main",
+    "3647091a-8140-4a93-96d5-786b0e8b6b88"
+  ]
+}

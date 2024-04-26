@@ -1,0 +1,185 @@
+{%- assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ',' -%}
+{%- assign color_white_label = 'general.label.white' | t | downcase -%}
+{%- assign quick_buy_icon_name = 'quick-buy-' | append: settings.cart_icon | replace: '_', '-' -%}
+
+{%- if product.url contains '?' -%}
+  {%- assign product_url_contains_query = true -%}
+{%- else -%}
+  {%- assign product_url_contains_query = false -%}
+{%- endif -%}
+
+<product-item
+  class="product-item {% unless product.available %}product-item--sold-out{% endunless %}"
+  {% if reveal %}
+    reveal
+  {% endif %}
+>
+  {%- capture product_labels -%}
+    {%- unless product.available -%}
+      <span class="label label--sold-out label--subdued">{{ 'collection.product.sold_out' | t }}</span>
+    {%- endunless -%}
+
+    {%- assign cheapest_variant = variant -%}
+  {%- endcapture -%}
+
+  <a href="{{ variant.url }}">
+    <div class="product-item__image-wrapper">
+      <div
+        class="product-item__aspect-ratio aspect-ratio {% if settings.product_image_size != 'natural' %}aspect-ratio--{{ settings.product_image_size }}{% endif %}"
+        style="padding-bottom: {{ 100.0 | divided_by: variant.image.aspect_ratio }}%; --aspect-ratio: {{ variant.image.aspect_ratio }}"
+      >
+        <img
+          class="product-item__primary-image"
+          loading="lazy"
+          data-media-id="{{ variant.image.id | escape }}"
+          sizes="{{ sizes_attribute }}"
+          {% render 'image-attributes', image: variant.image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200' %}
+        >
+      </div>
+
+      <div class="card__badge">
+        {%- if product_card_product.available == false -%}
+          <span
+            style="background:{{ settings.sold_out_badge_color_scheme }};"
+            class="badge badge--bottom-left"
+          >
+            {% comment %} {{- 'products.product.sold_out' | t -}} {% endcomment %}
+            Sold Out
+          </span>
+        {%- elsif product_card_product.compare_at_price > product_card_product.price
+          and product_card_product.available
+        -%}
+          <span 
+            style="background:{{ settings.sale_badge_color_scheme }};"
+            class="badge badge--bottom-left">
+            {% comment %} {{- 'products.product.on_sale' | t -}} {% endcomment %}
+            Sale
+          </span>
+        {%- endif -%}
+        {% if variant.metafields.custom.new_product == true %}
+          <span
+            style="border: 2px solid {{ settings.new_badge_color_scheme }}; color: {{ settings.new_badge_color_scheme }}; margin-left: 4px;"
+            class="badge badge--bottom-left"
+            >
+              New
+          </span>
+        {% endif %}
+        {% if variant.metafields.custom.limited_edition == true %}
+          <span
+            style="border: 2px solid {{ settings.new_badge_color_scheme }}; color: {{ settings.new_badge_color_scheme }}; margin-left: 4px;"
+            class="badge badge--bottom-left"
+            >
+              Limited Edition
+          </span>
+        {% endif %}
+        {% if product_card_product.tags contains 'restocked' %}
+          <span
+            style="background:{{ settings.restocked_badge_color_scheme }};"
+            class="badge badge--bottom-left"
+            >
+              Restocked
+            </span
+          >
+        {%- endif -%}
+      </div>
+
+      {%- if request.page_type != 'password'
+        and settings.product_add_to_cart
+        and product.available
+        and reduced_content != true
+        and show_cta != true
+      -%}
+        {%- capture form_id -%}product_form_{{ section.id }}_{{ block.id }}_{{ variant.id }}_{% increment product_form_index %}{%- endcapture -%}
+        {%- form 'product', product, is: 'product-form', id: form_id, class: 'product-item__quick-form' -%}
+          <input type="hidden" name="quantity" value="1">
+          <input type="hidden" name="id" value="{{ variant.id }}">
+          <button
+            is="loader-button"
+            type="submit"
+            class="button button--outline button--text button--full {% if section.settings.desktop_products_per_row >= 5 %}button--small{% endif %} hidden-touch"
+          >
+            {{ 'collection.product.add_to_cart_short' | t }}
+          </button>
+          <button type="submit" class="product-item__quick-buy-button hidden-no-touch">
+            <span class="visually-hidden">{{ 'collection.product.add_to_cart_short' | t }}</span>
+            {%- render 'icon' with quick_buy_icon_name -%}
+          </button>
+        {%- endform -%}
+      {%- endif -%}
+    </div>
+    <!-- end product-item__image-wrapper -->
+
+    <div class="product-item__info {% if show_cta %}product-item__info--with-button{% endif %} {% if reduced_font_size %}text--small{% endif %}">
+      <div class="product-item-meta">
+        {%- assign stringToRemove = removeSize | prepend: '/ ' -%}
+        <h4 class="product-item-meta__title">
+          {{ variant.title | remove: stringToRemove }}
+        </h4>
+        <div class="product-item-meta__price-list-container">
+          <div class="price-list price-list--centered">
+            <span class="price">
+              <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
+
+              {%- if settings.currency_code_enabled -%}
+                {{- variant.price | money_with_currency -}}
+              {%- else -%}
+                {{- variant.price | money -}}
+              {%- endif -%}
+            </span>
+
+            {%- if variant.unit_price_measurement -%}
+              <div class="price price--block text--xsmall text--subdued">
+                <div class="unit-price-measurement">
+                  <span class="unit-price-measurement__price">{{ variant.unit_price | money }}</span>
+                  <span class="unit-price-measurement__separator">/</span>
+
+                  {%- if variant.unit_price_measurement.reference_value != 1 -%}
+                    <span class="unit-price-measurement__reference-value">
+                      {{- variant.unit_price_measurement.reference_value -}}
+                    </span>
+                  {%- endif -%}
+
+                  <span class="unit-price-measurement__reference-unit">
+                    {{- variant.unit_price_measurement.reference_unit -}}
+                  </span>
+                </div>
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+
+        {%- if product_labels != blank and reduced_content != true -%}
+          <div class="product-item__label-list label-list">
+            {{- product_labels -}}
+          </div>
+        {%- endif -%}
+
+        {%- if product.available and reduced_content or show_cta -%}
+          <div class="product-item__cta-wrapper">
+            {%- capture form_id -%}product_form_{{ section.id }}_{{ block.id }}_{{ product.id }}_{% increment product_form_index %}{%- endcapture -%}
+            {%- form 'product', product, is: 'product-form', id: form_id -%}
+              <input type="hidden" name="quantity" value="1">
+              <input type="hidden" name="id" value="{{ variant.id }}">
+              <button
+                type="submit"
+                {% if show_cta %}
+                  is="loader-button"
+                {% endif %}
+                class="{% if reduced_content %}product-item__link link text--subdued{% else %}product-item__cta button button--primary{% endif %}"
+              >
+                {{ 'collection.product.add_to_cart_short' | t }}
+              </button>
+            {%- endform -%}
+          </div>
+        {%- elsif reduced_content -%}
+          <div class="product-item__cta-wrapper">
+            <span class="product-item__link text--subdued">{{ 'collection.product.sold_out' | t }}</span>
+          </div>
+        {%- endif -%}
+      </div>
+      <!-- end product-item__meta -->
+    </div>
+    <!-- end product-item__info -->
+  </a>
+</product-item>
+<!-- end product-item -->

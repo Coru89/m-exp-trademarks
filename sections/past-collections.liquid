@@ -1,0 +1,297 @@
+{{ 'modal.css' | asset_url | stylesheet_tag }}
+{{ 'past-collections.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'past-collections.js' | asset_url }}" defer></script>
+
+<style>
+  #shopify-section-{{ section.id }} {
+    --heading-color: {{ section.settings.text_color.red }}, {{ section.settings.text_color.green }}, {{ section.settings.text_color.blue }};
+    background-color: {{ section.settings.background }};
+
+    /* button--outline styles */
+    --background: transparent;
+    --border-color: {{ section.settings.text_color.red }}, {{ section.settings.text_color.green }}, {{ section.settings.text_color.blue }};
+    --root-text-color: {{ section.settings.text_color.red }}, {{ section.settings.text_color.green }}, {{ section.settings.text_color.blue }};
+  }
+
+  #shopify-section-{{ section.id }} .past-collection__modal {
+    background-color: {{ section.settings.background }};
+  }  
+</style>
+
+<section class="past-collection">
+  <modal-roll-up reveal-on-scroll>
+
+    <div class="past-collection__content text-container">
+      {%- if section.settings.heading != blank -%}
+        <h1 class="heading h3 past-collection__heading{% if section.settings.heading_mobile %} hidden-pocket{% endif %}">
+            <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                {{ section.settings.heading | newline_to_br }}
+            </span>
+        </h1>
+      {%- endif -%}
+
+      {%- if section.settings.heading_mobile -%}
+        <h1 class="heading h3 past-collection__heading hidden-lap-and-up">
+          <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+            {% if section.settings.heading_mobile == blank %}
+              {{ section.settings.heading | newline_to_br }}
+              {% else %}
+              {{ section.settings.heading_mobile | newline_to_br }}
+            {% endif %}
+          </span>
+        </h1>
+      {%- endif -%}
+    </div>
+
+    <div class="past-collection__modal-overlay"></div>
+    <ul class="past-collection__list">
+      {%- for block in section.blocks -%}
+          {%- case block.type -%}
+          {%- when 'frame' -%}
+              <li class="past-collection__list-item">
+
+                  <div class="past-collection__frame-heading-group">
+                    <h2 class="heading past-collection__frame-heading{% if block.settings.rollup_title_mobile %} hidden-pocket{% endif %}">
+                      <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                          {{ block.settings.rollup_title | newline_to_br }}
+                      </span>
+                    </h2>
+  
+                    {%- if block.settings.rollup_subheading != blank -%}
+                      <h3 class="heading past-collection__frame-subheading{% if block.settings.rollup_title_mobile %} hidden-pocket{% endif %}">
+                        <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                          {{ block.settings.rollup_subheading | newline_to_br }}
+                        </span>
+                      </h3>
+                    {%- endif -%}
+                  </div>
+
+                  {%- assign loading_attribute_value = 'lazy' -%}
+                  {%- assign preload_image = false -%}
+                  {%- assign rollup_image = block.settings.rollup_image -%}
+                  {%- assign rollup_mobile_image = block.settings.rollup_mobile_image -%}
+
+                  {%- if rollup_image != blank -%}
+                    <div class="past-collection__image-wrapper {% if rollup_mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+                      {{- rollup_image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'past-collection_rollup-image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000', preload: preload_image -}}
+                    </div>
+                    {%- endif -%}
+
+                  {%- if rollup_mobile_image != blank -%}
+                    <div class="past-collection__image-wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+                      {{- rollup_mobile_image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: '', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000', preload: preload_image -}}
+                    </div>
+                  {%- endif -%}
+
+
+                  <button class="past-collection__overlay-button button button--small button--outline heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>View</button>
+
+                {%- assign rollup_image_2 = block.settings.rollup_image_2 -%}
+                {%- assign rollup_mobile_image_2 = block.settings.rollup_mobile_image_2 -%}
+
+                {%- if rollup_image_2 != blank -%}
+                  <div class="past-collection__image-wrapper {% if rollup_mobile_image_2 != blank %}hidden-pocket{% endif %}" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+                    {{- rollup_image_2 | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'past-collection_rollup-image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000', preload: preload_image -}}
+                  </div>
+                  {%- endif -%}
+
+                {%- if rollup_mobile_image_2 != blank -%}
+                  <div class="past-collection__image-wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+                    {{- rollup_mobile_image_2 | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: '', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000', preload: preload_image -}}
+                  </div>
+                {%- endif -%}
+               
+                <div class="bs-modal past-collection__modal" tabindex="-1">
+                  <div class="bs-modal-dialog">
+                    <div class="bs-modal-content">
+
+                      <div class="bs-modal-header">
+                        <h1 class="heading past-collection__heading past-collection__modal-heading">
+                          <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                            {{ block.settings.modal_heading }}
+                          </span>
+                        </h1>
+                        <button
+                            type="button"
+                            class="btn-close past-collection__modal-close"
+                            data-bs-dismiss="bs-modal"
+                            aria-label="Close"
+                            id="bs-close-modal"
+                        >
+                            X
+                        </button>
+                      </div>
+
+                      <div class="past-collection__section">
+                        <h2 class="heading past-collection__frame-heading past-collection__modal-frame-heading h3">
+                          <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                              {{ block.settings.modal_section_heading_1 | newline_to_br }}
+                          </span>
+                        </h2>
+
+                        {%- assign modal_section_image_1 = block.settings.modal_section_image_1 -%}
+                        {%- if modal_section_image_1 != blank -%}
+                            {{- modal_section_image_1 | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'past-collection__modal-image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000', preload: preload_image -}}
+                        {%- endif -%}
+                      </div>
+
+                      {%- if block.settings.modal_section_heading_2 != blank and block.settings.modal_section_image_2 != blank -%}
+                        <div class="past-collection__section">
+                          <h2 class="heading past-collection__frame-heading past-collection__modal-frame-heading h3">
+                            <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                                {{ block.settings.modal_section_heading_2 | newline_to_br }}
+                            </span>
+                          </h2>
+
+                          {%- assign modal_section_image_2 = block.settings.modal_section_image_2 -%}
+                          {%- if modal_section_image_2 != blank -%}
+                              {{- modal_section_image_2 | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'past-collection__modal-image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000', preload: preload_image -}}
+                          {%- endif -%}
+                        </div>
+                      {%- endif -%}
+                    </div>
+                  </div>
+                </div>
+
+              </li>
+
+          {%- endcase -%}
+      {%- endfor -%}
+    </ul>
+
+  </modal-roll-up>
+</section>
+    
+  
+    {% schema %}
+      {
+      "name": "Past Collections",
+      "settings": [
+        {
+          "type": "html",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "html",
+          "id": "heading_mobile",
+          "label": "Heading Mobile"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Heading Text",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "info": "Used while slideshow image is loading",
+          "default": "rgb(0,0,0)"
+        }
+      ],
+      "blocks": [
+        {
+          "name": "Frame",
+          "type": "frame",
+          "settings": [
+            {
+              "type": "header",
+              "content": "rollup Content"
+            },
+            {
+              "type": "text",
+              "id": "rollup_title",
+              "label": "Frame Roll-up Title",
+              "placeholder": "Dalmatian Ghost"
+            },
+            {
+              "type": "text",
+              "id": "rollup_subheading",
+              "label": "Frame Roll-up Subheading"
+            },
+            {
+              "type": "image_picker",
+              "id": "rollup_image",
+              "label": "Rollup Image"
+            },
+            {
+              "type": "image_picker",
+              "id": "rollup_mobile_image",
+              "label": "Rollup Mobile Image"
+            },
+            {
+              "type": "image_picker",
+              "id": "rollup_image_2",
+              "label": "Rollup Image 2"
+            },
+            {
+              "type": "image_picker",
+              "id": "rollup_mobile_image_2",
+              "label": "Rollup Mobile Image 2"
+            },
+            {
+              "type": "header",
+              "content": "Modal - Top Heading"
+            },
+            {
+              "type": "html",
+              "id": "modal_heading",
+              "label": "Modal Heading",
+              "info": "The top heading inside of the modal"
+            },
+            {
+              "type": "html",
+              "id": "modal_heading_mobile",
+              "label": "Modal Heading Mobile",
+              "info": "The top heading inside of the modal"
+            },
+            {
+              "type": "header",
+              "content": "Modal - Section 1"
+            },
+            {
+              "type": "html",
+              "id": "modal_section_heading_1",
+              "label": "Modal Section Heading 1",
+              "info": "The top heading inside of the modal"
+            },
+            {
+              "type": "image_picker",
+              "id": "modal_section_image_1",
+              "label": "Modal Image",
+              "info": "The image inside of the modal"
+            },
+            {
+              "type": "header",
+              "content": "Modal - Section 2"
+            },
+            {
+              "type": "html",
+              "id": "modal_section_heading_2",
+              "label": "Modal Section Heading 2",
+              "info": "The top heading inside of the modal"
+            },
+            {
+              "type": "image_picker",
+              "id": "modal_section_image_2",
+              "label": "Modal Image",
+              "info": "The image inside of the modal"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Past Collections"
+        }
+      ]
+    }  
+    {% endschema %}
+    
+    {% stylesheet %}
+    {% endstylesheet %}
+    
+    {% javascript %}
+    {% endjavascript %}

@@ -1,0 +1,879 @@
+{
+  "sections": {
+    "db7e789d-5708-4651-8043-7bf4f5bb7a8a": {
+      "type": "slideshow",
+      "blocks": {
+        "2ca326b5-4587-4f2f-9ed0-dca4f2342d2f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DESKTOP-_HEADWEAR_1.jpg",
+            "mobile_image": "shopify://shop_images/MOBILE-_HEADWEAR_1.jpg",
+            "title": "Headwear",
+            "title_mobile": "",
+            "subheading": "",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 140,
+            "heading_font_size_mobile": 50,
+            "subheading_font_size_desktop": 34,
+            "subheading_font_size_mobile": 14,
+            "font_scale": "default",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-right",
+            "content_position_mobile": "bottom-left",
+            "nudge_text_x-axis_desktop": -5,
+            "nudge_text_y-axis_desktop": 4,
+            "nudge_text_x-axis_mobile": 7,
+            "nudge_text_y-axis_mobile": 12.5,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 40,
+            "nudge_subheading_y-axis_mobile": -0.5,
+            "nudge_subheading_y-axis_desktop": -1,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "c4ad7829-8b75-4d53-ba28-5958cb4ed81f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DESKTOP-_HEADWEAR_2_8e205980-d389-48e3-8145-486506b2f51a.jpg",
+            "mobile_image": "shopify://shop_images/MOBILE-_HEADWEAR_2_a472227e-9d46-453b-bf6d-f3d23126324b.jpg",
+            "title": "Headwear",
+            "title_mobile": "",
+            "subheading": "",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 140,
+            "heading_font_size_mobile": 50,
+            "subheading_font_size_desktop": 34,
+            "subheading_font_size_mobile": 14,
+            "font_scale": "default",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-right",
+            "content_position_mobile": "bottom-left",
+            "nudge_text_x-axis_desktop": -3,
+            "nudge_text_y-axis_desktop": 4,
+            "nudge_text_x-axis_mobile": 7,
+            "nudge_text_y-axis_mobile": 12,
+            "heading_drop_shadow": true,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 40,
+            "nudge_subheading_y-axis_mobile": -0.5,
+            "nudge_subheading_y-axis_desktop": -1,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_uppercase": true,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16075967168662__db7e789d-5708-4651-8043-7bf4f5bb7a8a-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DESKTOP_-_HEADWEAR_1.jpg",
+            "mobile_image": "shopify://shop_images/MOBILE-_HEADWEAR_3.jpg",
+            "title": "Headwear",
+            "title_mobile": "",
+            "subheading": "",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 194,
+            "heading_font_size_mobile": 50,
+            "subheading_font_size_desktop": 35,
+            "subheading_font_size_mobile": 14,
+            "font_scale": "stay-large",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-right",
+            "content_position_mobile": "bottom-left",
+            "nudge_text_x-axis_desktop": -3,
+            "nudge_text_y-axis_desktop": 4,
+            "nudge_text_x-axis_mobile": 7,
+            "nudge_text_y-axis_mobile": 12,
+            "heading_drop_shadow": true,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 40,
+            "nudge_subheading_y-axis_mobile": -0.5,
+            "nudge_subheading_y-axis_desktop": -1,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_uppercase": true,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "2ca326b5-4587-4f2f-9ed0-dca4f2342d2f",
+        "c4ad7829-8b75-4d53-ba28-5958cb4ed81f",
+        "template--16075967168662__db7e789d-5708-4651-8043-7bf4f5bb7a8a-image-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "background_type": "full_width",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    },
+    "165747720252d95719": {
+      "type": "collection-list",
+      "blocks": {
+        "1657477202790fbb53-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "apparel",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1657477202790fbb53-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "apparel-tshirts",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1657477202790fbb53-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "swag",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1657477202790fbb53-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "watches",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1657477202790fbb53-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1657477202790fbb53-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "1657477202790fbb53-0",
+        "1657477202790fbb53-1",
+        "1657477202790fbb53-2",
+        "1657477202790fbb53-3",
+        "1657477202790fbb53-4",
+        "1657477202790fbb53-5"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "layout": "collage",
+        "subheading": "M9",
+        "title": "Journey gear",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "8b0eb146-2a13-4024-b49b-48327752a1e0": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<header class=\"section__header \">\n          <div class=\"text-container\"><h3 class=\"heading h2\">HEADWEAR</h3></div></header>\n\n<a id=\"headwear\" style=\"  scroll-margin-top:50px\"></a>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7da7f116-4702-4706-8fa3-cae3c6225af0": {
+      "type": "variant-collection",
+      "blocks": {
+        "template--15942754467990__7da7f116-4702-4706-8fa3-cae3c6225af0-16757483534a05996a-0": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "alpha-trucker-hat",
+            "subheading": "",
+            "title": "Alpha Trucker Hat",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "f105d5dc-afc8-4c66-baa4-f853677f4782": {
+          "type": "variant-collection",
+          "disabled": true,
+          "settings": {
+            "product": "m-hat",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15942754467990__7da7f116-4702-4706-8fa3-cae3c6225af0-16757483534a05996a-0",
+        "f105d5dc-afc8-4c66-baa4-f853677f4782"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Alpha Trucker Hat",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#191919",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "d905e1e4-4355-4658-8e0b-5507138440cd": {
+      "type": "variant-collection",
+      "blocks": {
+        "template--15942754467990__d905e1e4-4355-4658-8e0b-5507138440cd-16757483534a05996a-0": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "m-hat",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15942754467990__d905e1e4-4355-4658-8e0b-5507138440cd-16757483534a05996a-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "M-Hat",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1f13d3e5-3dd6-4221-8970-8b919c378c40": {
+      "type": "variant-collection",
+      "blocks": {
+        "template--15942754467990__1f13d3e5-3dd6-4221-8970-8b919c378c40-16757483534a05996a-0": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "m-hazard-hat",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15942754467990__1f13d3e5-3dd6-4221-8970-8b919c378c40-16757483534a05996a-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "M-Hazard Hat",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "21c0a651-58fa-43e3-9a8e-01ceb2c38082": {
+      "type": "variant-collection-new",
+      "blocks": {
+        "template--15942754467990__21c0a651-58fa-43e3-9a8e-01ceb2c38082-16760261726c606715-0": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "alpha-trucker-hat",
+            "subheading": "Alpha Trucker Hat",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "b185b4d3-c58e-4359-a45c-0fcc2d74ea2a": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "m-hat",
+            "subheading": "M-Hat",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "cefb298e-d4b1-419a-a014-4f0e0bc397c6": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "m-hazard-hat",
+            "subheading": "M-Hazard Hat",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15942754467990__21c0a651-58fa-43e3-9a8e-01ceb2c38082-16760261726c606715-0",
+        "b185b4d3-c58e-4359-a45c-0fcc2d74ea2a",
+        "cefb298e-d4b1-419a-a014-4f0e0bc397c6"
+      ],
+      "custom_css": [
+        "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
+        "img.product-item__primary-image {max-height: 230px; object-fit: cover; position: relative;}",
+        ".product-item__image-wrapper {max-height: 235px;}",
+        ".variant-collection {padding-bottom: 40px;}",
+        ".vertical-breather {padding-top: 24px;}",
+        "@media screen and (min-width: 940px) {.vertical-breather {padding-top: var(--vertical-breather); }}",
+        "@media screen and (min-width: 1100px) {.product-list__inner {gap: 64px var(--product-list-column-gap); }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 10,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "#ffffff",
+        "text_color": "#191919",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165747735073cee944": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "title": "We live by example",
+        "title_mobile": "",
+        "subheading": "keeping life on the simple side.",
+        "subheading_mobile": "",
+        "content": "",
+        "panel_link": "",
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 50,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "font_scale": "default",
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "text_align_desktop": "center",
+        "text_align_mobile": "center",
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000000",
+        "heading_drop_shadow_opacity": 40,
+        "nudge_subheading_y-axis_mobile": 0,
+        "nudge_subheading_y-axis_desktop": -2,
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "max_width_container": false,
+        "background_type": "full_width",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "165f6a6d-ba13-4580-9d94-9a9611413556": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<header class=\"section__header \">\n          <div class=\"text-container\"><h3 class=\"heading h2\">apparel</h3></div></header>\n\n<a id=\"apparel\" style=\"  scroll-margin-top:50px\"></a>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "#6b6b6b",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "a6f63eee-78d0-4df5-b37b-33afc96462d0": {
+      "type": "variant-collection",
+      "blocks": {
+        "template--15942754467990__a6f63eee-78d0-4df5-b37b-33afc96462d0-16756707057fce2599-0": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "m-pocket-tee",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15942754467990__a6f63eee-78d0-4df5-b37b-33afc96462d0-16756707057fce2599-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "M-Pocket Tee",
+        "title": "APPAREL",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#6b6b6b",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "8642fa20-9758-4bcd-b639-ea6d411bf156": {
+      "type": "variant-collection",
+      "blocks": {
+        "17420501-c138-4e93-8f91-f6f83a7700a7": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "m-tee",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "17420501-c138-4e93-8f91-f6f83a7700a7"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "M-Tee",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 2,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "#6b6b6b",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ece7e0cd-8752-44ec-80d8-995c08050950": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<a id=\"accessories\" style=\"  scroll-margin-top:50px\"></a>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1658525555736db079": {
+      "type": "shop-the-look",
+      "blocks": {
+        "16585255556cf0a6dd-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/image_151fafb7-4ef1-42d4-8b78-77ff6d7c696e.jpg",
+            "dot_type": "normal",
+            "product_1": "lens-cleaning-kit",
+            "product_1_horizontal_position": 43,
+            "product_1_vertical_position": 41,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "o-watch-5",
+            "product_2_horizontal_position": 86,
+            "product_2_vertical_position": 43,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "oakley-radar-example",
+            "product_3_horizontal_position": 83,
+            "product_3_vertical_position": 64,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "16585255556cf0a6dd-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "83a56504-015d-4fdb-92a9-ec563f749007": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify://shop_images/2160x1000_0011_100MSDCF_8832-1.jpg",
+        "title": "",
+        "title_mobile": "",
+        "subheading": "",
+        "subheading_mobile": "",
+        "content": "",
+        "panel_link": "",
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 50,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "font_scale": "default",
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "text_align_desktop": "center",
+        "text_align_mobile": "center",
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000000",
+        "heading_drop_shadow_opacity": 40,
+        "nudge_subheading_y-axis_mobile": 0,
+        "nudge_subheading_y-axis_desktop": -2,
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "max_width_container": false,
+        "background_type": "full_width",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "8ad91a91-1831-4a8f-a60e-fc79655280a6": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15613751066774__8ad91a91-1831-4a8f-a60e-fc79655280a6-1667966232dbf01a6e-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gearup_2cd516e1-85bc-4f37-a7ed-12a01d9def08.jpg",
+            "mobile_image": "shopify://shop_images/Chick_3_a205afed-0253-4bab-b6d8-e3236621e9c1.jpg",
+            "title": "",
+            "title_mobile": "",
+            "subheading": "",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 40,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "font_scale": "default",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_drop_shadow_opacity": 16,
+            "nudge_subheading_y-axis_mobile": 0,
+            "nudge_subheading_y-axis_desktop": 0,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15613751066774__8ad91a91-1831-4a8f-a60e-fc79655280a6-1667966232dbf01a6e-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Slide 2",
+            "title_mobile": "",
+            "subheading": "Tell your story",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 40,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "font_scale": "default",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_drop_shadow_opacity": 16,
+            "nudge_subheading_y-axis_mobile": 0,
+            "nudge_subheading_y-axis_desktop": 0,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15613751066774__8ad91a91-1831-4a8f-a60e-fc79655280a6-1667966232dbf01a6e-0",
+        "template--15613751066774__8ad91a91-1831-4a8f-a60e-fc79655280a6-1667966232dbf01a6e-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "auto",
+        "background_type": "full_width",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "e57cce4a-1fea-4e75-8910-cd2f279455af": {
+      "type": "variant-collection",
+      "blocks": {
+        "template--15613751066774__e57cce4a-1fea-4e75-8910-cd2f279455af-1671838335db5641a3-0": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "m-pocket-tee",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15613751066774__e57cce4a-1fea-4e75-8910-cd2f279455af-1671838335db5641a3-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Your title",
+        "title": "Collection",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "db7e789d-5708-4651-8043-7bf4f5bb7a8a",
+    "main",
+    "165747720252d95719",
+    "8b0eb146-2a13-4024-b49b-48327752a1e0",
+    "7da7f116-4702-4706-8fa3-cae3c6225af0",
+    "d905e1e4-4355-4658-8e0b-5507138440cd",
+    "1f13d3e5-3dd6-4221-8970-8b919c378c40",
+    "21c0a651-58fa-43e3-9a8e-01ceb2c38082",
+    "165747735073cee944",
+    "165f6a6d-ba13-4580-9d94-9a9611413556",
+    "a6f63eee-78d0-4df5-b37b-33afc96462d0",
+    "8642fa20-9758-4bcd-b639-ea6d411bf156",
+    "ece7e0cd-8752-44ec-80d8-995c08050950",
+    "1658525555736db079",
+    "83a56504-015d-4fdb-92a9-ec563f749007",
+    "8ad91a91-1831-4a8f-a60e-fc79655280a6",
+    "e57cce4a-1fea-4e75-8910-cd2f279455af"
+  ]
+}

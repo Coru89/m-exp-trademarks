@@ -1,0 +1,1146 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "large"
+      }
+    },
+    "7c397d8b-4535-435d-a70f-4a09d1f10ae7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16075967168662__7c397d8b-4535-435d-a70f-4a09d1f10ae7-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Tech_Page_Header_Desktop_Nocopy.jpg",
+            "mobile_image": "shopify://shop_images/M_Tech_Page_Header_Mobile_Nocopy.jpg",
+            "title": "M-Technology",
+            "title_mobile": "",
+            "subheading": "THE MOST ADVANCED MATERIALS WITH A DASH OF MAD SCIENCE",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 118,
+            "heading_font_size_mobile": 32,
+            "subheading_font_size_desktop": 22,
+            "subheading_font_size_mobile": 16,
+            "heading_font_family": "itc-avant-garde-pro-xlt",
+            "font_scale": "shrink-fast",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 16,
+            "nudge_subheading_y-axis_mobile": 0,
+            "nudge_subheading_y-axis_desktop": 0,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_font_family": "helvetica-neue-thin",
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": true,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16075967168662__7c397d8b-4535-435d-a70f-4a09d1f10ae7-image-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "background_type": "full_width",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "2c979ee6-673b-4b74-aa6c-9208ec62a8e1": {
+      "type": "rich-text",
+      "custom_css": [
+        ".vertical-breather {padding-bottom: 50px;}",
+        "h3 {font-size: clamp(50px, 5vw + 1rem, 90px);}",
+        "@media screen and (min-width: 1000px) {h3 {font-size: clamp(50px, 7vw + 1rem, 90px); }}",
+        "@media screen and (min-width: 1400px) {h3 {font-size: clamp(50px, 10vw + 1rem, 90px); }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "M-Tech Overview",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "bfde50f9-1a96-47a9-a50a-eddd33fa45ff": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Lens_Geometry.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Lens Geometry",
+            "title_impact": "",
+            "content": "The optical design of the base curve lens is AI enhanced 3-axis optical correction for prismatic power.  This is coupled with custom blended optical grade materials for ultimate clarity and reduced internal haze, along with Thermo Carbon impact resistance for eye protection.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/plasmachromatic.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "PLASMACHROMATIC",
+            "title_impact": "",
+            "content": "Multi-layer coatings using an assortment of exotic materials.  These precision coatings reflect light, reducing glare and eye strain.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/eye_fence.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "EYE FENCE",
+            "title_impact": "",
+            "content": "Thermo Carbon backed impact resistant lenses protect your eyes from flying debris, UV rays, and other hazards.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/res.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "RES+",
+            "title_impact": "",
+            "content": "Ultra-definition optical clarity reduces distortion and offers a wide field of view, creating a superior optical experience.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "86b0c99b-9763-442e-946a-9511b1b184ff": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/polarized.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "POLARIZED",
+            "title_impact": "",
+            "content": "High-performance polarized lenses block 99.9% of reflective glare for the most vivid and detailed visual experiences.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-0",
+        "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-1",
+        "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-2",
+        "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-3",
+        "86b0c99b-9763-442e-946a-9511b1b184ff"
+      ],
+      "custom_css": [
+        ".vertical-breather {padding-top: 0;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "use_impact": false,
+        "title": "M-Lens Tech",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b"
+      }
+    },
+    "fe014da0-6a33-405c-b4b7-9096fdd9915d": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/dct.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "DAUL CHAMBER INFUSION",
+            "title_impact": "",
+            "content": "A multi-stage mold process using fiberglass reinforced TR90 substrate parts in Gigawatt, resulting in a stiff chassis in and around the hinge while maintaining flexibility and skin feel in the nose and ear areas for comfort.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/lc.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "LENS CLUTCH",
+            "title_impact": "",
+            "content": "Lens quick release system giving you the fastest, most secure method to switch lenses.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "f6cfb63f-ee27-441a-a447-9749756525a1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/rnp.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "RATCHETING NOSE PIECE",
+            "title_impact": "",
+            "content": "Adjustable nose piece system designed for different nose sizes and provides a secure, non-slip fit.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "59921f5f-56b3-4a3c-9320-83117759f42c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/slics.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "SLICS",
+            "title_impact": "",
+            "content": "Ear pads engineered with Atomic 14 providing maximum comfort and non-slip grip.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-0",
+        "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-1",
+        "f6cfb63f-ee27-441a-a447-9749756525a1",
+        "59921f5f-56b3-4a3c-9320-83117759f42c"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".multi-column__image-wrapper img {max-height: 300px;}",
+        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "use_impact": false,
+        "title": "M-Frame Technology",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b"
+      }
+    },
+    "b94428e8-336a-4948-b3fb-06ee7f4aae6a": {
+      "type": "multi-column",
+      "blocks": {
+        "0dec8ebd-a0db-4cd9-98af-8bda847b08e4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/M_Carbon_01_a2916d47-46e8-4cd0-aa97-6f330c0d3214.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "M Carbon",
+            "title_impact": "",
+            "content": "Semitransparent polyamide proprietary frame material provides superior heat resistance and durability, in addition to exceptional strength and crack resistance.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "51381037-47ad-485e-bdf4-a2af689aaa21": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Atomic_13_01_c31495c5-e71d-4696-bda8-c423496b145f.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Atomic 13",
+            "title_impact": "",
+            "content": "Carefully selected lightweight blend of Aluminum used in our M Icons.  Each is precisely blended providing toughness, lightness, and strength.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/thermo_carbon_bbbc0272-c5f6-4efd-89ac-a162de721c2c.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Thermo Carbon",
+            "title_impact": "",
+            "content": "Lens material consisting of submicroscopic polymer chains delivers proven impact resistance, maximum optical clarity, and superior lens durability.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/atomic_14_c4664dcb-a1e8-4a60-b9e1-1983ce7b56fb.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "ATOMIC 14",
+            "title_impact": "",
+            "content": "Silicone polymer material used in our Slics, delivering a high comfort, non-slip grip capable of anchoring your eyewear to your face with maximum comfort.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "0dec8ebd-a0db-4cd9-98af-8bda847b08e4",
+        "51381037-47ad-485e-bdf4-a2af689aaa21",
+        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-0",
+        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-1"
+      ],
+      "custom_css": [
+        ".multi-column__image-wrapper img {max-height: 300px;}",
+        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}",
+        ".vertical-breather {padding-top: 0;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "use_impact": false,
+        "title": "M-Materials",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": false,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b"
+      }
+    },
+    "ceb17ac0-fbaa-45b9-b438-a9694758bd82": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify://shop_images/M_Tech_Page_Desktop_Gigawatt_3_8123024f-15b5-4e34-86ec-e601d061af11.png",
+        "title": "Gigawatt",
+        "title_mobile": "",
+        "subheading": "",
+        "subheading_mobile": "",
+        "content": "",
+        "panel_link": "",
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 40,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "font_scale": "default",
+        "overlay_content_position": "top-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "text_align_desktop": "center",
+        "text_align_mobile": "center",
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000000",
+        "heading_drop_shadow_opacity": 40,
+        "nudge_subheading_y-axis_mobile": 0,
+        "nudge_subheading_y-axis_desktop": -2,
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": true,
+        "max_width_container": false,
+        "background_type": "full_width",
+        "text_color": "#6b6b6b",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "7b4de6a6-15a3-4cf6-ab2d-d9894c2aa7cd": {
+      "type": "rich-text-scroll",
+      "blocks": {
+        "2e5574b8-7449-44ff-9ad2-5f8ce8f0a3d4": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify://shop_images/M_Gigawatt_Mobile_A_Only_Image.svg",
+            "svg_mobile": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 1000 1038.08\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <defs>\n    <style>\n      .cls-1 {\n        clip-path: url(#clip-M_Gigawatt_Mobile_A);\n      }\n\n      .cls-2 {\n        mix-blend-mode: luminosity;\n        isolation: isolate;\n        fill: url(#pattern);\n      }\n\n      .cls-3, .cls-4 {\n        fill: none;\n        stroke: #e2a829;\n      }\n\n      .cls-3 {\n        stroke-width: 1.5px;\n      }\n\n      .cls-4 {\n        stroke-width: 2px;\n      }\n\n      .cls-5, .cls-7 {\n        fill: #6b6b6b;\n        font-family: Helvetica;\n      }\n\n      .cls-5 {\n        font-size: 28px;\n      }\n\n      .cls-6 {\n        fill: #e2a829;\n      }\n\n      .cls-7 {\n        font-size: 29px;\n      }\n\n      .cls-8 {\n        fill: #fff;\n      }\n    </style>\n    <pattern id=\"pattern\" preserveaspectratio=\"xMidYMid slice\" width=\"100%\" height=\"100%\" viewbox=\"0 0 1280 790\">\n      \n    </pattern>\n    <clippath id=\"clip-M_Gigawatt_Mobile_A\">\n      <rect width=\"1000\" height=\"1038.08\"></rect>\n    </clippath>\n  </defs>\n  <g id=\"M_Gigawatt_Mobile_A\" class=\"cls-1\">\n    \n    \n    <path id=\"Path_3804\" data-name=\"Path 3804\" class=\"cls-3\" d=\"M10987.931-7288.254h19.739\" transform=\"translate(-10068.694 8221.221)\"></path>\n    <path id=\"Path_3891\" data-name=\"Path 3891\" class=\"cls-4\" d=\"M195.154,0H0\" transform=\"translate(709.73 595.469) rotate(-90)\"></path>\n    <path id=\"Path_3892\" data-name=\"Path 3892\" class=\"cls-4\" d=\"M0,0H15.262\" transform=\"translate(710.172 684.469) rotate(-90)\"></path>\n    <text id=\"PLASMACHROMATIC_EYE_FENCE_RES_\" data-name=\"PLASMACHROMATIC EYE FENCE / RES+\" class=\"cls-5\" transform=\"translate(709.73 628.914)\"><tspan x=\"-140.54\" y=\"0\">PLASMACHROMATIC</tspan><tspan x=\"-127.982\" y=\"30\">EYE FENCE / RES+</tspan></text>\n    <ellipse id=\"Ellipse_50\" data-name=\"Ellipse 50\" class=\"cls-6\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"translate(694.137 393.615) rotate(-22)\"></ellipse>\n    <text id=\"LENS_Geometry\" data-name=\"LENS Geometry\" class=\"cls-7\" transform=\"translate(614.035 77.725)\"><tspan x=\"-37.878\" y=\"0\">LENS</tspan><tspan x=\"-82.724\" y=\"31\">GEOMETRY</tspan></text>\n    <ellipse id=\"Ellipse_51\" data-name=\"Ellipse 51\" class=\"cls-6\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"matrix(0.616, 0.788, -0.788, 0.616, 623.754, 186.259)\"></ellipse>\n    <path id=\"Path_3893\" data-name=\"Path 3893\" class=\"cls-4\" d=\"M78.927,0H0\" transform=\"translate(621.684 121.137) rotate(90)\"></path>\n    <text id=\"THERMO_CARBON\" data-name=\"THERMO CARBON\" class=\"cls-7\" transform=\"translate(88.211 278.734)\"><tspan x=\"0\" y=\"0\">THERMO CARBON</tspan></text>\n    <circle id=\"Ellipse_52\" data-name=\"Ellipse 52\" class=\"cls-6\" cx=\"12.12\" cy=\"12.12\" r=\"12.12\" transform=\"matrix(-0.788, 0.616, -0.616, -0.788, 463.215, 273.354)\"></circle>\n    <path id=\"Path_3894\" data-name=\"Path 3894\" class=\"cls-4\" d=\"M83.24,0H0\" transform=\"translate(441.334 271.265) rotate(180)\"></path>\n    <path id=\"Path_3895\" data-name=\"Path 3895\" class=\"cls-4\" d=\"M0,0H15.262\" transform=\"translate(61.134 269.774)\"></path>\n    <text id=\"M_CARBON\" data-name=\"M CARBON\" class=\"cls-7\" transform=\"translate(58.211 518.348)\"><tspan x=\"0\" y=\"0\">M CARBON</tspan></text>\n    <circle id=\"Ellipse_53\" data-name=\"Ellipse 53\" class=\"cls-6\" cx=\"12.12\" cy=\"12.12\" r=\"12.12\" transform=\"matrix(-0.788, 0.616, -0.616, -0.788, 311.234, 512.968)\"></circle>\n    <path id=\"Path_3896\" data-name=\"Path 3896\" class=\"cls-4\" d=\"M65.883,0H0\" transform=\"translate(289.313 510.878) rotate(180)\"></path>\n    <path id=\"Path_3897\" data-name=\"Path 3897\" class=\"cls-4\" d=\"M0,0H15.262\" transform=\"translate(31.134 509.388)\"></path>\n    <text id=\"SLICS_ATOMIC_14\" data-name=\"SLICS / ATOMIC 14\" class=\"cls-7\" transform=\"translate(309.082 818.461)\"><tspan x=\"0\" y=\"0\">SLICS / ATOMIC 14</tspan></text>\n    <circle id=\"Ellipse_54\" data-name=\"Ellipse 54\" class=\"cls-6\" cx=\"12.12\" cy=\"12.12\" r=\"12.12\" transform=\"matrix(-0.788, 0.616, -0.616, -0.788, 159.235, 813.082)\"></circle>\n    <path id=\"Path_3898\" data-name=\"Path 3898\" class=\"cls-4\" d=\"M159.783,0H0\" transform=\"translate(300.809 810.991) rotate(180)\"></path>\n    <path id=\"Path_3899\" data-name=\"Path 3899\" class=\"cls-4\" d=\"M0,0H15.262\" transform=\"translate(587.086 811.926) rotate(180)\"></path>\n  </g>\n</svg>"
+          }
+        },
+        "619f65f2-2271-4bcd-91d0-a3f3d9b5239f": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify://shop_images/M_Gigawatt_Mobile_B_Only_Image.svg",
+            "svg_mobile": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 1000 1038.08\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <defs>\n    <style>\n      .cls-giga-mobile-b1 {\n        clip-path: url(#clip-M_Gigawatt_Mobile_B);\n      }\n\n      .cls-giga-mobile-b2 {\n        mix-blend-mode: luminosity;\n        isolation: isolate;\n        fill: url(#pattern);\n      }\n\n      .cls-giga-mobile-b3 {\n        fill: #6b6b6b;\n        font-size: 29px;\n        font-family: Helvetica;\n      }\n\n      .cls-giga-mobile-b4 {\n        fill: #e2a829;\n      }\n\n      .cls-giga-mobile-b5 {\n        fill: none;\n        stroke: #e2a829;\n        stroke-width: 2px;\n      }\n\n      .cls-giga-mobile-b6 {\n        fill: transparent;\n      }\n    </style>\n    <pattern id=\"pattern\" preserveaspectratio=\"xMidYMid slice\" width=\"100%\" height=\"100%\" viewbox=\"0 0 1280 790\">\n      \n    </pattern>\n    <clippath id=\"clip-M_Gigawatt_Mobile_B\">\n      <rect width=\"1000\" height=\"1038.08\"></rect>\n    </clippath>\n  </defs>\n  <g id=\"M_Gigawatt_Mobile_B\" class=\"cls-giga-mobile-b1\">\n    <rect class=\"cls-giga-mobile-b6\" width=\"1000\" height=\"1038.08\"></rect>\n    <rect id=\"Unknown-3\" class=\"cls-giga-mobile-b2\" width=\"2747\" height=\"1303\" transform=\"translate(-1373 -79.732)\"></rect>\n    <text id=\"M_CARBON\" data-name=\"M CARBON\" class=\"cls-giga-mobile-b3\" transform=\"translate(65.723 643.393)\"><tspan x=\"0\" y=\"0\">M CARBON</tspan></text>\n    <ellipse id=\"Ellipse_31\" data-name=\"Ellipse 31\" class=\"cls-giga-mobile-b4\" cx=\"12.106\" cy=\"12.106\" rx=\"12.106\" ry=\"12.106\" transform=\"matrix(-0.616, -0.788, 0.788, -0.616, 141.197, 471.548)\"></ellipse>\n    <path id=\"Path_3828\" data-name=\"Path 3828\" class=\"cls-giga-mobile-b5\" d=\"M148.578,0H0\" transform=\"translate(143.28 606.338) rotate(-90)\"></path>\n    <path id=\"Path_3842\" data-name=\"Path 3842\" class=\"cls-giga-mobile-b5\" d=\"M166.6,0H0\" transform=\"translate(476.66 685.484) rotate(-90)\"></path>\n    <path id=\"Path_3877\" data-name=\"Path 3877\" class=\"cls-giga-mobile-b5\" d=\"M366.519,30.391V0H0V-68.307\" transform=\"translate(705.022 581.296) rotate(-90)\"></path>\n    <path id=\"Path_3878\" data-name=\"Path 3878\" class=\"cls-giga-mobile-b5\" d=\"M0,0H155.05V29.065\" transform=\"translate(120.447 254.368) rotate(-90)\"></path>\n    <path id=\"Path_3827\" data-name=\"Path 3827\" class=\"cls-giga-mobile-b5\" d=\"M0,0H15.245\" transform=\"translate(143.723 671.788) rotate(-90)\"></path>\n    <path id=\"Path_3841\" data-name=\"Path 3841\" class=\"cls-giga-mobile-b5\" d=\"M0,0H15.245\" transform=\"translate(477.102 748.296) rotate(-90)\"></path>\n    <text id=\"DUAL_CHAMBER_INFUSION\" data-name=\"DUAL CHAMBER INFUSION\" class=\"cls-giga-mobile-b3\" transform=\"translate(286.721 718.695)\"><tspan x=\"0\" y=\"0\">DUAL CHAMBER INFUSION</tspan></text>\n    <ellipse id=\"Ellipse_28\" data-name=\"Ellipse 28\" class=\"cls-giga-mobile-b4\" cx=\"12.106\" cy=\"12.106\" rx=\"12.106\" ry=\"12.106\" transform=\"translate(461.123 512.195) rotate(-22)\"></ellipse>\n    <text id=\"_3-Way_Adjustable_Nose_Piece\" data-name=\"3-Way Adjustable Nose Piece\" class=\"cls-giga-mobile-b3\" transform=\"translate(394.84 106.818)\"><tspan x=\"-232.368\" y=\"0\">3-WAY ADJUSTABLE NOSE PIECE</tspan></text>\n    <ellipse id=\"Ellipse_37\" data-name=\"Ellipse 37\" class=\"cls-giga-mobile-b4\" cx=\"12.106\" cy=\"12.106\" rx=\"12.106\" ry=\"12.106\" transform=\"matrix(0.616, 0.788, -0.788, 0.616, 123.555, 232.28)\"></ellipse>\n    <text id=\"LENS_CLUTCH\" data-name=\"LENS CLUTCH\" class=\"cls-giga-mobile-b3\" transform=\"translate(740.412 223.778)\"><tspan x=\"0\" y=\"0\">LENS CLUTCH</tspan></text>\n    <circle id=\"Ellipse_29\" data-name=\"Ellipse 29\" class=\"cls-giga-mobile-b4\" cx=\"12.106\" cy=\"12.106\" r=\"12.106\" transform=\"matrix(0.788, -0.616, 0.616, 0.788, 620.029, 579.209)\"></circle>\n    <path id=\"Path_3833\" data-name=\"Path 3833\" class=\"cls-giga-mobile-b5\" d=\"M10987.934-7288.254h15.243\" transform=\"translate(-10041.521 7503.033)\"></path>\n    <path id=\"Path_3884\" data-name=\"Path 3884\" class=\"cls-giga-mobile-b5\" d=\"M10987.934-7288.254h15.243\" transform=\"translate(-10354.475 7384.768)\"></path>\n  </g>\n</svg>"
+          }
+        }
+      },
+      "block_order": [
+        "2e5574b8-7449-44ff-9ad2-5f8ce8f0a3d4",
+        "619f65f2-2271-4bcd-91d0-a3f3d9b5239f"
+      ],
+      "custom_css": [
+        ".vertical-breather {padding-bottom: 0;}",
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}",
+        "@media screen and (min-width: 750px) {h3 {text-align: left; font-size: 32px; font-weight: 300; margin-bottom: 1rem; }}",
+        "li {font-size: 18px; margin: 0; padding: 0;}",
+        "@media screen and (min-width: 750px) {li {font-size: 20px; }}",
+        "ul {text-align: left;}"
+      ],
+      "settings": {
+        "title": "Gigawatt",
+        "subheading": "",
+        "content": "<h3>Lens Technology</h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.</li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.</li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.</li><li>Eye Fence: Impact resistance for maximum eye protection.</li><li> Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.</li></ul><h3>Materials</h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.</li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.</li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.</li></ul>",
+        "image": "shopify://shop_images/Gigawatt_Callout_Desktop_Only_Image.svg",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 2203 1045\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <defs>\n    <style>\n      .cls-giga-desktop-1 {\n        fill: #fff;\n      }\n\n      .cls-giga-desktop-2 {\n        mix-blend-mode: luminosity;\n        isolation: isolate;\n        fill: url(#pattern);\n      }\n\n      .cls-giga-desktop-3 {\n        fill: #6b6b6b;\n        font-size: 23px;\n        font-family: Helvetica;\n      }\n\n      .cls-giga-desktop-4 {\n        fill: none;\n        stroke: #e2a829;\n        stroke-width: 1.5px;\n      }\n\n      .cls-giga-desktop-5 {\n        fill: #e2a829;\n      }\n    </style>\n    <pattern id=\"pattern\" preserveaspectratio=\"xMidYMid slice\" width=\"100%\" height=\"100%\" viewbox=\"0 0 1280 790\">\n      \n    </pattern>\n  </defs>\n  <g id=\"Group_4320\" data-name=\"Group 4320\" transform=\"translate(21 -3236)\">\n    \n    \n    <text id=\"EYE_FENCE\" data-name=\"EYE FENCE\" class=\"cls-giga-desktop-3\" transform=\"translate(1665.606 3553.992)\"><tspan x=\"0\" y=\"0\">EYE FENCE</tspan></text>\n    <path id=\"Path_3794\" data-name=\"Path 3794\" class=\"cls-giga-desktop-4\" d=\"M10987.931-7288.254h15.824\" transform=\"translate(-9072.019 11352.462)\"></path>\n    <text id=\"DUAL_CHAMBER_INFUSION\" data-name=\"DUAL CHAMBER INFUSION\" class=\"cls-giga-desktop-3\" transform=\"translate(1063.97 3917.839)\"><tspan x=\"0\" y=\"0\">DUAL CHAMBER INFUSION</tspan></text>\n    <ellipse id=\"Ellipse_17\" data-name=\"Ellipse 17\" class=\"cls-giga-desktop-5\" cx=\"12.566\" cy=\"12.566\" rx=\"12.566\" ry=\"12.566\" transform=\"translate(1473.32 3737.48) rotate(-22)\"></ellipse>\n    <path id=\"Path_3791\" data-name=\"Path 3791\" class=\"cls-giga-desktop-4\" d=\"M202.52,27.3H63.133l-47.2.293L0,0\" transform=\"translate(1363.11 3909.041) rotate(-60)\"></path>\n    <path id=\"Path_3796\" data-name=\"Path 3796\" class=\"cls-giga-desktop-4\" d=\"M10987.931-7288.254h15.824\" transform=\"translate(-9947.287 11199.593)\"></path>\n    <text id=\"LENS_Geometry\" data-name=\"LENS Geometry\" class=\"cls-giga-desktop-3\" transform=\"translate(1440.037 3376.618)\"><tspan x=\"-30.042\" y=\"0\">LENS</tspan><tspan x=\"-65.608\" y=\"24\">GEOMETRY</tspan></text>\n    <circle id=\"Ellipse_16\" data-name=\"Ellipse 16\" class=\"cls-giga-desktop-5\" cx=\"12.566\" cy=\"12.566\" r=\"12.566\" transform=\"matrix(0.616, 0.788, -0.788, 0.616, 1442.644, 3484.19)\"></circle>\n    <path id=\"Path_3790\" data-name=\"Path 3790\" class=\"cls-giga-desktop-4\" d=\"M81.833,0H0\" transform=\"translate(1440.477 3416.671) rotate(90)\"></path>\n    <path id=\"Path_3798\" data-name=\"Path 3798\" class=\"cls-giga-desktop-4\" d=\"M0,0H15.823\" transform=\"translate(1440.383 3348.494) rotate(-90)\"></path>\n    <text id=\"PLASMACHROMATIC\" class=\"cls-giga-desktop-3\" transform=\"translate(776.35 3908.077)\"><tspan x=\"-115.444\" y=\"0\">PLASMACHROMATIC</tspan></text>\n    <circle id=\"Ellipse_15\" data-name=\"Ellipse 15\" class=\"cls-giga-desktop-5\" cx=\"12.566\" cy=\"12.566\" r=\"12.566\" transform=\"matrix(-0.616, -0.788, 0.788, -0.616, 778.063, 3636.785)\"></circle>\n    <path id=\"Path_3789\" data-name=\"Path 3789\" class=\"cls-giga-desktop-4\" d=\"M251.591,0H0\" transform=\"translate(780.23 3879.224) rotate(-90)\"></path>\n    <path id=\"Path_3799\" data-name=\"Path 3799\" class=\"cls-giga-desktop-4\" d=\"M0,0H15.823\" transform=\"translate(780.325 3914.927) rotate(90)\"></path>\n    <text id=\"LENS_CLUTCH\" data-name=\"LENS CLUTCH\" class=\"cls-giga-desktop-3\" transform=\"translate(1788.387 3658.792)\"><tspan x=\"0\" y=\"0\">LENS CLUTCH</tspan></text>\n    <circle id=\"Ellipse_12\" data-name=\"Ellipse 12\" class=\"cls-giga-desktop-5\" cx=\"12.566\" cy=\"12.566\" r=\"12.566\" transform=\"matrix(0.788, -0.616, 0.616, 0.788, 1563.458, 3731.73)\"></circle>\n    <path id=\"Path_3786\" data-name=\"Path 3786\" class=\"cls-giga-desktop-4\" d=\"M10150.22-7388.008l160.484-75.3h32.556\" transform=\"translate(-8562.021 11115.603)\"></path>\n    <path id=\"Path_3800\" data-name=\"Path 3800\" class=\"cls-giga-desktop-4\" d=\"M10987.931-7288.254h15.824\" transform=\"translate(-9032.395 10940.546)\"></path>\n    <text id=\"_3-Way_Adjustable_Nose_Piece\" data-name=\"3-Way Adjustable Nose Piece\" class=\"cls-giga-desktop-3\" transform=\"translate(636.548 3380.334)\"><tspan x=\"0\" y=\"0\">3-WAY ADJUSTABLE NOSE PIECE</tspan></text>\n    <ellipse id=\"Ellipse_14\" data-name=\"Ellipse 14\" class=\"cls-giga-desktop-5\" cx=\"12.566\" cy=\"12.566\" rx=\"12.566\" ry=\"12.566\" transform=\"translate(1188.032 3472.239) rotate(68)\"></ellipse>\n    <path id=\"Path_3801\" data-name=\"Path 3801\" class=\"cls-giga-desktop-4\" d=\"M10987.931-7288.254h15.824\" transform=\"translate(-10372.409 10659.607)\"></path>\n    <text id=\"M_CARBON\" data-name=\"M CARBON\" class=\"cls-giga-desktop-3\" transform=\"translate(1019.498 3769.534)\"><tspan x=\"0\" y=\"0\">M CARBON</tspan></text>\n    <circle id=\"Ellipse_13\" data-name=\"Ellipse 13\" class=\"cls-giga-desktop-5\" cx=\"12.566\" cy=\"12.566\" r=\"12.566\" transform=\"matrix(-0.616, -0.788, 0.788, -0.616, 1079.442, 3645.209)\"></circle>\n    <path id=\"Path_3787\" data-name=\"Path 3787\" class=\"cls-giga-desktop-4\" d=\"M107.032,0H0\" transform=\"translate(1081.607 3737.931) rotate(-90)\"></path>\n    <path id=\"Path_3802\" data-name=\"Path 3802\" class=\"cls-giga-desktop-4\" d=\"M0,0H15.824\" transform=\"translate(1082.063 3797.579) rotate(-90)\"></path>\n    <circle id=\"Ellipse_13-2\" data-name=\"Ellipse 13\" class=\"cls-giga-desktop-5\" cx=\"12.566\" cy=\"12.566\" r=\"12.566\" transform=\"matrix(-0.788, 0.616, -0.616, -0.788, 1568.863, 3550.231)\"></circle>\n    <path id=\"Path_3787-2\" data-name=\"Path 3787\" class=\"cls-giga-desktop-4\" d=\"M107.032,0H0\" transform=\"translate(1661.584 3548.065) rotate(180)\"></path>\n    <path id=\"Path_3802-2\" data-name=\"Path 3802\" class=\"cls-giga-desktop-4\" d=\"M0,0H15.824\" transform=\"translate(1818.744 3545.53) rotate(180)\"></path>\n    <text id=\"THERMO_CARBON\" data-name=\"THERMO CARBON\" class=\"cls-giga-desktop-3\" transform=\"translate(204.352 3626.308)\"><tspan x=\"0\" y=\"0\">THERMO CARBON</tspan></text>\n    <text id=\"RES_\" data-name=\"RES+\" class=\"cls-giga-desktop-3\" transform=\"translate(472.215 3497.039)\"><tspan x=\"0\" y=\"0\">RES+</tspan></text>\n    <circle id=\"Ellipse_20\" data-name=\"Ellipse 20\" class=\"cls-giga-desktop-5\" cx=\"12.566\" cy=\"12.566\" r=\"12.566\" transform=\"matrix(0.788, -0.616, 0.616, 0.788, 572.151, 3616.981)\"></circle>\n    <circle id=\"Ellipse_49\" data-name=\"Ellipse 49\" class=\"cls-giga-desktop-5\" cx=\"12.566\" cy=\"12.566\" r=\"12.566\" transform=\"matrix(0.788, -0.616, 0.616, 0.788, 696.619, 3487.712)\"></circle>\n    <path id=\"Path_3803\" data-name=\"Path 3803\" class=\"cls-giga-desktop-4\" d=\"M10045-7368.826H9875.5\" transform=\"translate(-9458.539 10987.973)\"></path>\n    <path id=\"Path_3889\" data-name=\"Path 3889\" class=\"cls-giga-desktop-4\" d=\"M10045-7368.826H9875.5\" transform=\"translate(-9334.07 10858.703)\"></path>\n    <path id=\"Path_3804\" data-name=\"Path 3804\" class=\"cls-giga-desktop-4\" d=\"M10987.931-7288.254h15.824\" transform=\"translate(-10806.047 10907.402)\"></path>\n    <path id=\"Path_3890\" data-name=\"Path 3890\" class=\"cls-giga-desktop-4\" d=\"M10987.931-7288.254h15.824\" transform=\"translate(-10538.578 10778.133)\"></path>\n    <text id=\"SLICS_ATOMIC_14\" data-name=\"SLICS  / ATOMIC 14\" class=\"cls-giga-desktop-3\" transform=\"translate(91.341 3971.051)\"><tspan x=\"0\" y=\"0\" xml:space=\"preserve\">SLICS  / ATOMIC 14</tspan></text>\n    <circle id=\"Ellipse_20-2\" data-name=\"Ellipse 20\" class=\"cls-giga-desktop-5\" cx=\"12.566\" cy=\"12.566\" r=\"12.566\" transform=\"matrix(0.788, -0.616, 0.616, 0.788, 383.74, 3961.724)\"></circle>\n    <path id=\"Path_3803-2\" data-name=\"Path 3803\" class=\"cls-giga-desktop-4\" d=\"M9960.742-7368.826H9875.5\" transform=\"translate(-9562.691 11332.717)\"></path>\n    <path id=\"Path_3804-2\" data-name=\"Path 3804\" class=\"cls-giga-desktop-4\" d=\"M10987.931-7288.254h15.824\" transform=\"translate(-10920.165 11252.145)\"></path>\n    <path id=\"Path_3807\" data-name=\"Path 3807\" class=\"cls-giga-desktop-4\" d=\"M9128.846-5105.808l-123.621-117.9H8958.55\" transform=\"translate(-7947.758 8594.405)\"></path>\n  </g>\n</svg>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 40,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000"
+      }
+    },
+    "867df809-77d4-4790-a98d-372e5b2ca373": {
+      "type": "rich-text-image",
+      "disabled": true,
+      "custom_css": [
+        ".vertical-breather {padding-bottom: 0;}",
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}",
+        "@media screen and (min-width: 750px) {h3 {text-align: left; font-size: 32px; font-weight: 300; margin-bottom: 1rem; }}",
+        "li {font-size: 18px; margin: 0; padding: 0;}",
+        "@media screen and (min-width: 750px) {li {font-size: 20px; }}",
+        "ul {text-align: left;}"
+      ],
+      "settings": {
+        "title": "Gigawatt",
+        "subheading": "",
+        "content": "<h3>Lens Technology</h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.</li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.</li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.</li><li>Eye Fence: Impact resistance for maximum eye protection.</li><li> Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.</li></ul><h3>Materials</h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.</li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.</li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.</li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.</li></ul>",
+        "image": "shopify://shop_images/M_Tech_Page_Desktop_Gigawatt_New.jpg",
+        "svg": "",
+        "svg_mobile": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 50,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7dbe9f48-ac28-4c45-b40a-b87015168b00": {
+      "type": "rich-text",
+      "disabled": true,
+      "custom_css": [
+        ".vertical-breather {padding-top: 0;}",
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
+        "@media screen and (min-width: 750px) {h3 {font-size: 32px; margin-bottom: 1rem; }}",
+        "li {font-size: 18px; margin: 0; padding: 0;}",
+        "@media screen and (min-width: 750px) {li {font-size: 26px; }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<h3>Lens Technology</h3><ul><li>Lens Geometry: Ai assisted 3 axis correction for prismatic distortion and refractive power.</li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.</li><li>Polarized: High- performance coating blocking 99.9% of reflective glare.</li><li>Eye Fence: Impact resistance for maximum eye protection.</li><li> Res+: Ultra-Definition optical clarity reducing distortion while offering a wider field of view.</li></ul><h3>Materials</h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.</li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.</li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.</li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.</li></ul>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "left",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": false,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3f84c371-f546-4f31-9b3f-6d062ab35bfb": {
+      "type": "rich-text",
+      "custom_css": [
+        ".vertical-breather {padding-bottom: 30px;}",
+        "@media screen and (min-width: 740px) {.vertical-breather {padding-bottom: 50px; }}",
+        "h3 {font-size: clamp(42px, 5vw + 1rem, 90px);}",
+        "@media screen and (min-width: 1000px) {h3 {font-size: clamp(42px, 7vw + 1rem, 90px); }}",
+        "@media screen and (min-width: 1400px) {h3 {font-size: clamp(42px, 10vw + 1rem, 90px); }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Frame technology",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f692ea7a-b838-480d-ac3b-fecda68d3a83": {
+      "type": "rich-text-image",
+      "custom_css": [
+        ".vertical-breather {padding-top: 0; padding-bottom: 0;}",
+        ".heading {font-weight: 300; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}"
+      ],
+      "settings": {
+        "title": "DUAL CHAMBER INFUSION",
+        "subheading": "A multi-stage mold process using fiberglass reinforced parts in Gigawatt, resulting in a stiff chassis in and around the hinge while maintaining flexibility and skin feel in the nose and ear areas for comfort.",
+        "content": "",
+        "image": "shopify://shop_images/dual_chamber_40b09a41-596f-406d-b4d5-565b0ff172cc.png",
+        "svg": "",
+        "svg_mobile": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 26,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "085f62b4-2c5f-461b-ba58-bd2987c9ab10": {
+      "type": "rich-text-image",
+      "custom_css": [
+        ".vertical-breather {padding: 0;}",
+        ".heading {font-weight: 300; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}"
+      ],
+      "settings": {
+        "title": "LENS CLUTCH",
+        "subheading": "Lens quick release system giving you the fastest, most secure method to switch lenses.",
+        "content": "",
+        "image": "shopify://shop_images/M_Lens_Clutch_Desktop.jpg",
+        "svg": "",
+        "mobile_image": "shopify://shop_images/M_Tech_Page_Mobile_FramePage_02_1.png",
+        "svg_mobile": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 26,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "2c357457-e660-4c02-a8d3-688ddfd1a6c6": {
+      "type": "rich-text-image",
+      "custom_css": [
+        ".vertical-breather {padding: 0;}",
+        ".heading {font-weight: 300; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}"
+      ],
+      "settings": {
+        "title": "3-Way Adjustable Nose Piece",
+        "subheading": "Adjustable nose piece system designed for different nose sizes and provides a secure, non-slip fit.",
+        "content": "",
+        "image": "shopify://shop_images/M_Tech_Page_Desktop_FramePage_03_1.png",
+        "svg": "",
+        "mobile_image": "shopify://shop_images/M_Tech_Page_Mobile_FramePage_03_1.png",
+        "svg_mobile": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 26,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "87091a3e-5730-4415-8543-98a811cbac59": {
+      "type": "rich-text-image",
+      "custom_css": [
+        ".vertical-breather {padding: 0;}",
+        ".heading {font-weight: 300; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}"
+      ],
+      "settings": {
+        "title": "SLICS",
+        "subheading": "Ear pads engineered with Atomic 14 providing maximum comfort and non-slip grip.",
+        "content": "",
+        "image": "shopify://shop_images/slics_80dd85fd-b6f4-4e99-8032-6ef16d64c671.png",
+        "svg": "",
+        "svg_mobile": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 26,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "a933221b-0b97-48e2-bc7f-44b022510c0b": {
+      "type": "rich-text",
+      "disabled": true,
+      "custom_css": [
+        ".vertical-breather {padding-bottom: 0;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Lens Clutch",
+        "content": "<p>Lens quick release system giving you the fastest, most secure<br/>method to switch lenses.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "d0e7fa1a-2bcd-4461-8f46-1cf260febdce": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify://shop_images/M_Tech_Page_Desktop_FramePage_04.jpg",
+        "mobile_image": "shopify://shop_images/M_Tech_Page_Mobile_FramePage_04_55b0e6a4-5f6f-43a7-b6bd-737cfa614a3a.jpg",
+        "title": "Slics",
+        "title_mobile": "",
+        "subheading": "Ear pads engineered with Atomic 14 providing maximum comfort and non-slip grip.",
+        "subheading_mobile": "",
+        "content": "",
+        "panel_link": "",
+        "heading_font_size_desktop": 56,
+        "heading_font_size_mobile": 32,
+        "subheading_font_size_desktop": 26,
+        "subheading_font_size_mobile": 22,
+        "font_scale": "default",
+        "overlay_content_position": "top-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "text_align_desktop": "center",
+        "text_align_mobile": "center",
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000000",
+        "heading_drop_shadow_opacity": 40,
+        "nudge_subheading_y-axis_mobile": 0,
+        "nudge_subheading_y-axis_desktop": -2,
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "max_width_container": false,
+        "background_type": "full_width",
+        "text_color": "#6b6b6b",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "3bfe0b16-525e-4da9-b47b-6066778cd29b": {
+      "type": "rich-text-image",
+      "settings": {
+        "title": "Complex Design.\nSimple Result.",
+        "subheading": "THERE ARE 27 INDIVIDUAL PARTS METICULOUSLY ASSEMBLED TOGETHER TO MAKE ONE GIGAWATT",
+        "content": "",
+        "image": "shopify://shop_images/exploded.png",
+        "svg": "",
+        "svg_mobile": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "heading_font_size_desktop": 86,
+        "heading_font_size_mobile": 22,
+        "subheading_font_size_desktop": 28,
+        "subheading_font_size_mobile": 16,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": false,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "94005b04-1d9a-40aa-8fc8-764c88a00b1d": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify://shop_images/M_Tech_Page_Desktop_Exploded_View.jpg",
+        "mobile_image": "shopify://shop_images/M_Tech_Page_Mobile_Exploded_View.jpg",
+        "title": "Complex Design. Simple Result",
+        "title_mobile": "Complex Design.\nSimple Result",
+        "subheading": "THERE ARE 27 INDIVIDUAL PARTS METICULOUSLY ASSEMBLED\nTOGETHER TO MAKE ONE GIGAWATT",
+        "subheading_mobile": "",
+        "content": "",
+        "panel_link": "",
+        "heading_font_size_desktop": 86,
+        "heading_font_size_mobile": 22,
+        "subheading_font_size_desktop": 28,
+        "subheading_font_size_mobile": 14,
+        "font_scale": "default",
+        "overlay_content_position": "top-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "text_align_desktop": "center",
+        "text_align_mobile": "center",
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000000",
+        "heading_drop_shadow_opacity": 40,
+        "nudge_subheading_y-axis_mobile": 0,
+        "nudge_subheading_y-axis_desktop": -2,
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "max_width_container": false,
+        "background_type": "full_width",
+        "text_color": "#6b6b6b",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "d055788d-85a4-4fb3-9150-d49a2881728c": {
+      "type": "rich-text-image",
+      "custom_css": [
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}",
+        "@media screen and (min-width: 750px) {h3 {text-align: left; font-size: 32px; font-weight: 300; margin-bottom: 1rem; }}",
+        "li {font-size: 18px; margin: 0; padding: 0;}",
+        "@media screen and (min-width: 750px) {li {font-size: 20px; }}",
+        "ul {text-align: left;}"
+      ],
+      "settings": {
+        "title": "Pleasure",
+        "subheading": "",
+        "content": "<h3>Lens Technology</h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.</li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.</li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.</li><li>Eye Fence: Impact resistance for maximum eye protection.</li><li>Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.</li></ul><h3>Materials</h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.</li><li> Atomic 13: Blended Aluminum used for toughness, lightness, and strength.</li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.</li></ul>",
+        "image": "shopify://shop_images/Pleasure_Desktop_Only_Image.png",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 1801.18 854\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <defs>\n    <style>\n      .cls-desktop-pleasure-1 {\n        fill: url(#pattern);\n      }\n\n      .cls-desktop-pleasure-2 {\n        fill: #6b6b6b;\n        font-size: 23px;\n        font-family: Helvetica;\n      }\n\n      .cls-desktop-pleasure-3 {\n        fill: #e2a829;\n      }\n\n      .cls-desktop-pleasure-4 {\n        fill: none;\n        stroke: #e2a829;\n        stroke-width: 1.5px;\n      }\n    </style>\n    <pattern id=\"pattern\" width=\"1\" height=\"1\" viewbox=\"36.138 -12.553 1571.768 866.553\">\n      <image preserveaspectratio=\"xMidYMid slice\" width=\"1620.229\" height=\"854\" xlink:href=\"\"></image>\n    </pattern>\n  </defs>\n  <g id=\"Group_4321\" data-name=\"Group 4321\" transform=\"translate(-163.82 -11041)\">\n    <rect id=\"d55cc8a9f0c30662cad23fdc88fa2a6f\" class=\"cls-desktop-pleasure-1\" width=\"1549\" height=\"854\" transform=\"translate(416 11041)\"></rect>\n    <g id=\"Group_4252\" data-name=\"Group 4252\" transform=\"translate(1413.28 11262.11)\">\n      <text id=\"M_ICON_ATOMIC_13\" data-name=\"M ICON / ATOMIC 13\" class=\"cls-desktop-pleasure-2\" transform=\"translate(128.138 140.709)\"><tspan x=\"0\" y=\"0\">M ICON / ATOMIC 13</tspan></text>\n      <circle id=\"Ellipse_18\" data-name=\"Ellipse 18\" class=\"cls-desktop-pleasure-3\" cx=\"13.251\" cy=\"13.251\" r=\"13.251\" transform=\"translate(24.573 34.501) rotate(-158)\"></circle>\n      <path id=\"Path_3792\" data-name=\"Path 3792\" class=\"cls-desktop-pleasure-4\" d=\"M149.11,0H17.332L0,30.019\" transform=\"translate(93.557 149.418) rotate(-120)\"></path>\n      <path id=\"Path_3794\" data-name=\"Path 3794\" class=\"cls-desktop-pleasure-4\" d=\"M10987.932-7288.254h16.688\" transform=\"translate(-10628.107 7421.79)\"></path>\n    </g>\n    <text id=\"RES_\" data-name=\"RES+\" class=\"cls-desktop-pleasure-2\" transform=\"translate(1190.754 11661.65)\"><tspan x=\"0\" y=\"0\">RES+</tspan></text>\n    <circle id=\"Ellipse_18-2\" data-name=\"Ellipse 18\" class=\"cls-desktop-pleasure-3\" cx=\"13.251\" cy=\"13.251\" r=\"13.251\" transform=\"translate(1024.13 11555.441) rotate(-158)\"></circle>\n    <path id=\"Path_3792-2\" data-name=\"Path 3792\" class=\"cls-desktop-pleasure-4\" d=\"M179.576,0H47.8L30.466,30.019,0,82.788\" transform=\"translate(1108.347 11696.744) rotate(-120)\"></path>\n    <path id=\"Path_3794-2\" data-name=\"Path 3794\" class=\"cls-desktop-pleasure-4\" d=\"M10987.932-7288.254h16.688\" transform=\"translate(-9725.467 18942.73)\"></path>\n    <text id=\"EYE_FENCE\" data-name=\"EYE FENCE\" class=\"cls-desktop-pleasure-2\" transform=\"translate(918.777 11746.726)\"><tspan x=\"-65.182\" y=\"0\">EYE FENCE</tspan></text>\n    <circle id=\"Ellipse_15\" data-name=\"Ellipse 15\" class=\"cls-desktop-pleasure-3\" cx=\"13.251\" cy=\"13.251\" r=\"13.251\" transform=\"matrix(-0.616, -0.788, 0.788, -0.616, 921.37, 11577.638)\"></circle>\n    <path id=\"Path_3789\" data-name=\"Path 3789\" class=\"cls-desktop-pleasure-4\" d=\"M159.188,0H0\" transform=\"translate(923.655 11721.732) rotate(-90)\"></path>\n    <path id=\"Path_3799\" data-name=\"Path 3799\" class=\"cls-desktop-pleasure-4\" d=\"M0,0H16.687\" transform=\"translate(923.755 11758.007) rotate(90)\"></path>\n    <text id=\"THERMO_CARBON\" data-name=\"THERMO CARBON\" class=\"cls-desktop-pleasure-2\" transform=\"translate(184.827 11517.832)\"><tspan x=\"0\" y=\"0\">THERMO CARBON</tspan></text>\n    <text id=\"PLASMACHROMATIC\" class=\"cls-desktop-pleasure-2\" transform=\"translate(402.015 11622.335)\"><tspan x=\"0\" y=\"0\">PLASMACHROMATIC</tspan></text>\n    <circle id=\"Ellipse_14\" data-name=\"Ellipse 14\" class=\"cls-desktop-pleasure-3\" cx=\"13.251\" cy=\"13.251\" r=\"13.251\" transform=\"translate(567.248 11431.58) rotate(-68)\"></circle>\n    <circle id=\"Ellipse_21\" data-name=\"Ellipse 21\" class=\"cls-desktop-pleasure-3\" cx=\"13.251\" cy=\"13.251\" r=\"13.251\" transform=\"translate(810.141 11536.082) rotate(-68)\"></circle>\n    <path id=\"Path_3788\" data-name=\"Path 3788\" class=\"cls-desktop-pleasure-4\" d=\"M66.1,16.722H196.439l-167.995-.3L0,0\" transform=\"translate(402.976 11509.747) rotate(-30)\"></path>\n    <path id=\"Path_3805\" data-name=\"Path 3805\" class=\"cls-desktop-pleasure-4\" d=\"M66.1,16.722H196.439l-167.995-.3L0,0\" transform=\"translate(645.869 11614.25) rotate(-30)\"></path>\n    <path id=\"Path_3801\" data-name=\"Path 3801\" class=\"cls-desktop-pleasure-4\" d=\"M10987.932-7288.254h16.688\" transform=\"translate(-10824.111 18796.543)\"></path>\n    <path id=\"Path_3806\" data-name=\"Path 3806\" class=\"cls-desktop-pleasure-4\" d=\"M10987.932-7288.254h16.688\" transform=\"translate(-10606.922 18901.045)\"></path>\n    <text id=\"M_CARBON\" data-name=\"M CARBON\" class=\"cls-desktop-pleasure-2\" transform=\"translate(215.408 11153.882)\"><tspan x=\"0\" y=\"0\">M CARBON</tspan></text>\n    <circle id=\"Ellipse_13\" data-name=\"Ellipse 13\" class=\"cls-desktop-pleasure-3\" cx=\"13.251\" cy=\"13.251\" r=\"13.251\" transform=\"matrix(0.788, -0.616, 0.616, 0.788, 448.732, 11143.827)\"></circle>\n    <path id=\"Path_3787\" data-name=\"Path 3787\" class=\"cls-desktop-pleasure-4\" d=\"M9988.376-7368.826H9875.5\" transform=\"translate(-9524.551 18514.938)\"></path>\n    <path id=\"Path_3802\" data-name=\"Path 3802\" class=\"cls-desktop-pleasure-4\" d=\"M10987.932-7288.254h16.688\" transform=\"translate(-10800.547 18434.848)\"></path>\n    <text id=\"LENS_Geometry\" data-name=\"LENS Geometry\" class=\"cls-desktop-pleasure-2\" transform=\"translate(204.015 11320.267)\"><tspan x=\"0\" y=\"0\">LENS GEOMETRY</tspan></text>\n    <circle id=\"Ellipse_20\" data-name=\"Ellipse 20\" class=\"cls-desktop-pleasure-3\" cx=\"13.251\" cy=\"13.251\" r=\"13.251\" transform=\"matrix(0.788, -0.616, 0.616, 0.788, 522.88, 11311.413)\"></circle>\n    <path id=\"Path_3803\" data-name=\"Path 3803\" class=\"cls-desktop-pleasure-4\" d=\"M10000.155-7368.826H9875.5\" transform=\"translate(-9462.181 18682.521)\"></path>\n    <path id=\"Path_3804\" data-name=\"Path 3804\" class=\"cls-desktop-pleasure-4\" d=\"M10987.932-7288.254h16.688\" transform=\"translate(-10815.766 18601.951)\"></path>\n  </g>\n</svg>",
+        "mobile_image": "shopify://shop_images/Pleasure_Mobile_Only_Image.svg",
+        "svg_mobile": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 970.222 588.516\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <defs>\n    <style>\n      .cls-1 {\n        fill: url(#pattern);\n      }\n\n      .cls-2 {\n        fill: #6b6b6b;\n        font-size: 28px;\n        font-family: Helvetica;\n      }\n\n      .cls-3 {\n        fill: none;\n        stroke: #e2a829;\n        stroke-width: 2px;\n      }\n\n      .cls-4 {\n        fill: #e2a829;\n      }\n    </style>\n    <pattern id=\"pattern\" width=\"1\" height=\"1\" viewbox=\"-10.913 -63.874 807.25 581.96\">\n      \n    </pattern>\n  </defs>\n  <g id=\"Group_4323\" data-name=\"Group 4323\" transform=\"translate(-33.086 -9117.188)\">\n    \n    <text id=\"THERMO_CARBON\" data-name=\"THERMO CARBON\" class=\"cls-2\" transform=\"translate(83.289 9351.462)\"><tspan x=\"0\" y=\"0\">THERMO</tspan><tspan x=\"0\" y=\"29\">CARBON</tspan></text>\n    <text id=\"PLASMACHROMATIC\" class=\"cls-2\" transform=\"translate(93.208 9573.277)\"><tspan x=\"0\" y=\"0\">PLASMACHROMATIC</tspan></text>\n    <text id=\"M_CARBON\" data-name=\"M CARBON\" class=\"cls-2\" transform=\"translate(67.533 9264.04)\"><tspan x=\"0\" y=\"0\">M CARBON</tspan></text>\n    <text id=\"LENS_Geometry\" data-name=\"LENS Geometry\" class=\"cls-2\" transform=\"translate(557.508 9699.703)\"><tspan x=\"-120.333\" y=\"0\">LENS GEOMETRY</tspan></text>\n    <path id=\"Path_3856\" data-name=\"Path 3856\" class=\"cls-3\" d=\"M70.218,0H0\" transform=\"translate(864.574 9415.447) rotate(-90)\"></path>\n    <path id=\"Path_3860\" data-name=\"Path 3860\" class=\"cls-3\" d=\"M70.218,0H0\" transform=\"translate(227.622 9254.942)\"></path>\n    <path id=\"Path_3862\" data-name=\"Path 3862\" class=\"cls-3\" d=\"M117.723,0H0\" transform=\"translate(214.708 9357.376)\"></path>\n    <path id=\"Path_3859\" data-name=\"Path 3859\" class=\"cls-3\" d=\"M150.328,0H0\" transform=\"translate(558.266 9668.72) rotate(-90)\"></path>\n    <path id=\"Path_3857\" data-name=\"Path 3857\" class=\"cls-3\" d=\"M0,0H15.262\" transform=\"translate(864.574 9505.967) rotate(-90)\"></path>\n    <path id=\"Path_3861\" data-name=\"Path 3861\" class=\"cls-3\" d=\"M0,0H15.262\" transform=\"translate(33.086 9255.165)\"></path>\n    <path id=\"Path_3863\" data-name=\"Path 3863\" class=\"cls-3\" d=\"M0,0H15.262\" transform=\"translate(59.902 9357.819)\"></path>\n    <text id=\"M_ICON_ATOMIC_13\" data-name=\"M ICON / ATOMIC 13\" class=\"cls-2\" transform=\"translate(864.574 9445.795)\"><tspan x=\"-58.331\" y=\"0\">M ICON /</tspan><tspan x=\"-72.625\" y=\"29\">ATOMIC 13</tspan></text>\n    <text id=\"EYE_FENCE\" data-name=\"EYE FENCE\" class=\"cls-2\" transform=\"translate(735.552 9626.91)\"><tspan x=\"0\" y=\"0\">EYE FENCE</tspan></text>\n    <ellipse id=\"Ellipse_42\" data-name=\"Ellipse 42\" class=\"cls-4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"translate(849.021 9338.531) rotate(-22)\"></ellipse>\n    <ellipse id=\"Ellipse_45\" data-name=\"Ellipse 45\" class=\"cls-4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"translate(304.538 9239.389) rotate(68)\"></ellipse>\n    <ellipse id=\"Ellipse_46\" data-name=\"Ellipse 46\" class=\"cls-4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"translate(339.129 9341.822) rotate(68)\"></ellipse>\n    <ellipse id=\"Ellipse_44\" data-name=\"Ellipse 44\" class=\"cls-4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"translate(542.712 9511.694) rotate(-22)\"></ellipse>\n    <ellipse id=\"Ellipse_35\" data-name=\"Ellipse 35\" class=\"cls-4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"matrix(-0.788, 0.616, -0.616, -0.788, 646.589, 9508.147)\"></ellipse>\n    <ellipse id=\"Ellipse_43\" data-name=\"Ellipse 43\" class=\"cls-4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"matrix(-0.788, 0.616, -0.616, -0.788, 501.036, 9453.247)\"></ellipse>\n    <path id=\"Path_3864\" data-name=\"Path 3864\" class=\"cls-3\" d=\"M0,0H15.262\" transform=\"translate(68.026 9563.855)\"></path>\n    <path id=\"Path_3880\" data-name=\"Path 3880\" class=\"cls-3\" d=\"M14653.171-4765.624l-62.985,112.7h-33.122\" transform=\"translate(-14169.915 14216.783)\"></path>\n    <path id=\"Path_3881\" data-name=\"Path 3881\" class=\"cls-3\" d=\"M14557.063-4765.624l62.98,112.7h33.127\" transform=\"translate(-13927.487 14271.591)\"></path>\n    <path id=\"Path_3882\" data-name=\"Path 3882\" class=\"cls-3\" d=\"M0,0H15.262\" transform=\"translate(903.42 9617.236)\"></path>\n    <text id=\"RES_\" data-name=\"RES+\" class=\"cls-2\" transform=\"translate(127.459 9448.446)\"><tspan x=\"0\" y=\"0\">RES+</tspan></text>\n    <path id=\"Path_3885\" data-name=\"Path 3885\" class=\"cls-3\" d=\"M145.726,0H0\" transform=\"translate(211.708 9439.349)\"></path>\n    <path id=\"Path_3886\" data-name=\"Path 3886\" class=\"cls-3\" d=\"M0,0H15.262\" transform=\"translate(107.904 9439.571)\"></path>\n    <ellipse id=\"Ellipse_47\" data-name=\"Ellipse 47\" class=\"cls-4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"translate(359.156 9423.795) rotate(68)\"></ellipse>\n  </g>\n</svg>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 50,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "173465b1-f4cf-46fc-9f10-1e7428d7efae": {
+      "type": "rich-text",
+      "disabled": true,
+      "custom_css": [
+        ".vertical-breather {padding-top: 0;}",
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
+        "@media screen and (min-width: 750px) {h3 {font-size: 32px; margin-bottom: 1rem; }}",
+        "li {font-size: 18px; margin: 0; padding: 0;}",
+        "@media screen and (min-width: 750px) {li {font-size: 26px; }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<h3>Lens Technology</h3><ul><li>Lens Geometry: Ai assisted 3 axis correction for prismatic distortion and refractive power.</li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.</li><li>Polarized: High- performance coating blocking 99.9% of reflective glare.</li><li>Eye Fence: Impact resistance for maximum eye protection.</li><li>Res+: Ultra-Definition optical clarity reducing distortion while offering a wider field of view.</li></ul><h3>Materials</h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.</li><li> Atomic 13: Blended Aluminum used for toughness, lightness, and strength.</li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.</li></ul>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "left",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": false,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "627d2560-695a-46ac-b6d9-5123f3b028c5": {
+      "type": "rich-text-image",
+      "custom_css": [
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}",
+        "@media screen and (min-width: 750px) {h3 {text-align: left; font-size: 32px; font-weight: 300; margin-bottom: 1rem; }}",
+        "li {font-size: 18px; margin: 0; padding: 0;}",
+        "@media screen and (min-width: 750px) {li {font-size: 20px; }}",
+        "ul {text-align: left;}"
+      ],
+      "settings": {
+        "title": "Business",
+        "subheading": "",
+        "content": "<h3>Lens Technology</h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.</li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.</li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.</li><li>Eye Fence: Impact resistance for maximum eye protection.</li><li>Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.</li></ul><h3>Materials</h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.</li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.</li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.</li></ul>",
+        "image": "shopify://shop_images/Business_Desktop_Only_Image.svg",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 2468.391 881.486\">\n  <defs>\n    <pattern id=\"pattern\" width=\"1\" height=\"1\" viewbox=\"-665.798 596.105 3878.521 1276.182\"></pattern>\n    <style>\n      .cls-desktop-business3{fill:#6b6b6b;font-size:23px;font-family:Helvetica}.cls-desktop-business4{fill:#e2a829}.cls-desktop-business5{fill:none;stroke:#e2a829;stroke-width:1.5px}\n    </style>\n  </defs>\n  <g id=\"Group_4322\" data-name=\"Group 4322\" transform=\"translate(45.838 -12814.757)\">\n    <g id=\"Group_4252\" data-name=\"Group 4252\" transform=\"translate(1359.238 13132.809)\">\n      <text id=\"M_ICON_ATOMIC_13\" class=\"cls-desktop-business3\" data-name=\"M ICON / ATOMIC 13\" transform=\"translate(124.647 136.366)\"><tspan x=\"0\" y=\"0\">M ICON / ATOMIC 13</tspan></text>\n      <circle id=\"Ellipse_18\" cx=\"12.89\" cy=\"12.89\" r=\"12.89\" class=\"cls-desktop-business4\" data-name=\"Ellipse 18\" transform=\"rotate(-158 15.213 14.457)\"></circle>\n      <path id=\"Path_3792\" d=\"M145.047 0H16.86L0 29.2\" class=\"cls-desktop-business5\" data-name=\"Path 3792\" transform=\"rotate(-120 87.462 46.402)\"></path>\n      <path id=\"Path_3794\" d=\"M10987.93-7288.254h16.233\" class=\"cls-desktop-business5\" data-name=\"Path 3794\" transform=\"translate(-10637.909 7418.152)\"></path>\n    </g>\n    <text id=\"RES_\" class=\"cls-desktop-business3\" data-name=\"RES +\" transform=\"translate(1142.776 13520.953)\"><tspan x=\"0\" y=\"0\">RES +</tspan></text>\n    <circle id=\"Ellipse_18-2\" cx=\"12.89\" cy=\"12.89\" r=\"12.89\" class=\"cls-desktop-business4\" data-name=\"Ellipse 18\" transform=\"rotate(-158 1794.458 6613.76)\"></circle>\n    <path id=\"Path_3792-2\" d=\"M174.683 0H46.5L29.636 29.2 0 80.532\" class=\"cls-desktop-business5\" data-name=\"Path 3792\" transform=\"rotate(-120 4444.472 6471.05)\"></path>\n    <path id=\"Path_3794-2\" d=\"M10987.93-7288.254h16.233\" class=\"cls-desktop-business5\" data-name=\"Path 3794\" transform=\"translate(-9767.734 20802.738)\"></path>\n    <text id=\"EYE_FENCE\" class=\"cls-desktop-business3\" data-name=\"EYE FENCE\" transform=\"translate(876.98 13603.71)\"><tspan x=\"-65.182\" y=\"0\">EYE FENCE</tspan></text>\n    <circle id=\"Ellipse_15\" cx=\"12.89\" cy=\"12.89\" r=\"12.89\" class=\"cls-desktop-business4\" data-name=\"Ellipse 15\" transform=\"rotate(-128.03 3716.674 6504.332)\"></circle>\n    <path id=\"Path_3789\" d=\"M154.851 0H0\" class=\"cls-desktop-business5\" data-name=\"Path 3789\" transform=\"rotate(-90 7231.432 6348.476)\"></path>\n    <path id=\"Path_3799\" d=\"M0 0h16.232\" class=\"cls-desktop-business5\" data-name=\"Path 3799\" transform=\"rotate(90 -6366.071 7249.123)\"></path>\n    <text id=\"THERMO_CARBON\" class=\"cls-desktop-business3\" data-name=\"THERMO CARBON\" transform=\"translate(164.257 13381.054)\"><tspan x=\"0\" y=\"0\">THERMO CARBON</tspan></text>\n    <text id=\"PLASMACHROMATIC\" class=\"cls-desktop-business3\" transform=\"translate(375.528 13482.709)\"><tspan x=\"0\" y=\"0\">PLASMACHROMATIC</tspan></text>\n    <circle id=\"Ellipse_14\" cx=\"12.89\" cy=\"12.89\" r=\"12.89\" class=\"cls-desktop-business4\" data-name=\"Ellipse 14\" transform=\"rotate(-68 10125.426 6251.312)\"></circle>\n    <circle id=\"Ellipse_21\" cx=\"12.89\" cy=\"12.89\" r=\"12.89\" class=\"cls-desktop-business4\" data-name=\"Ellipse 21\" transform=\"rotate(-68 10318.918 6126.994)\"></circle>\n    <path id=\"Path_3788\" d=\"M64.3 16.267h126.787L27.67 15.975 0 0\" class=\"cls-desktop-business5\" data-name=\"Path 3788\" transform=\"rotate(-30 25143.893 5984.362)\"></path>\n    <path id=\"Path_3805\" d=\"M64.3 16.267h126.787L27.67 15.975 0 0\" class=\"cls-desktop-business5\" data-name=\"Path 3805\" transform=\"rotate(-30 25451.721 5594.294)\"></path>\n    <path id=\"Path_3801\" d=\"M10987.93-7288.254h16.233\" class=\"cls-desktop-business5\" data-name=\"Path 3801\" transform=\"translate(-10844.106 20660.533)\"></path>\n    <path id=\"Path_3806\" d=\"M10987.93-7288.254h16.233\" class=\"cls-desktop-business5\" data-name=\"Path 3806\" transform=\"translate(-10632.835 20762.188)\"></path>\n    <g id=\"Group_4251\" data-name=\"Group 4251\" transform=\"translate(166.745 13001.877)\">\n      <text id=\"M_CARBON\" class=\"cls-desktop-business3\" data-name=\"M CARBON\" transform=\"translate(24.342 26.143)\"><tspan x=\"0\" y=\"0\">M CARBON</tspan></text>\n      <circle id=\"Ellipse_13\" cx=\"12.89\" cy=\"12.89\" r=\"12.89\" class=\"cls-desktop-business4\" data-name=\"Ellipse 13\" transform=\"rotate(-38 150.031 -361.072)\"></circle>\n      <path id=\"Path_3787\" d=\"M9985.3-7368.826h-109.8\" class=\"cls-desktop-business5\" data-name=\"Path 3787\" transform=\"translate(-9716.391 7386.92)\"></path>\n      <path id=\"Path_3802\" d=\"M10987.93-7288.254h16.233\" class=\"cls-desktop-business5\" data-name=\"Path 3802\" transform=\"translate(-10987.93 7306.816)\"></path>\n    </g>\n    <text id=\"LENS_Geometry\" class=\"cls-desktop-business3\" data-name=\"LENS Geometry\" transform=\"translate(174.989 13189.871)\"><tspan x=\"0\" y=\"0\">LENS GEOMETRY</tspan></text>\n    <circle id=\"Ellipse_20\" cx=\"12.89\" cy=\"12.89\" r=\"12.89\" class=\"cls-desktop-business4\" data-name=\"Ellipse 20\" transform=\"rotate(-38 19377.688 5868.458)\"></circle>\n    <path id=\"Path_3803\" d=\"M9996.758-7368.826H9875.5\" class=\"cls-desktop-business5\" data-name=\"Path 3803\" transform=\"translate(-9488.976 20551.814)\"></path>\n    <path id=\"Path_3804\" d=\"M10987.93-7288.254h16.233\" class=\"cls-desktop-business5\" data-name=\"Path 3804\" transform=\"translate(-10835.988 20471.244)\"></path>\n  </g>\n</svg>",
+        "mobile_image": "shopify://shop_images/Business_Mobile_Only_Image.svg",
+        "svg_mobile": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 970.09 714.749\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <defs>\n    <style>\n      .cls-mobile-business1 {\n        fill: url(#pattern);\n      }\n\n      .cls-mobile-business2 {\n        fill: #6b6b6b;\n        font-size: 28px;\n        font-family: Helvetica;\n      }\n\n      .cls-mobile-business3 {\n        fill: none;\n        stroke: #e2a829;\n        stroke-width: 2px;\n      }\n\n      .cls-mobile-business4 {\n        fill: #e2a829;\n      }\n    </style>\n    \n  </defs>\n  <g id=\"Group_4324\" data-name=\"Group 4324\" transform=\"translate(-33.218 -10608.777)\">\n    \n    <text id=\"THERMO_CARBON\" data-name=\"THERMO CARBON\" class=\"cls-mobile-business2\" transform=\"translate(89.971 10950.479)\"><tspan x=\"0\" y=\"0\">THERMO</tspan><tspan x=\"0\" y=\"29\">CARBON</tspan></text>\n    <text id=\"PLASMACHROMATIC\" class=\"cls-mobile-business2\" transform=\"translate(111.823 11172.295)\"><tspan x=\"0\" y=\"0\">PLASMACHROMATIC</tspan></text>\n    <text id=\"M_CARBON\" data-name=\"M CARBON\" class=\"cls-mobile-business2\" transform=\"translate(57.771 10863.058)\"><tspan x=\"0\" y=\"0\">M CARBON</tspan></text>\n    <text id=\"LENS_Geometry\" data-name=\"LENS Geometry\" class=\"cls-mobile-business2\" transform=\"translate(567.334 11298.721)\"><tspan x=\"-120.333\" y=\"0\">LENS GEOMETRY</tspan></text>\n    <path id=\"Path_3856\" data-name=\"Path 3856\" class=\"cls-mobile-business3\" d=\"M70.218,0H0\" transform=\"translate(876.706 11014.465) rotate(-90)\"></path>\n    <path id=\"Path_3860\" data-name=\"Path 3860\" class=\"cls-mobile-business3\" d=\"M74.705,0H0\" transform=\"translate(215.971 10853.96)\"></path>\n    <path id=\"Path_3862\" data-name=\"Path 3862\" class=\"cls-mobile-business3\" d=\"M117.723,0H0\" transform=\"translate(226.84 10956.394)\"></path>\n    <path id=\"Path_3859\" data-name=\"Path 3859\" class=\"cls-mobile-business3\" d=\"M150.328,0H0\" transform=\"translate(570.397 11267.737) rotate(-90)\"></path>\n    <path id=\"Path_3857\" data-name=\"Path 3857\" class=\"cls-mobile-business3\" d=\"M0,0H15.262\" transform=\"translate(876.706 11104.984) rotate(-90)\"></path>\n    <path id=\"Path_3861\" data-name=\"Path 3861\" class=\"cls-mobile-business3\" d=\"M0,0H15.262\" transform=\"translate(33.218 10854.183)\"></path>\n    <path id=\"Path_3863\" data-name=\"Path 3863\" class=\"cls-mobile-business3\" d=\"M0,0H15.262\" transform=\"translate(61.077 10956.837)\"></path>\n    <path id=\"Path_3858\" data-name=\"Path 3858\" class=\"cls-mobile-business3\" d=\"M0,0H15.262\" transform=\"translate(569.64 11323.526) rotate(-90)\"></path>\n    <text id=\"M_ICON_ATOMIC_13\" data-name=\"M ICON / ATOMIC 13\" class=\"cls-mobile-business2\" transform=\"translate(876.93 11044.813)\"><tspan x=\"-58.331\" y=\"0\">M ICON /</tspan><tspan x=\"-72.625\" y=\"29\">ATOMIC 13</tspan></text>\n    <text id=\"EYE_FENCE\" data-name=\"EYE FENCE\" class=\"cls-mobile-business2\" transform=\"translate(744.684 11225.928)\"><tspan x=\"0\" y=\"0\">EYE FENCE</tspan></text>\n    <ellipse id=\"Ellipse_42\" data-name=\"Ellipse 42\" class=\"cls-mobile-business4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"translate(861.152 10937.549) rotate(-22)\"></ellipse>\n    <ellipse id=\"Ellipse_45\" data-name=\"Ellipse 45\" class=\"cls-mobile-business4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"translate(292.398 10838.406) rotate(68)\"></ellipse>\n    <ellipse id=\"Ellipse_46\" data-name=\"Ellipse 46\" class=\"cls-mobile-business4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"translate(351.261 10940.84) rotate(68)\"></ellipse>\n    <ellipse id=\"Ellipse_44\" data-name=\"Ellipse 44\" class=\"cls-mobile-business4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"translate(554.844 11110.712) rotate(-22)\"></ellipse>\n    <ellipse id=\"Ellipse_35\" data-name=\"Ellipse 35\" class=\"cls-mobile-business4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"matrix(-0.788, 0.616, -0.616, -0.788, 658.721, 11107.165)\"></ellipse>\n    <ellipse id=\"Ellipse_43\" data-name=\"Ellipse 43\" class=\"cls-mobile-business4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"matrix(-0.788, 0.616, -0.616, -0.788, 513.168, 11052.265)\"></ellipse>\n    <path id=\"Path_3864\" data-name=\"Path 3864\" class=\"cls-mobile-business3\" d=\"M0,0H15.262\" transform=\"translate(89.971 11162.873)\"></path>\n    <path id=\"Path_3880\" data-name=\"Path 3880\" class=\"cls-mobile-business3\" d=\"M14653.171-4765.624l-62.985,112.7h-33.122\" transform=\"translate(-14157.783 15815.801)\"></path>\n    <path id=\"Path_3881\" data-name=\"Path 3881\" class=\"cls-mobile-business3\" d=\"M14557.063-4765.624l62.98,112.7h33.127\" transform=\"translate(-13915.355 15870.608)\"></path>\n    <path id=\"Path_3882\" data-name=\"Path 3882\" class=\"cls-mobile-business3\" d=\"M0,0H15.262\" transform=\"translate(910.552 11216.254)\"></path>\n    <text id=\"RES_\" data-name=\"RES+\" class=\"cls-mobile-business2\" transform=\"translate(117.156 11051.446)\"><tspan x=\"0\" y=\"0\">RES+</tspan></text>\n    <path id=\"Path_3887\" data-name=\"Path 3887\" class=\"cls-mobile-business3\" d=\"M145.726,0H0\" transform=\"translate(201.406 11042.349)\"></path>\n    <path id=\"Path_3888\" data-name=\"Path 3888\" class=\"cls-mobile-business3\" d=\"M0,0H15.262\" transform=\"translate(97.602 11042.571)\"></path>\n    <ellipse id=\"Ellipse_48\" data-name=\"Ellipse 48\" class=\"cls-mobile-business4\" cx=\"12.12\" cy=\"12.12\" rx=\"12.12\" ry=\"12.12\" transform=\"translate(348.854 11026.795) rotate(68)\"></ellipse>\n  </g>\n</svg>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 50,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "b4316874-c722-44c5-8a75-11e6af86aafd": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify://shop_images/M_Tech_Page_Desktop_Business.jpg",
+        "mobile_image": "shopify://shop_images/M_Tech_Page_Mobile_Business.jpg",
+        "title": "Business",
+        "title_mobile": "",
+        "subheading": "",
+        "subheading_mobile": "",
+        "content": "",
+        "panel_link": "",
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 40,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "font_scale": "default",
+        "overlay_content_position": "top-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "text_align_desktop": "center",
+        "text_align_mobile": "center",
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000000",
+        "heading_drop_shadow_opacity": 40,
+        "nudge_subheading_y-axis_mobile": 0,
+        "nudge_subheading_y-axis_desktop": -2,
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": true,
+        "max_width_container": false,
+        "background_type": "full_width",
+        "text_color": "#6b6b6b",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "3b299353-4adc-45bc-8bd2-bdfae82a6b2f": {
+      "type": "frame-compare",
+      "blocks": {
+        "4dcbe9e5-b3fb-440f-8367-d89c0053eca6": {
+          "type": "frame",
+          "settings": {
+            "title": "Gigawatt",
+            "image": "shopify://shop_images/Gigawatt_2c3f2356-41fc-4f6a-8671-7f3d7589e1b2.png",
+            "specs": "LENS GEOMETRY….………………9-BASE\nLENS HEIGHT………………………42 mm\nLENS WIDTH…………..……………63 mm\nFRAME WIDTH……….…………….143 mm\nTEMPLE LENGTH…….……………136 mm\nWEIGHT…………………….……….33 g"
+          }
+        },
+        "047e06af-e196-4486-915a-59cf8ee2df31": {
+          "type": "frame",
+          "settings": {
+            "title": "Jigawatt",
+            "image": "shopify://shop_images/Jigawatt_1000x1400_57faefea-4abd-4d33-90e7-1841508be171.jpg",
+            "specs": "LENS GEOMETRY….………………9-BASE\nLENS HEIGHT………………………38 mm\nLENS WIDTH…………..……………59 mm\nFRAME WIDTH……….…………….143 mm\nTEMPLE LENGTH…….……………138 mm\nWEIGHT…………………….……….32 g"
+          }
+        },
+        "f8c2289f-7ede-4f14-837c-4bd21039f1ee": {
+          "type": "frame",
+          "settings": {
+            "title": "Pleasure",
+            "image": "shopify://shop_images/Pleasure.png",
+            "specs": "LENS GEOMETRY…………………6-BASE\nLENS HEIGHT………………………40 mm\nLENS WIDTH……….………………53 mm\nFRAME WIDTH…………………….148 mm\nTEMPLE LENGTH…………………134 mm\nWEIGHT…………………………….38 g"
+          }
+        },
+        "90cff8e1-d4c4-4f2f-8d89-b5b9c8a34416": {
+          "type": "frame",
+          "settings": {
+            "title": "Business",
+            "image": "shopify://shop_images/Business.png",
+            "specs": "LENS GEOMETRY…….……………4-BASE\nLENS HEIGHT………………………37 mm\nLENS WIDTH……………..…………52 mm\nFRAME WIDTH…………….……….144 mm\nTEMPLE LENGTH………….………137 mm\nWEIGHT………………………….….31 g"
+          }
+        }
+      },
+      "block_order": [
+        "4dcbe9e5-b3fb-440f-8367-d89c0053eca6",
+        "047e06af-e196-4486-915a-59cf8ee2df31",
+        "f8c2289f-7ede-4f14-837c-4bd21039f1ee",
+        "90cff8e1-d4c4-4f2f-8d89-b5b9c8a34416"
+      ],
+      "settings": {
+        "heading": "Frame \nComparison Chart",
+        "background": "#ffffff",
+        "text_color": "#6b6b6b"
+      }
+    },
+    "39bbc60e-9d45-43e2-8e2d-19faa3687d75": {
+      "type": "gallery",
+      "blocks": {
+        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Exp_Gallery_03_copy.png",
+            "caption": ""
+          }
+        },
+        "ee2ac64b-a1d1-4f6c-b052-d283758eb08f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0_2.png",
+            "caption": ""
+          }
+        },
+        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Exp_Gallery_04_copy.png",
+            "caption": ""
+          }
+        },
+        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Exp_Gallery_05_copy.png",
+            "caption": ""
+          }
+        },
+        "61abb05b-f3e4-4ef3-99ed-42373ce9e9dd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Exp_Gallery_04.png",
+            "caption": ""
+          }
+        },
+        "2f0349b5-7181-48f7-ae41-6258a5c243b7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Exp_Gallery_02_copy.png",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-0",
+        "ee2ac64b-a1d1-4f6c-b052-d283758eb08f",
+        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-2",
+        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-1",
+        "61abb05b-f3e4-4ef3-99ed-42373ce9e9dd",
+        "2f0349b5-7181-48f7-ae41-6258a5c243b7"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_arrows": true,
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7c397d8b-4535-435d-a70f-4a09d1f10ae7",
+    "2c979ee6-673b-4b74-aa6c-9208ec62a8e1",
+    "bfde50f9-1a96-47a9-a50a-eddd33fa45ff",
+    "fe014da0-6a33-405c-b4b7-9096fdd9915d",
+    "b94428e8-336a-4948-b3fb-06ee7f4aae6a",
+    "ceb17ac0-fbaa-45b9-b438-a9694758bd82",
+    "7b4de6a6-15a3-4cf6-ab2d-d9894c2aa7cd",
+    "867df809-77d4-4790-a98d-372e5b2ca373",
+    "7dbe9f48-ac28-4c45-b40a-b87015168b00",
+    "3f84c371-f546-4f31-9b3f-6d062ab35bfb",
+    "f692ea7a-b838-480d-ac3b-fecda68d3a83",
+    "085f62b4-2c5f-461b-ba58-bd2987c9ab10",
+    "2c357457-e660-4c02-a8d3-688ddfd1a6c6",
+    "87091a3e-5730-4415-8543-98a811cbac59",
+    "a933221b-0b97-48e2-bc7f-44b022510c0b",
+    "d0e7fa1a-2bcd-4461-8f46-1cf260febdce",
+    "3bfe0b16-525e-4da9-b47b-6066778cd29b",
+    "94005b04-1d9a-40aa-8fc8-764c88a00b1d",
+    "d055788d-85a4-4fb3-9150-d49a2881728c",
+    "173465b1-f4cf-46fc-9f10-1e7428d7efae",
+    "627d2560-695a-46ac-b6d9-5123f3b028c5",
+    "b4316874-c722-44c5-8a75-11e6af86aafd",
+    "3b299353-4adc-45bc-8bd2-bdfae82a6b2f",
+    "39bbc60e-9d45-43e2-8e2d-19faa3687d75"
+  ]
+}

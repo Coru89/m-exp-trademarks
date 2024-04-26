@@ -1,0 +1,128 @@
+{{ 'frame-compare.css' | asset_url | stylesheet_tag }}
+
+<style>
+    #shopify-section-{{ section.id }} {
+      {%- if section.settings.background == 'rgba(0,0,0,0)' -%}
+        {%- assign section_background = settings.background -%}
+      {%- else -%}
+        {%- assign section_background = section.settings.background -%}
+      {%- endif -%}
+  
+      {%- if section.settings.text_color == 'rgba(0,0,0,0)' -%}
+        {%- assign heading_color = settings.heading_color -%}
+        {%- assign text_color = settings.text_color -%}
+      {%- else -%}
+        {%- assign heading_color = section.settings.text_color -%}
+        {%- assign text_color = section.settings.text_color -%}
+      {%- endif -%}
+  
+      --heading-color: {{ heading_color.red }}, {{ heading_color.green }}, {{ heading_color.blue }};
+      --text-color: {{ text_color.red }}, {{ text_color.green }}, {{ text_color.blue }};
+      --prev-next-button-background: {{ settings.background.red }}, {{ settings.background.green }}, {{ settings.background.blue }};
+      --prev-next-button-color: {{ settings.text_color.red }}, {{ settings.text_color.green }}, {{ settings.text_color.blue }};
+  
+      --section-background: {{ section_background.red }}, {{ section_background.green }}, {{ section_background.blue }};
+    }
+</style>
+    
+<section class="section section__color-wrapper section--flush">
+    <div class="container">
+        {%- if section.settings.heading != blank -%}
+            <h2 
+                class="heading h2 frame-compare__heading"
+            >
+                <split-lines>
+                {{ section.settings.heading | newline_to_br }} 
+                </split-lines>
+            </h2>
+        {%- endif -%}
+
+        {%- for block in section.blocks -%}
+            <ul class="frame-compare__list">
+                <div class="frame-compare__item">
+                    <div class="frame-compare__column">
+                        <h3 class="h3 frame-compare__title">
+                            {{ block.settings.title }} 
+                        </h3>
+                        {%- assign image = block.settings.image -%}
+                        <div class="frame-compare__image-wrapper">
+                            {{ image | image_url: width: image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
+                        </div> 
+                    </div>
+
+
+                    <div class="frame-compare__specs">
+                        {{ block.settings.specs | newline_to_br }} 
+                    </div>
+                </div>
+            </ul>
+        {%- endfor -%}
+    </div>
+
+</section>
+
+    {% schema %}
+      {
+      "name": "Frame Comparison",
+      "max_blocks": 6,
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Frame Comparison Chart"
+        },
+        {
+            "type": "header",
+            "content": "Colors"
+          },
+          {
+            "type": "color",
+            "id": "background",
+            "label": "Background",
+            "default": "rgba(0,0,0,0)"
+          },
+          {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text color",
+            "default": "rgba(0,0,0,0)"
+          }
+      ],
+      "blocks": [
+        {
+          "name": "Frame",
+          "type": "frame",
+          "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Title"
+              },
+              {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+              },
+              {
+                "type": "textarea",
+                "id": "specs",
+                "label": "Specs"
+              }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Frame Comparison"
+        }
+      ]
+    }  
+    {% endschema %}
+    
+    {% stylesheet %}
+    {% endstylesheet %}
+    
+    {% javascript %}
+    {% endjavascript %}

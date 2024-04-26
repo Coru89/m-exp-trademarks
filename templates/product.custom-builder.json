@@ -1,0 +1,159 @@
+{
+  "sections": {
+    "1710568981fde53136": {
+      "type": "apps",
+      "blocks": {
+        "cpb_custom_product_builder_customproductbuilder_dawn_CbntPc": {
+          "type": "shopify://apps/cpb-custom-product-builder/blocks/customproductbuilder-dawn/b7770087-aa6d-4fd6-8268-128702bb3d67",
+          "settings": {
+            "personalize_it": false,
+            "personalizeit-button-text": "Personalize & Add To Cart",
+            "builder-version": "",
+            "builder-server": ""
+          }
+        }
+      },
+      "block_order": [
+        "cpb_custom_product_builder_customproductbuilder_dawn_CbntPc"
+      ],
+      "custom_css": [
+        ".cpb-loader-version {display: none;}"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "variant_image",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "#e2a829",
+            "atc_button_text_color": "#191919",
+            "buy_now_button_background": "#e2a829",
+            "buy_now_button_text_color": "#191919"
+          }
+        },
+        "text_VnU7MY": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>We will be conducting annual maintenance starting at 9:00am PST on January 30, 2024.  All orders placed after 9:00am PST on January 30th will be shipped promptly on Friday, February 2nd.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "text_VnU7MY"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".container .breadcrumb {display: none;}",
+        ".rio-options {background-color: rgba(255, 0, 0, 0.7); border: red 9px solid;}"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": true,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "fade"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "b2f293a2-bff2-409e-8f17-ebb0c92b28de": {
+          "type": "trust",
+          "settings": {
+            "icon_1": "picto-return-box",
+            "title_1": "Shipping & Returns",
+            "content_1": "<p>We stand by our quality and second-to-none craftsmanship.</p><ul><li>Free shipping for all online orders above $100 to all 50 U.S. states</li><li>Free returns for all orders within 30 days.</li></ul><p></p>",
+            "icon_2": "picto-warranty",
+            "title_2": "Warranty",
+            "content_2": "<p>M-Experiment eyewear is built to last and so is our warranty.  We’ve got you covered for an unprecedented two years against breakage due to material<br/> or quality defect (not including scratched lenses). <a href=\"https://m-experiment.zendesk.com/hc/categories/10522766190363-Warranty-Repairs\" title=\"M-Experiment Warranty and Returns\">Click here</a> for full warranty information. </p><p></p>",
+            "icon_3": "picto-secure-payment",
+            "title_3": "Secure Payment",
+            "content_3": "<p>Our online store is certified Level 1 PCI DSS compliant.  Protecting our customers is a top priority, so you can rest easy knowing that your payment is completely secure.</p><p></p>",
+            "title_4": "CA Prop 65 Warning",
+            "content_4": "<p><strong>WARNING</strong>. This Product can expose you to chemicals, including Bisphenol A (BPA), which is known to the State of California to cause cancer and birth defects or other reproductive<br/> harm. For more information go to <a href=\"http://www.P65Warnings.ca.gov\" target=\"_blank\" title=\"http://www.P65Warnings.ca.gov\">www.P65Warnings.ca.gov</a>.</p><p></p>"
+          }
+        },
+        "cc2942b1-cea6-4a49-8332-469adec51ff8": {
+          "type": "reviews",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "variant_description_app_block_xWJNDf": {
+          "type": "shopify://apps/variant-description/blocks/app-block/dee11698-5b0b-4a0f-9562-ea29cbe9c77e",
+          "settings": {
+            "show_product_description": true,
+            "css_class": "rte",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "b2f293a2-bff2-409e-8f17-ebb0c92b28de",
+        "cc2942b1-cea6-4a49-8332-469adec51ff8",
+        "variant_description_app_block_xWJNDf"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media screen and (min-width: 1000px) {.product-content__tabs:only-child {width: 100%; }}"
+      ],
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "products": [
+
+        ],
+        "background": "#ffffff",
+        "text_color": "#191919"
+      }
+    }
+  },
+  "order": [
+    "1710568981fde53136",
+    "main",
+    "product-content",
+    "product-recommendations"
+  ]
+}

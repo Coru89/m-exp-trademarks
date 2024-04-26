@@ -1,0 +1,296 @@
+.past-collection {
+  padding: 2rem 0 0;
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  /* Chrome, Edge, and Safari */ }
+  @media screen and (min-width: 1000px) {
+    .past-collection {
+      padding: 4rem 0 0; } }
+  .past-collection__heading {
+    color: #fff;
+    display: inline-block;
+    font-size: 42px;
+    font-size: clamp(42px, calc(4vw + 1rem), 1100px);
+    margin-left: -1.2%;
+    margin: 0;
+    padding: calc(.75rem + 1%) 0 1%;
+    position: relative;
+    text-align: center; }
+    .past-collection__heading::before {
+      background-color: #fff;
+      content: '';
+      display: block;
+      height: 2px;
+      left: .5rem;
+      position: absolute;
+      right: .5rem;
+      top: 0;
+      width: calc(100% - 1rem); }
+    .past-collection__heading::after {
+      background-color: #fff;
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 2px;
+      left: .5rem;
+      position: absolute;
+      right: .5rem;
+      width: calc(100% - 1rem); }
+    @media screen and (min-width: 400px) {
+      .past-collection__heading {
+        font-size: clamp(42px, calc(8.5vw + 1rem), 1100px);
+        padding-top: 1rem;
+        padding: calc(1rem + 1%) 0 1%; } }
+    @media screen and (min-width: 740px) {
+      .past-collection__heading {
+        font-size: clamp(42px, calc(9vw + 1rem), 1100px);
+        padding-top: 1.5rem;
+        padding: calc(1.5rem + 1%) 0 1%; } }
+    @media screen and (min-width: 1000px) {
+      .past-collection__heading {
+        font-size: clamp(42px, calc(5.75vw + 1rem), 1100px);
+        line-height: 1; } }
+    @media screen and (min-width: 1200px) {
+      .past-collection__heading {
+        font-size: clamp(42px, calc(6vw + 1rem), 1100px);
+        padding-top: 1.75rem;
+        padding: calc(1.75rem + 1%) 0 1%; }
+        .past-collection__heading::before, .past-collection__heading::after {
+          height: 3px; } }
+    @media screen and (min-width: 1400px) {
+      .past-collection__heading {
+        font-size: clamp(42px, calc(6.25vw + 1rem), 1100px);
+        padding-top: 2rem;
+        padding: calc(2rem + 1%) 0 1%; } }
+    @media screen and (min-width: 16100px) {
+      .past-collection__heading {
+        font-size: clamp(42px, calc(9.5vw + 1rem), 1100px);
+        padding-top: 1%;
+        padding: calc(3rem + 1%) 0 1%; }
+        .past-collection__heading::before, .past-collection__heading::after {
+          height: 4px; } }
+  .past-collection__frame-subheading {
+    font-family: "Helvetica Neue", var(--text-font-family);
+    font-size: clamp(14px, calc(.5vw + 1rem), 30px);
+    margin: 0 auto;
+    text-align: center; }
+    @media screen and (min-width: 400px) {
+      .past-collection__frame-subheading {
+        font-size: clamp(14px, calc(.5vw + 1rem), 30px); } }
+    @media screen and (min-width: 740px) {
+      .past-collection__frame-subheading {
+        font-size: clamp(16px, calc(1vw + 1rem), 30px); } }
+    @media screen and (min-width: 1000px) {
+      .past-collection__frame-subheading {
+        font-size: clamp(16px, calc(2.5vw + 1rem), 30px);
+        line-height: 1;
+        margin-bottom: 1rem; } }
+    @media screen and (min-width: 1200px) {
+      .past-collection__frame-subheading {
+        font-size: clamp(16px, calc(2.5vw + 1rem), 30px); } }
+    @media screen and (min-width: 1400px) {
+      .past-collection__frame-subheading {
+        font-size: clamp(16px, calc(2.6vw + 1rem), 30px); } }
+    @media screen and (min-width: 16100px) {
+      .past-collection__frame-subheading {
+        font-size: clamp(16px, calc(9.5vw + 1rem), 30px); } }
+  .past-collection__frame-heading {
+    font-size: 20px;
+    font-size: clamp(20px, calc(4vw + 1rem), 100px);
+    line-height: 1.25;
+    margin-bottom: 0;
+    position: relative;
+    text-align: center; }
+    .past-collection__frame-heading::after {
+      background-color: #fff;
+      content: '';
+      display: inline-block;
+      height: 1px;
+      left: 0;
+      margin-top: 10px;
+      opacity: 0;
+      position: absolute;
+      right: 0;
+      -webkit-transform: scale(0, 1);
+          -ms-transform: scale(0, 1);
+              transform: scale(0, 1);
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+      width: 100%; }
+    @media screen and (min-width: 400px) {
+      .past-collection__frame-heading {
+        font-size: clamp(28px, calc(6vw + 1rem), 100px); } }
+    @media screen and (min-width: 740px) {
+      .past-collection__frame-heading {
+        font-size: clamp(28px, calc(6vw + 1rem), 100px); } }
+    @media screen and (min-width: 1000px) {
+      .past-collection__frame-heading {
+        font-size: clamp(18px, calc(6vw + 1rem), 100px);
+        line-height: 1;
+        margin-bottom: 1rem; } }
+    @media screen and (min-width: 1200px) {
+      .past-collection__frame-heading {
+        font-size: clamp(18px, calc(6vw + 1rem), 100px); } }
+    @media screen and (min-width: 1400px) {
+      .past-collection__frame-heading {
+        font-size: clamp(18px, calc(6vw + 1rem), 100px); } }
+    @media screen and (min-width: 16100px) {
+      .past-collection__frame-heading {
+        font-size: clamp(18px, calc(9.5vw + 1rem), 100px); } }
+    .past-collection__frame-heading-group {
+      margin-bottom: 2rem; }
+  .past-collection__content {
+    margin-bottom: 3rem;
+    text-align: center; }
+    @media screen and (min-width: 1000px) {
+      .past-collection__content {
+        margin-bottom: 5rem; } }
+  .past-collection__overlay-button {
+    display: block;
+    margin: 2rem auto 4rem; }
+  .past-collection__list {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .past-collection__list-item {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .past-collection__list-item:not(:last-of-type) {
+        margin-bottom: 3rem; }
+        @media screen and (min-width: 1000px) {
+          .past-collection__list-item:not(:last-of-type) {
+            margin-bottom: 6rem; } }
+  .past-collection__modal-heading {
+    font-size: clamp(42px, calc(4vw + 1rem), 150px);
+    margin-bottom: 2rem;
+    padding: calc(.5rem + 1%) 0 1%; }
+    @media screen and (min-width: 400px) {
+      .past-collection__modal-heading {
+        font-size: clamp(30px, calc(5vw + 1rem), 150px);
+        padding: calc(.5rem + 1%) 0 1%; } }
+    @media screen and (min-width: 740px) {
+      .past-collection__modal-heading {
+        font-size: clamp(30px, calc(5.75vw + 1rem), 150px);
+        padding: calc(1rem + 0) 0 0; } }
+    @media screen and (min-width: 1000px) {
+      .past-collection__modal-heading {
+        font-size: clamp(30px, calc(5.75vw + 1rem), 150px);
+        padding: calc(1rem + 2%) 0 2%;
+        margin-bottom: 4rem; } }
+    @media screen and (min-width: 1200px) {
+      .past-collection__modal-heading {
+        font-size: clamp(30px, calc(6vw + 1rem), 150px);
+        padding: calc(1.75rem + 1%) 0 1%; } }
+    @media screen and (min-width: 1400px) {
+      .past-collection__modal-heading {
+        font-size: clamp(30px, calc(6.25vw + 1rem), 150px); } }
+    @media screen and (min-width: 16100px) {
+      .past-collection__modal-heading {
+        font-size: clamp(30px, calc(9.5vw + 1rem), 150px); } }
+  .past-collection__modal-image {
+    max-width: 1300px;
+    width: 100%; }
+  .past-collection__modal-close {
+    background-color: #E2A829;
+    color: #000;
+    font-weight: 700;
+    height: 24px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 24px; }
+    @media screen and (min-width: 1000px) {
+      .past-collection__modal-close {
+        font-size: 22px !important;
+        height: 30px;
+        right: 24px;
+        top: 24px;
+        width: 30px; } }
+  .past-collection__modal-overlay {
+    background-color: #191919;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; }
+    .past-collection__modal-overlay--active {
+      display: block !important; }
+  .past-collection__modal-frame-heading {
+    font-size: clamp(18px, calc(2vw + 1rem), 100px);
+    margin-bottom: 2rem; }
+    .past-collection__modal-frame-heading span {
+      font-family: "Helvetica Neue", var(--text-font-family);
+      letter-spacing: 1px; }
+  .past-collection__section {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .past-collection__section:not(last-of-type) {
+      margin-bottom: 4rem; }
+    @media screen and (min-width: 1000px) {
+      .past-collection__section:not(last-of-type) {
+        margin-bottom: 6rem; } }
+  .past-collection .bs-modal {
+    background-color: transparent;
+    height: calc(100% - 2rem*2);
+    left: calc(50% - 2rem);
+    margin: 2rem;
+    max-width: 16100px;
+    overflow-y: scroll;
+    padding-top: 0;
+    top: calc(50% - 2rem);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: calc(100% - 2rem*2); }
+    .past-collection .bs-modal-dialog {
+      width: 100%;
+      margin: 0; }
+    .past-collection .bs-modal-content {
+      background-color: transparent !important;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding: 2rem 1.5rem; }
+      @media screen and (min-width: 1000px) {
+        .past-collection .bs-modal-content {
+          padding: 4rem 1.5rem; } }
+  .past-collection * {
+    scrollbar-width: auto;
+    scrollbar-color: #191919 #000; }
+  .past-collection *::-webkit-scrollbar {
+    width: 16px; }
+  .past-collection *::-webkit-scrollbar-track {
+    background: #000; }
+  .past-collection *::-webkit-scrollbar-thumb {
+    background-color: #191919;
+    border-radius: 10px;
+    border: 3px solid #000; }

@@ -1,0 +1,573 @@
+{%- comment -%}
+  ------------------------------------------------------------------------------------------------------------------------
+  NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing this theme as much as we did for
+    developing it. We have put a lot of work to make this theme as developer friendly as possible by offering you
+    hooks to integrate into critical parts of the theme. You will find the complete technical documentation (including
+    all events, dependencies...) in the "custom.js" file, located in the Assets folder.
+  ------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<!doctype html>
+
+{%- assign direction = 'ltr' -%}
+{%- case request.locale.iso_code -%}
+  {%- when 'ar', 'arc', 'dv', 'fa', 'ha', 'he', 'kwh', 'ks', 'ku', 'ps', 'ur', 'yi' -%}
+    {%- assign direction = 'rtl' -%}
+{%- endcase -%}
+
+{%- assign renderProduct = true -%}
+
+{%- if request.page_type == 'product' -%}
+  {%- if product.selected_variant.metafields.custom.hide_from_live == true or product.metafields.seo.hidden == 1 -%}
+    {% unless content_for_header contains "previewBarInjector.init();" or content_for_header contains "Shopify.designMode" %}
+      {%- assign renderProduct = false -%}
+    {% endunless %}
+  {%- endif -%}
+{%- endif -%}
+
+<html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ direction }}">
+  <head>
+    <meta charset="utf-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0"
+    >
+    <meta name="theme-color" content="{{ settings.header_background }}">
+
+    <title>
+      {% if page_title == blank -%}
+        {{- shop.name -}}
+      {% elsif request.page_type == 'product' and product.metafields.seo.hidden == 1 %}
+        404 Not Found
+      {%- else -%}
+        {{- page_title -}}
+        {%- if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif -%}
+      {%- endif %}
+    </title>
+
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {%- if settings.favicon -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | img_url: '96x96' }}" type="image/png">
+    {%- endif -%}
+
+    {%- comment -%}Few prefech to increase performance on commonly used third-parties{%- endcomment -%}
+    <link rel="preconnect" href="https://cdn.shopify.com">
+    <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+    {%- unless settings.heading_font.system? and settings.text_font.system? -%}
+      <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    {%- endunless -%}
+
+    {% comment %} <link href="https://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book?styles=16459" rel="stylesheet"> {% endcomment %}
+
+    <style rel="preload">
+          @font-face {
+            font-family: 'Simpliciter Sans';
+            src: local('Simpliciter Sans'), local('SimpliciterSans'),
+                url({{ 'SimpliciterSans.woff2' | asset_url }}) format('woff2'),
+                url({{ 'SimpliciterSans.woff' | asset_url }}) format('woff');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+          }
+
+          @font-face {
+            font-family: 'ITC Avant Garde Pro XLt';
+            src: local('ITCAvantGardePro-XLt'),
+                url({{ 'ITCAvantGardePro-XLt.woff2' | asset_url }}) format('woff2'),
+                url({{ 'ITCAvantGardePro-XLt.woff' | asset_url }}) format('woff');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+          }
+
+          @font-face {
+            font-family: 'ITC Avant Garde Pro XLt';
+            src: local('ITC Avant Garde Gothic Pro Extra Light'), local('ITCAvantGardePro-XLt'),
+                url({{ 'ITCAvantGardePro-XLt.woff2' | asset_url }}) format('woff2'),
+                url({{ 'ITCAvantGardePro-XLt.woff' | asset_url }}) format('woff');
+            font-weight: 200;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Helvetica Neue';
+            src: local('Helvetica Neue Light'), local('HelveticaNeue-Light'),
+                url({{ 'HelveticaNeue-Light.woff2' | asset_url }}) format('woff2'),
+                url({{ 'HelveticaNeue-Light.woff' | asset_url }}) format('woff');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+          font-family: 'Helvetica Neue Thin';
+          src: local('Helvetica Neue Thin'),
+              url({{ 'HelveticaNeue-Thin.woff2' | asset_url }}) format('woff2'),
+              url({{ 'HelveticaNeue-Thin.woff' | asset_url }}) format('woff');
+          font-weight: 200;
+          font-style: normal;
+          font-display: swap;
+      }
+
+    </style>
+
+    {%- comment -%}Preload important resources{%- endcomment -%}
+    <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
+    {{ 'redesign.css' | asset_url | stylesheet_tag }}
+
+    <link rel="preload" as="script" href="{{ 'vendor.js' | asset_url }}">
+    <link rel="preload" as="script" href="{{ 'theme.js' | asset_url }}">
+
+    {%- comment -%}
+      IMPLEMENTATION NOTE: for improving performance, Focal tries to preload images on known pages (such as blog page,
+      product or collection pages). In order to keep a main JS file size minimal, the theme also lazyloads non-essential
+      libraries (such as PhotoSwipe or Flickity) and only loads them on demand.
+    {%- endcomment -%}
+    {%- if request.page_type == 'product' -%}
+
+      {%- if renderProduct == true -%}
+        {%- assign selected_media = product.selected_variant.featured_media | default: product.featured_media -%}
+
+        <link rel="preload" as="fetch" href="{{ product.url }}.js" crossorigin>
+        <link
+          rel="preload"
+          as="image"
+          imagesizes="(max-width: 999px) calc(100vw - 48px), 640px"
+          imagesrcset="{% render 'image-attributes', image: selected_media, sizes: '400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800', sizes_only: true %}"
+        >
+  
+        {%- if product.media.size > 1 -%}
+          <link rel="preload" as="script" href="{{ 'flickity.js' | asset_url }}">
+        {%- endif -%}
+      {%- endif -%}
+
+    {%- elsif request.page_type == 'collection' and collection.image -%}
+      <link
+        rel="preload"
+        as="image"
+        media="(max-width: 740px)"
+        imagesizes="100vw"
+        imagesrcset="{% render 'image-attributes', image: collection.image, sizes: '400,500,600,700,800,900,1000', height_constraint: 600, crop: 'center', sizes_only: true %}"
+      >
+      <link
+        rel="preload"
+        as="image"
+        media="(min-width: 741px)"
+        imagesizes="100vw"
+        imagesrcset="{% render 'image-attributes', image: collection.image, sizes: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600', sizes_only: true %}"
+      >
+    {%- endif -%}
+
+    <!-- Google tag (gtag.js) -->
+    {% comment %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11141753575"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "AW-11141753575");
+      </script>
+    {% endcomment %}
+    <!-- Google Analytics 4 integration- script from Consentmo GDPR Compliance App -->
+    <script async id="gaf-loading-script"></script>
+    <script id="gdpr-gaf-blocking-script">
+      let isGAFExecuted = false;
+      let gafScript = document.getElementById('gaf-loading-script');
+      let gafLink = 'https://www.googletagmanager.com/gtag/js?id=AW-11141753575';
+
+      function executeGAF() {
+        if (!isGAFExecuted) {
+          gafScript.setAttribute('src', gafLink);
+          // The content of Google Analytics 4 script goes here
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', 'AW-11141753575');
+
+          isGAFExecuted = true;
+        }
+      }
+      function checkConsentForGAF(adittionalChecks = 0) {
+        let cpdCookie = (document.cookie.match(
+          /^(?:.*;)?\s*cookieconsent_preferences_disabled(\s*=\s*([^;]+)?)(?:.*)?$/
+        ) || [, null])[1];
+        if (cpdCookie != null) {
+          if (parseInt(cpdCookie.indexOf('analytics')) === -1) {
+            executeGAF();
+          }
+        } else {
+          let gdprCache = localStorage.getItem('gdprCache') ? JSON.parse(localStorage.getItem('gdprCache')) : null;
+          let gdprCacheConsentSettings =
+            gdprCache && gdprCache.getCookieConsentSettings ? JSON.parse(gdprCache.getCookieConsentSettings) : null;
+          let gdprCacheCountryDetection =
+            gdprCache && gdprCache.countryDetection ? JSON.parse(gdprCache.countryDetection) : null;
+          let ccsCookie = (document.cookie.match(/^(?:.*;)?\s*cookieconsent_status\s*=\s*([^;]+)(?:.*)?$/) || [
+            ,
+            null,
+          ])[1];
+          if (
+            (gdprCacheConsentSettings || (gdprCacheCountryDetection && gdprCacheCountryDetection.disable === '1')) &&
+            !ccsCookie
+          ) {
+            if (
+              (gdprCacheConsentSettings && gdprCacheConsentSettings.status === 'disabled') ||
+              gdprCacheCountryDetection.disable === '1'
+            ) {
+              executeGAF();
+            } else {
+              let initPreferences = parseInt(gdprCacheConsentSettings.checkboxes_behavior);
+              if (initPreferences === 1 || initPreferences === 2 || initPreferences === 4 || initPreferences === 5) {
+                executeGAF();
+              }
+            }
+          } else {
+            if (adittionalChecks > 0) {
+              setTimeout(function () {
+                checkConsentForGAF(adittionalChecks - 1);
+              }, 1000);
+            } else {
+              executeGAF();
+            }
+          }
+        }
+      }
+
+      checkConsentForGAF(3);
+    </script>
+
+    <!-- Meta Pixel Code -->
+    {% comment %}
+      <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '966562834669955');
+        fbq('track', 'PageView');
+      </script>
+    {% endcomment %}
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display:none"
+        src="https://www.facebook.com/tr?id=966562834669955&ev=PageView&noscript=1"
+      >
+    </noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Facebook Pixel integration- script from Consentmo GDPR Compliance App -->
+    <script id="gdpr-fbpx-blocking-script">
+      let isFBPXBlocked = false;
+      let isFBPXExecuted = false;
+      function blockFBPX() {
+        if (!isFBPXBlocked) {
+          !(function () {
+            var e = null,
+              n = [];
+            Object.defineProperty(window, 'fbq', {
+              get: function () {
+                return e;
+              },
+              set: function (o) {
+                Object.defineProperty(o, 'queue', {
+                  get: function () {
+                    return [];
+                  },
+                  set: function () {},
+                }),
+                  (e = o);
+              },
+            });
+          })();
+          isFBPXBlocked = true;
+        }
+      }
+      function executeFBPX() {
+        if (!isFBPXExecuted) {
+          !(function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+              n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+          })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '966562834669955');
+          fbq('track', 'PageView');
+          isFBPXExecuted = true;
+        }
+      }
+      function checkConsentForFBPX(adittionalChecks = 0) {
+        let cpdCookie = (document.cookie.match(
+          /^(?:.*;)?\s*cookieconsent_preferences_disabled(\s*=\s*([^;]+)?)(?:.*)?$/
+        ) || [, null])[1];
+        if (cpdCookie != null) {
+          if (parseInt(cpdCookie.indexOf('marketing')) > -1) {
+            blockFBPX();
+          } else if (parseInt(cpdCookie.indexOf('marketing')) === -1) {
+            executeFBPX();
+          }
+        } else {
+          let gdprCache = localStorage.getItem('gdprCache') ? JSON.parse(localStorage.getItem('gdprCache')) : null;
+          let gdprCacheConsentSettings =
+            gdprCache && gdprCache.getCookieConsentSettings ? JSON.parse(gdprCache.getCookieConsentSettings) : null;
+          let gdprCacheCountryDetection =
+            gdprCache && gdprCache.countryDetection ? JSON.parse(gdprCache.countryDetection) : null;
+          let ccsCookie = (document.cookie.match(/^(?:.*;)?\s*cookieconsent_status\s*=\s*([^;]+)(?:.*)?$/) || [
+            ,
+            null,
+          ])[1];
+          if (
+            (gdprCacheConsentSettings || (gdprCacheCountryDetection && gdprCacheCountryDetection.disable === '1')) &&
+            !ccsCookie
+          ) {
+            if (
+              (gdprCacheConsentSettings && gdprCacheConsentSettings.status === 'disabled') ||
+              gdprCacheCountryDetection.disable === '1'
+            ) {
+              executeFBPX();
+            } else {
+              let initPreferences = parseInt(gdprCacheConsentSettings.checkboxes_behavior);
+              if (initPreferences === 2 || initPreferences === 5 || initPreferences === 7) {
+                blockFBPX();
+              } else if (
+                initPreferences === 1 ||
+                initPreferences === 3 ||
+                initPreferences === 4 ||
+                initPreferences === 6
+              ) {
+                executeFBPX();
+              }
+            }
+          } else {
+            if (adittionalChecks > 0) {
+              setTimeout(function () {
+                checkConsentForFBPX(adittionalChecks - 1);
+              }, 1000);
+            } else {
+              executeFBPX();
+            }
+          }
+        }
+      }
+
+      checkConsentForFBPX(3);
+    </script>
+
+    {% if renderProduct == true %}
+      {% render 'social-meta-tags' %}
+      {% render 'microdata-schema' %}
+    {% endif %}
+
+    {% render 'css-variables', direction: direction %}
+    {% render 'js-variables', direction: direction %}
+
+    <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+
+    <script src="{{ 'vendor.js' | asset_url }}" defer></script>
+    {% if template == 'page.legal' or template == 'page.yourshotgiveaway' %}
+      <script src="{{ 'legal.js' | asset_url }}" defer></script>
+    {% endif %}
+    <script src="{{ 'theme.js' | asset_url }}" defer></script>
+    <script src="{{ 'custom.js' | asset_url }}" defer></script>
+
+    {% if renderProduct == true %}
+      {{ content_for_header }}
+    {% endif %}
+
+    {% include 'consentmo-js.liquid' %}
+
+    {% comment %} {% render 'shogun-head' %} {% endcomment %}
+
+    {% if renderProduct == true %}
+      {% render 'productwiz-rio', product: product, shop: shop %}
+      {% include 'globale-js.liquid' %}
+      {% include "globale-js" %}
+    {% endif %}
+</head>
+
+  {%- assign feature_classes = '' -%}
+
+  {%- if settings.show_image_zoom -%}
+    {% assign feature_classes = feature_classes | append: ' features--image-zoom' %}
+  {%- endif -%}
+
+  <body
+    class="no-focus-outline {{ feature_classes }} template-{{ template | replace: '.', '-' | replace: '/', '-' }}"
+    data-instant-allow-query-string
+  >
+    {%- comment -%}Common SVG definitions that we are re-using in several places{%- endcomment -%}
+    <svg class="visually-hidden">
+      <linearGradient id="rating-star-gradient-half">
+        <stop offset="50%" stop-color="rgb(var(--product-star-rating))" />
+        <stop offset="50%" stop-color="rgb(var(--product-star-rating))" stop-opacity="0.4" />
+      </linearGradient>
+    </svg>
+
+    <a href="#main" class="visually-hidden skip-to-content">{{ 'general.accessibility.skip_to_content' | t }}</a>
+    <loading-bar class="loading-bar"></loading-bar>
+
+    {%- if settings.enable_modal == true and request.page_type == 'index' -%}
+      {{ 'modal.css' | asset_url | stylesheet_tag }}
+      <script>
+        window.addEventListener('DOMContentLoaded', () => {
+          document.querySelector('.bs-modal').classList.toggle('open');
+          document.getElementById('bs-close-modal').onclick = function () {
+            document.querySelector('.bs-modal').classList.toggle('open');
+          };
+        });
+      </script>
+      <div class="bs-modal" tabindex="-1">
+        <div class="bs-modal-dialog">
+          <div class="bs-modal-content">
+            <div class="bs-modal-header">
+              <h2 class="heading heading--small">{{ settings.modal_heading }}</h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="bs-modal"
+                aria-label="Close"
+                id="bs-close-modal"
+              >
+                X
+              </button>
+            </div>
+            <div class="bs-modal-body">
+              <p>{{ settings.modal_content }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if request.page_type != 'gift_card' and request.page_type != 'password' -%}
+      {%- section 'announcement-bar' -%}
+      {%- section 'popup' -%}
+      {%- section 'header' -%}
+
+      {%- unless settings.cart_type == 'page' or request.page_type == 'cart' -%}
+        {%- section 'mini-cart' -%}
+      {%- endunless -%}
+    {%- endif -%}
+
+    <div id="main" role="main" class="anchor">
+      {%- comment -%}
+        IMPLEMENTATION NOTE: on collection and search page, the theme was designed to show on mobile the filter bar and/or sort
+          by at the very top of the page. However, due to the fact that sections are isolated, I had to move the code
+          here. Then, the collection section, based on the selected settings, will eventually hide those elements in CSS
+      {%- endcomment -%}
+      {%- if request.page_type == 'collection' or request.page_type == 'search' -%}
+        {%- assign active_filters_count = 0 -%}
+
+        {%- if request.page_type == 'collection' -%}
+          {%- assign filters = collection.filters -%}
+        {%- else -%}
+          {%- assign filters = search.filters -%}
+        {%- endif -%}
+
+        {%- for filter in filters -%}
+          {%- if filter.type == 'list' -%}
+            {%- assign active_filters_count = active_filters_count | plus: filter.active_values.size -%}
+          {%- elsif filter.type == 'price_range' and filter.min_value.value or filter.max_value.value -%}
+            {%- assign active_filters_count = active_filters_count | plus: 1 -%}
+          {%- endif -%}
+        {%- endfor -%}
+
+        {%- assign is_toolbar_collapsed = false -%}
+
+        {%- if request.page_type == 'search'
+          and search.results.first.object_type != 'product'
+          and search.results_count > 0
+        -%}
+          {%- assign is_toolbar_collapsed = true -%}
+        {%- endif -%}
+
+        <div
+          id="mobile-facet-toolbar"
+          class="mobile-toolbar {% if is_toolbar_collapsed %}is-collapsed{% endif %} hidden-lap-and-up"
+        >
+          <button
+            is="toggle-button"
+            class="mobile-toolbar__item mobile-toolbar__item--filters {% if active_filters_count > 0 %}has-filters{% endif %}"
+            aria-expanded="false"
+            aria-controls="facet-filters"
+            style="display: none"
+          >
+            {%- render 'icon' with 'filters' -%}
+            <span class="mobile-toolbar__item-label">{{- 'collection.general.filters' | t -}}</span>
+          </button>
+
+          <button
+            is="toggle-button"
+            class="mobile-toolbar__item mobile-toolbar__item--sort"
+            aria-expanded="false"
+            aria-controls="sort-by-popover"
+            style="display: none"
+          >
+            <span class="mobile-toolbar__item-label">{{- 'collection.general.sort_by' | t -}}</span>
+            {%- render 'icon' with 'chevron' -%}
+          </button>
+        </div>
+      {%- endif -%}
+
+      {% comment %} {{ content_for_layout }} {% endcomment %}
+
+      {% if request.path contains '/account/subscribe' %}
+        {%- assign unsubscribe_url = content_for_layout | split: 'href="' | last | split: '">' | first -%}
+        {% render '_account-subscribe', unsubscribe_url: unsubscribe_url %}
+      {% elsif request.path contains '/account/unsubscribe' %}
+        {% render '_account-unsubscribe' %}
+      {% else %}
+        {{ content_for_layout }}
+      {% endif %}
+
+      {%- unless request.page_type == 'index' or request.page_type == 'password' or request.page_type == 'gift_card' -%}
+        {%- section 'static-text-with-icons' -%}
+        {%- section 'static-newsletter' -%}
+      {%- endunless -%}
+    </div>
+
+    {%- if request.page_type != 'gift_card' and request.page_type != 'password' -%}
+      {%- section 'footer' -%}
+    {%- endif -%}
+
+    <!-- Start of m-experiment Zendesk Widget script -->
+    <script
+      id="ze-snippet"
+      src="https://static.zdassets.com/ekr/snippet.js?key=3db49245-4549-4b1b-93e3-60d557eac4d6"
+    ></script>
+    <!-- End of m-experiment Zendesk Widget script -->
+
+    {% if renderProduct == true %}
+      <!-- Back in Stock helper snippet -->
+      {% render 'back-in-stock-helper' %}
+      <!-- End Back in Stock helper snippet -->
+    {% endif %}
+  </body>
+</html>

@@ -1,0 +1,60 @@
+{{ 'vjs.css' | asset_url | stylesheet_tag }}
+{{ 'collection-video.css' | asset_url | stylesheet_tag }}
+{% comment %} <script src="https://vjs.zencdn.net/8.2.1/video.js"></script> {% endcomment %}
+{% comment %} <script src="./path/to/silvermine-videojs-quality-selector.min.js"></script> {% endcomment %}
+
+<style>
+  @media screen and (max-width: 740px) {
+    .video__inner {
+      padding: 0;
+    }
+  }
+</style>
+
+<section class="section video">
+  <div class="video__inner container">
+    {% if section.settings.video_url %}
+      <video
+        loop
+        autoplay
+        muted
+        playsinline
+        class="video-js"
+        id="my-video"
+        controls
+        preload="auto
+        {% if section.settings.image %}
+          poster="{{ section.settings.image | image_url }}"
+        {% endif %}
+        data-setup='{ "muted": true }'
+      >
+        <source src="{{ section.settings.video_url }}" type="video/mp4">
+      </video>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Collection Video",
+  "class": "shopify-section--video",
+  "settings": [
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Cover image",
+      "info": "2000 x 1125px .jpg recommended."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Collection"
+    }
+  ]
+}
+{% endschema %}

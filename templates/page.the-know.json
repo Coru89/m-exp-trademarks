@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    },
+    "cc23e019-e5a1-4958-b7ad-bf35b2a1cfff": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16075967168662__cc23e019-e5a1-4958-b7ad-bf35b2a1cfff-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Brand_Title_Desktop_No_Copy.jpg",
+            "mobile_image": "shopify://shop_images/M_Brand_Title_Mobile_No_Copy.jpg",
+            "title": "New\nBeginnings",
+            "title_mobile": "",
+            "subheading": "DNA DRIVEN",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 132,
+            "heading_font_size_mobile": 46,
+            "subheading_font_size_desktop": 43,
+            "subheading_font_size_mobile": 14,
+            "font_scale": "default",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-left",
+            "content_position_mobile": "top-left",
+            "nudge_text_x-axis_desktop": 3.5,
+            "nudge_text_y-axis_desktop": 7.5,
+            "nudge_text_x-axis_mobile": 8,
+            "nudge_text_y-axis_mobile": -8,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 40,
+            "nudge_subheading_y-axis_mobile": 0,
+            "nudge_subheading_y-axis_desktop": 0,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 1,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#c7c7c7",
+            "subheading_color": "#c7c7c7",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16075967168662__cc23e019-e5a1-4958-b7ad-bf35b2a1cfff-image-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "c029bb32-29fd-4c0d-af2f-820b5785af3f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16075967168662__c029bb32-29fd-4c0d-af2f-820b5785af3f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Brand_Title_Desktop_02_1f1c9a98-3e93-4e3c-b406-f1afeb3bff48.png",
+            "mobile_image": "shopify://shop_images/M_Brand_Title_Mobile_02_e4abf438-4f60-46b1-bb1f-936e98bf9b53.png",
+            "title": "A Fun\nExperiment",
+            "title_mobile": "",
+            "subheading": "Oakley and RED founder Jim Jannard and his son Jamin\nare back to scratch their design itch... and just have some fun.",
+            "subheading_mobile": "Oakley and RED founder Jim Jannard and his\nson Jamin are back to scratch their design\nitch... and just have some fun.",
+            "panel_link": "",
+            "heading_font_size_desktop": 118,
+            "heading_font_size_mobile": 44,
+            "subheading_font_size_desktop": 21,
+            "subheading_font_size_mobile": 13,
+            "font_scale": "shrink-fast",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-right",
+            "content_position_mobile": "top-left",
+            "nudge_text_x-axis_desktop": -5,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 7,
+            "nudge_text_y-axis_mobile": -4,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 0,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 40,
+            "nudge_subheading_y-axis_mobile": 0,
+            "nudge_subheading_y-axis_desktop": 0.5,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#c7c7c7",
+            "subheading_color": "#c7c7c7",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16075967168662__c029bb32-29fd-4c0d-af2f-820b5785af3f-image-1"
+      ],
+      "custom_css": [
+        ".subheading {letter-spacing: 0;}",
+        "@media screen and (min-width: 1000px) {.subheading {letter-spacing: 0.3px; }}",
+        "@media screen and (min-width: 1200px) {.subheading {letter-spacing: 1.2px; }}"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cc23e019-e5a1-4958-b7ad-bf35b2a1cfff",
+    "c029bb32-29fd-4c0d-af2f-820b5785af3f"
+  ]
+}

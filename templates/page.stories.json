@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "1657045016427725fc": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify://shop_images/2160x900_0006_Day-2_10252.jpg",
+        "title": "it's in our DNA",
+        "subheading": "EXPERIMENTATION",
+        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+        "background_type": "full_width",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "2b0ceab2-1072-493f-b169-09998794f72d": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "2b0ceab2-1072-493f-b169-09998794f72d"
+      ],
+      "disabled": true,
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    },
+    "3647091a-8140-4a93-96d5-786b0e8b6b88": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "technology",
+        "subheading": "M-EXPERIMENT",
+        "title": "MOMENTS",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "1657045016427725fc",
+    "main",
+    "3647091a-8140-4a93-96d5-786b0e8b6b88"
+  ]
+}

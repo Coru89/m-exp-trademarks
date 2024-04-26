@@ -1,0 +1,84 @@
+{%- if blog.previous_article or blog.next_article -%}
+  <div class="article__prev-next vertical-breather vertical-breather--tight {% if settings.background == settings.secondary_background %}vertical-breather--margin{% endif %}">
+    <div class="container">
+      <div class="section__headings text-container">
+        <h2 class="heading h3">{{ 'article.general.continue_reading' | t }}</h2>
+        <a href="{{ section.settings.blogs_path }}" class="article__label article__back">
+          <svg focusable="false" width="17" height="14" class="article__icon article__icon-left icon--nav-arrow-left  icon--direction-aware " viewBox="0 0 17 14">
+            <path d="M17 7H2M8 1L2 7l6 6" stroke="currentColor" stroke-width="1" fill="none"></path>
+          </svg>
+          {{ section.settings.blogs_display }}
+        </a>
+      </div>
+
+      <div class="scroller">
+        <div class="scroller__inner">
+          <article-list {% if settings.stagger_blog_posts_apparition %}stagger-apparition{% endif %} class="article-list article-list--scrollable">
+            {%- if blog.previous_article -%}
+              <div class="article-item__wrapper">
+                <a href="{{ blog.previous_article.url }}" class="article__label">
+                  <svg focusable="false" width="17" height="14" class="article__icon article__icon-left icon--nav-arrow-left  icon--direction-aware " viewBox="0 0 17 14">
+                    <path d="M17 7H2M8 1L2 7l6 6" stroke="currentColor" stroke-width="1" fill="none"></path>
+                  </svg>
+                  Previous Article
+                </a>
+                {%- render 'article-item', article: blog.previous_article, heading_size: 'h5' -%}
+              </div>
+            {%- endif -%}
+
+            {%- if blog.next_article -%}
+              <div class="article-item__wrapper">
+                <a href="{{ blog.next_article.url }}" class="article__label">
+                  Next Article
+                  <svg focusable="false" width="17" height="14" class="article__icon article__icon-right icon--nav-arrow-right icon--direction-aware " viewBox="0 0 17 14">
+                    <path d="M0 7h15M9 1l6 6-6 6" stroke="currentColor" stroke-width="1" fill="none"></path>
+                  </svg>
+                </a>
+                
+                {%- render 'article-item', article: blog.next_article, heading_size: 'h5' -%}
+              </div>
+            {%- endif -%}
+          </article-list>
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Blog post navigation",
+  "class": "shopify-section--blog-post-prev-next",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Previous and next article will be displayed (if they exists)."
+    },
+    {
+      "type": "url",
+      "id": "blogs_path",
+      "label": "URL to all blogs"
+    },
+    {
+      "type": "text",
+      "id": "blogs_display",
+      "label": "Display for all blogs",
+      "default": "All blogs"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "label": "Show author",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "label": "Show date",
+      "default": true
+    }
+
+    
+  ]
+}
+{% endschema %}

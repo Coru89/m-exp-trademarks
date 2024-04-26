@@ -1,0 +1,57 @@
+<script> 
+
+// Add CSS to hide the element initially
+var style = document.createElement('style');
+style.id = 'consentmo-temp-style';
+style.innerHTML = '.cc-window { display: none !important; }';
+document.head.appendChild(style);
+
+            
+var specificRegions = ['AT','BE','BG','HR','CY','CZ','DE','DK','EE','EL','ES','FI','FR','GB','HU','IE','IT','LT','LU','LV','MT','NL','PL','PT','RO','SE','SI','SK','AD','GR','NO','IS','LI','CH','YT','RE','FR-YT','GI','GIB','NC','NCL','MC'];
+
+function getUserCountry(callback) {
+    var request = new XMLHttpRequest();
+    request.open('GET', 'https://www.cloudflare.com/cdn-cgi/trace', true);
+    request.onload = function() {
+        if (request.status >= 200 && request.status < 400) {
+            const dataIP = request.responseText;
+            const ipRegex2 = /loc=[A-Za-z]{1,4}/
+            const countryCode = dataIP.match(ipRegex2)[0].split('=')[1];    
+            callback(countryCode)
+        } else {
+            callback(null);
+        }
+    };
+    request.onerror = function() {
+        callback(null);
+    };
+    request.send();
+}
+
+function consentmoDisableBarOnSpecificRegions(additionalChecks = 50) {
+    if (window.isenseGDPR !== undefined && window.isenseGDPR.Cookies.get('cookieconsent_preferences_disabled') !== undefined && window.isenseGDPR.Cookies.get('cookieconsent_status') === undefined) {
+        var ccWindow = document.querySelector('.cc-window');
+        if (document.querySelector('.cc-window') != null) {
+            getUserCountry(function(userCountry) {
+                if (userCountry !== null) {
+                    if (specificRegions.includes(userCountry)) {
+                        document.getElementById('consentmo-temp-style').remove();
+                        document.querySelector('.cc-window').style.display = 'flex !important';
+                    }
+                }
+            });
+        } else {
+                setTimeout(function() {
+                    consentmoDisableBarOnSpecificRegions(additionalChecks-1);
+                }, 100);
+        }
+    } else if (additionalChecks > 0) {
+        setTimeout(function() {
+            consentmoDisableBarOnSpecificRegions(additionalChecks - 1);
+        }, 100);
+    }
+}
+
+consentmoDisableBarOnSpecificRegions();
+
+</script>

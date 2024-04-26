@@ -1,0 +1,369 @@
+{
+  "sections": {
+    "2d8e0d90-3e3f-4b98-9d03-af53c28cfc2f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16075967168662__2d8e0d90-3e3f-4b98-9d03-af53c28cfc2f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/M_Lens_Title_Page_New_02.png",
+            "mobile_image": "shopify://shop_images/M_Lens_Title_Moblie_1000x1400_d869848c-67c6-4c3c-94b6-9e1521ec3a02.jpg",
+            "title": "Replacement\nLenses",
+            "title_mobile": "",
+            "subheading": "",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 82,
+            "heading_font_size_mobile": 36,
+            "subheading_font_size_desktop": 22,
+            "subheading_font_size_mobile": 15,
+            "font_scale": "shrink-fast",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-left",
+            "content_position_mobile": "top-center",
+            "nudge_text_x-axis_desktop": 5,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": -12,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 16,
+            "nudge_subheading_y-axis_mobile": 0,
+            "nudge_subheading_y-axis_desktop": -2,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#c7c7c7",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--16075967168662__2d8e0d90-3e3f-4b98-9d03-af53c28cfc2f-image-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "980bcdc7-402c-4669-acb5-d153cc5f2b9b": {
+      "type": "variant-collection-new",
+      "blocks": {
+        "58ce5e61-96d2-4fff-8f61-deeeda0b983b": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "gigawatt-lenses",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "b476622e-a452-46b7-b205-21091aa65fd4": {
+          "type": "variant-collection",
+          "disabled": true,
+          "settings": {
+            "product": "jigawatt-lenses",
+            "subheading": "JIGAWATT",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "58ce5e61-96d2-4fff-8f61-deeeda0b983b",
+        "b476622e-a452-46b7-b205-21091aa65fd4"
+      ],
+      "custom_css": [
+        "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
+        "img.product-item__primary-image {max-height: 270px; object-fit: cover; position: relative;}",
+        ".product-list__inner {gap: 64px var(--product-list-column-gap);}",
+        ".product-item__image-wrapper {margin-bottom: 4px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "GIGAWATT",
+        "content": "",
+        "products_count": 10,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#ffffff",
+        "text_color": "#191919",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "f254f371-31e4-4398-a382-048fb707177a": {
+      "type": "variant-collection-new",
+      "blocks": {
+        "template--15993969606806__f254f371-31e4-4398-a382-048fb707177a-168112161051f7472c-0": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "business-lenses",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 100
+          }
+        },
+        "a2fb1226-3f68-4423-9314-3a1ad26b8005": {
+          "type": "variant-collection",
+          "disabled": true,
+          "settings": {
+            "product": "pleasure-lenses",
+            "subheading": "Pleasure",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15993969606806__f254f371-31e4-4398-a382-048fb707177a-168112161051f7472c-0",
+        "a2fb1226-3f68-4423-9314-3a1ad26b8005"
+      ],
+      "custom_css": [
+        "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
+        "img.product-item__primary-image {max-height: 270px; object-fit: cover; position: relative;}",
+        ".product-list__inner {gap: 64px var(--product-list-column-gap);}",
+        ".product-item__image-wrapper {margin-bottom: 4px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "BUSINESS",
+        "content": "",
+        "products_count": 10,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#ffffff",
+        "text_color": "#191919",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "39eb5998-dc32-473c-813c-f7e2150ac4f1": {
+      "type": "variant-collection-new",
+      "blocks": {
+        "24a56cde-a0aa-49c7-ae92-5ad6f88fe2ff": {
+          "type": "variant-collection",
+          "disabled": true,
+          "settings": {
+            "product": "business-lenses",
+            "subheading": "Business",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 100
+          }
+        },
+        "14349498-79a9-41e9-ae7a-0ac281ed36bf": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "pleasure-lenses",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "24a56cde-a0aa-49c7-ae92-5ad6f88fe2ff",
+        "14349498-79a9-41e9-ae7a-0ac281ed36bf"
+      ],
+      "custom_css": [
+        "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
+        "img.product-item__primary-image {max-height: 270px; object-fit: cover; position: relative;}",
+        ".product-list__inner {gap: 64px var(--product-list-column-gap);}",
+        ".product-item__image-wrapper {margin-bottom: 4px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "PLEASURE",
+        "content": "",
+        "products_count": 10,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#ffffff",
+        "text_color": "#191919",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "8ad91a91-1831-4a8f-a60e-fc79655280a6": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15613751066774__8ad91a91-1831-4a8f-a60e-fc79655280a6-1667966232dbf01a6e-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Lenses-Page-DSC01769.jpg",
+            "mobile_image": "shopify://shop_images/Chick_3_a205afed-0253-4bab-b6d8-e3236621e9c1.jpg",
+            "title": "",
+            "title_mobile": "",
+            "subheading": "",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 40,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 15,
+            "font_scale": "default",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 16,
+            "nudge_subheading_y-axis_mobile": 0,
+            "nudge_subheading_y-axis_desktop": 0,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15613751066774__8ad91a91-1831-4a8f-a60e-fc79655280a6-1667966232dbf01a6e-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Slide 2",
+            "title_mobile": "",
+            "subheading": "Tell your story",
+            "subheading_mobile": "",
+            "panel_link": "",
+            "heading_font_size_desktop": 40,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 15,
+            "font_scale": "default",
+            "font_scale_subheading": "unset",
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000000",
+            "heading_drop_shadow_opacity": 16,
+            "nudge_subheading_y-axis_mobile": 0,
+            "nudge_subheading_y-axis_desktop": 0,
+            "remove_top_spacing": false,
+            "remove_bottom_spacing": false,
+            "heading_top_border": false,
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_letter_spacing": 0,
+            "subheading_side_border": false,
+            "subheading_border": false,
+            "subheading_border_padding": 16,
+            "max_width_container": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15613751066774__8ad91a91-1831-4a8f-a60e-fc79655280a6-1667966232dbf01a6e-0",
+        "template--15613751066774__8ad91a91-1831-4a8f-a60e-fc79655280a6-1667966232dbf01a6e-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    }
+  },
+  "order": [
+    "2d8e0d90-3e3f-4b98-9d03-af53c28cfc2f",
+    "980bcdc7-402c-4669-acb5-d153cc5f2b9b",
+    "f254f371-31e4-4398-a382-048fb707177a",
+    "39eb5998-dc32-473c-813c-f7e2150ac4f1",
+    "8ad91a91-1831-4a8f-a60e-fc79655280a6",
+    "main"
+  ]
+}

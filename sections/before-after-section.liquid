@@ -1,0 +1,463 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+{{ '//cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.twentytwenty.min.js' | script_tag }}
+{{ '//cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.event.move.min.js' | script_tag }}
+{{ '//cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/twentytwenty.min.css' | stylesheet_tag }}
+
+<script>
+  $(window).load(function () {
+    $(function ($) {
+      $('.twentytwenty-container').twentytwenty();
+    });
+  });
+</script>
+
+{% style %}
+  .before-after-section .h2{
+      color: #fff;
+      text-align: center;
+      padding-top: 40px;
+  }
+  .twentytwenty-overlay {
+      display: none;
+  }
+
+  #shopify-section-{{ section.id }} .container {
+    display: flex;
+    height: 100%;
+
+    {% if section.settings.content_position_mobile != "none" %}
+        {% if section.settings.content_position_mobile == "top-left" %}
+            align-items: flex-start;
+            justify-content: flex-start;
+        {% elsif section.settings.content_position_mobile == "top-center" %}
+            align-items: flex-start;
+            justify-content: center;
+        {% elsif section.settings.content_position_mobile == "middle-left" %}
+            align-items: center;
+        {% elsif section.settings.content_position_mobile == "middle-right" %}
+            align-items: center;
+            justify-content: flex-end;
+        {% elsif section.settings.content_position_mobile == "bottom-left" %}
+            align-items: flex-end;
+        {% elsif section.settings.content_position_mobile == "bottom-center" %}
+            align-items: flex-end;
+            justify-content: center;
+        {% elsif section.settings.content_position_mobile == "top-right" %}
+            justify-content: flex-end;
+        {% elsif section.settings.content_position_mobile == "bottom-right" %}
+            align-items: flex-end;
+            justify-content: flex-end;
+        {% elsif section.settings.content_position_mobile == "middle-center" %}
+            align-items: center;
+            justify-content: center;
+        {% endif %}
+        {% else %}
+        {% if section.settings.overlay_content_position == "top-left" %}
+            align-items: flex-start;
+            justify-content: flex-start;
+            text-align: unset;
+        {% elsif section.settings.overlay_content_position == "top-center" %}
+            align-items: flex-start;
+            justify-content: center;
+        {% elsif section.settings.overlay_content_position == "middle-left" %}
+            align-items: center;
+            justify-content: unset;
+        {% elsif section.settings.overlay_content_position == "middle-right" %}
+            align-items: center;
+            justify-content: flex-end;
+        {% elsif section.settings.overlay_content_position == "bottom-left" %}
+            align-items: flex-end;
+            justify-content: unset;
+        {% elsif section.settings.overlay_content_position == "bottom-center" %}
+            align-items: flex-end;
+            justify-content: center;
+        {% elsif section.settings.overlay_content_position == "top-right" %}
+            align-items: unset;
+            justify-content: flex-end;
+        {% elsif section.settings.overlay_content_position == "bottom-right" %}
+            align-items: flex-end;
+            justify-content: flex-end;
+        {% elsif section.settings.overlay_content_position == "middle-center" %}
+            align-items: center;
+            justify-content: center;
+        {% endif %}
+    {% endif %}
+  }
+
+  @media screen and (min-width: 1000px) {
+      #shopify-section-{{ section.id }} .container {
+        {% if section.settings.overlay_content_position == "top-left" %}
+          align-items: flex-start;
+          justify-content: flex-start;
+        {% elsif section.settings.overlay_content_position == "top-center" %}
+          align-items: unset;
+          justify-content: center;
+        {% elsif section.settings.overlay_content_position == "middle-left" %}
+          align-items: center;
+          justify-content: unset;
+        {% elsif section.settings.overlay_content_position == "middle-right" %}
+          align-items: center;
+          justify-content: flex-end;
+        {% elsif section.settings.overlay_content_position == "bottom-left" %}
+          align-items: flex-end;
+          justify-content: unset;
+        {% elsif section.settings.overlay_content_position == "bottom-center" %}
+          align-items: flex-end;
+          justify-content: center;
+        {% elsif section.settings.overlay_content_position == "top-right" %}
+          align-items: unset;
+          justify-content: flex-end;
+        {% elsif section.settings.overlay_content_position == "bottom-right" %}
+          align-items: flex-end;
+          justify-content: flex-end;
+        {% elsif section.settings.overlay_content_position == "middle-center" %}
+          align-items: center;
+          justify-content: center;
+        {% endif %}
+      }
+    }
+
+  .before-after-images-container{
+      position: relative;
+  }
+
+  .before-after-images-container .twentytwenty-container{
+      width: 100%;
+  }
+
+  .before-after-images-container .twentytwenty-container img{
+      min-width: 100%;
+      min-height: 300px;
+  }
+
+  .before-after-images-container .mobile-content {
+      color: #fff;
+      padding: 30px;
+      line-height: 1.5;
+  }
+
+  @media screen and (min-width: 1000px) {
+      .before-after-images-container .mobile-content {
+          display: none;
+      }
+  }
+
+  .before-after-images-container .overlay-content {
+      position: relative;
+      padding: 24px 0;
+      z-index: 39;
+      color: #fff;
+      line-height: 1.5;
+      width: 40vw;
+  }
+
+  @media screen and (min-width: 740px) {
+     .before-after-images-container .overlay-content {
+       padding: 30px;
+       width: auto;
+     }
+  }
+
+  @media screen and (min-width: 1000px) {
+     .before-after-images-container .overlay-content {
+       /* display: block; */
+       padding: 50px 30px;
+       max-width: unset;
+     }
+  }
+
+  @media screen and (min-width: 1200px) {
+     .before-after-images-container .overlay-content {
+       padding: 50px 0;
+     }
+  }
+
+
+  @media screen and (min-width: 740px) {
+      .before-after-images-container .overlay-content p {
+          width: auto;
+          max-width: 280px;
+      }
+  }
+
+  @media screen and (min-width: 1200px) {
+      .before-after-images-container .overlay-content p {
+          max-width: 350px;
+
+      }
+  }
+
+
+  .before-after-images-container .overlay-content *,
+  .before-after-images-container .mobile-content * {
+      color: #fff;
+  }
+
+  .before-after-images-container .overlay-content .heading{
+      margin-bottom: 16px;
+      font-size: clamp(26px, 3vw + 1rem, 36px);
+      filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.8) );
+  }
+  .before-after-images-container .mobile-content .heading {
+      margin-bottom: 16px;
+  }
+
+  .before-after-images-container .overlay-content p {
+      font-weight: 400;
+      filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.65) );
+  }
+{% endstyle %}
+
+{%- if section.settings.header != null and section.settings.header != '' -%}
+  <h3 class="heading h2">{{ section.settings.header }}</h3>
+{%- endif -%}
+
+{%- assign imagebefore_desktop = section.settings.imagebefore_desktop -%}
+{%- assign imageafter_desktop = section.settings.imageafter_desktop -%}
+{%- assign imagebefore_mobile = section.settings.imagebefore_mobile -%}
+{%- assign imageafter_mobile = section.settings.imageafter_mobile -%}
+
+<div class="before-after-images-container">
+  <div class="twentytwenty-container hidden-pocket {{ section.id }}">
+    {{-
+      imagebefore_desktop
+      | image_url: width: 3000
+      | image_tag: sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000'
+    -}}
+    {{-
+      imageafter_desktop
+      | image_url: width: 3000
+      | image_tag: sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000'
+    -}}
+    {% comment %}
+      <img class="hidden-pocket" src='{{ imagebefore_desktop | img_url: '1920x' }}' />
+      <img class="hidden-pocket" src='{{ imageafter_desktop | img_url: '1920x' }}' />
+    {% endcomment %}
+
+    <div class="container">
+      <div class="overlay-content">
+        <div class="text-container">
+          <h4 class="heading h3">
+            <span>
+              {{ section.settings.subheading }}
+            </span>
+          </h4>
+          <span>
+            {{ section.settings.caption }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="twentytwenty-container {{ section.id }} hidden-lap-and-up">
+    {{-
+      imagebefore_mobile
+      | image_url: width: 3000
+      | image_tag: sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000'
+    -}}
+    {{-
+      imageafter_mobile
+      | image_url: width: 3000
+      | image_tag: sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000'
+    -}}
+    {% comment %}
+      <img class="hidden-lap-and-up" src='{{ imagebefore_mobile | img_url: '480x' }}' />
+      <img class="hidden-lap-and-up" src='{{ imageafter_mobile | img_url: '480x' }}' />
+    {% endcomment %}
+
+    <div class="container">
+      <div class="overlay-content">
+        <div class="text-container">
+          <h4 class="heading h3">
+            <span>
+              {{ section.settings.subheading }}
+            </span>
+          </h4>
+          <span class="heading-animate">
+            {{ section.settings.caption }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% comment %}
+    <div class="mobile-content">
+        <h4 class="heading h3">{{section.settings.subheading}}</h4>
+        {{section.settings.caption}}
+    </div>
+  {% endcomment %}
+</div>
+
+{% schema %}
+{
+  "name": "Before After Image Slider",
+  "class": "before-after-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "header",
+      "label": "Section Title"
+    },
+    {
+      "type": "header",
+      "content": "Content On Image"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "default": "Subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading Color",
+      "default": "#F1F2F2"
+    },
+    {
+      "type": "richtext",
+      "id": "caption",
+      "default": "<p>Caption</p>",
+      "label": "Caption"
+    },
+    {
+      "type": "header",
+      "content": "Content Position"
+    },
+    {
+      "type": "select",
+      "id": "overlay_content_position",
+      "label": "Content Position Desktop",
+      "options": [
+        {
+          "value": "top-left",
+          "label": "Top left"
+        },
+        {
+          "value": "top-center",
+          "label": "Top center"
+        },
+        {
+          "value": "top-right",
+          "label": "Top right"
+        },
+        {
+          "value": "middle-left",
+          "label": "Middle left"
+        },
+        {
+          "value": "middle-center",
+          "label": "Middle center"
+        },
+        {
+          "value": "middle-right",
+          "label": "Middle right"
+        },
+        {
+          "value": "bottom-left",
+          "label": "Bottom left"
+        },
+        {
+          "value": "bottom-center",
+          "label": "Bottom center"
+        },
+        {
+          "value": "bottom-right",
+          "label": "Bottom right"
+        }
+      ],
+      "default": "middle-center"
+    },
+    {
+      "type": "select",
+      "id": "content_position_mobile",
+      "label": "Content Position Mobile",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "top-left",
+          "label": "Top left"
+        },
+        {
+          "value": "top-center",
+          "label": "Top center"
+        },
+        {
+          "value": "top-right",
+          "label": "Top right"
+        },
+        {
+          "value": "middle-left",
+          "label": "Middle left"
+        },
+        {
+          "value": "middle-center",
+          "label": "Middle center"
+        },
+        {
+          "value": "middle-right",
+          "label": "Middle right"
+        },
+        {
+          "value": "bottom-left",
+          "label": "Bottom left"
+        },
+        {
+          "value": "bottom-center",
+          "label": "Bottom center"
+        },
+        {
+          "value": "bottom-right",
+          "label": "Bottom right"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "header",
+      "content": "Desktop Images"
+    },
+    {
+      "type": "image_picker",
+      "id": "imagebefore_desktop",
+      "label": "Image Before"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageafter_desktop",
+      "label": "Image After"
+    },
+    {
+      "type": "header",
+      "content": "Mobile Images"
+    },
+    {
+      "type": "image_picker",
+      "id": "imagebefore_mobile",
+      "label": "Image Before"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageafter_mobile",
+      "label": "Image After"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Before After Image Slider"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
