@@ -165,7 +165,7 @@
           "settings": {
             "image": "shopify://shop_images/M_Business_DT.jpg",
             "mobile_image": "shopify://shop_images/M_Business_Mobile.jpg",
-            "title": "Business",
+            "title": "Business ™",
             "title_mobile": "",
             "subheading": "",
             "subheading_mobile": "",
@@ -221,7 +221,7 @@
           "settings": {
             "image": "shopify://shop_images/M_Pleasure_DT.jpg",
             "mobile_image": "shopify://shop_images/M_Pleasure_Mobile.jpg",
-            "title": "Pleasure",
+            "title": "Pleasure ®",
             "title_mobile": "",
             "subheading": "",
             "subheading_mobile": "",
@@ -277,7 +277,7 @@
           "settings": {
             "image": "shopify://shop_images/M_Giga_DT.jpg",
             "mobile_image": "shopify://shop_images/M_Giga_Mobile.jpg",
-            "title": "Gigawatt",
+            "title": "Gigawatt ®",
             "title_mobile": "",
             "subheading": "",
             "subheading_mobile": "",
@@ -389,7 +389,7 @@
           "settings": {
             "image": "shopify://shop_images/M_Frame_Pages_Header_Business_Desktop.png",
             "mobile_image": "shopify://shop_images/M_Frame_Pages_Header_Business_Mobile.png",
-            "title": "Business",
+            "title": "Business ™",
             "title_mobile": "",
             "subheading": "ANYTHING BUT ANOTHER\nDAY AT THE OFFICE",
             "subheading_mobile": "",
@@ -445,7 +445,7 @@
           "settings": {
             "image": "shopify://shop_images/Leisure-Main_01_e48ab377-45a1-4ab8-a027-3aa4a9948505.png",
             "mobile_image": "shopify://shop_images/M_Leisure_Mobile_02.png",
-            "title": "Pleasure",
+            "title": "Pleasure ®",
             "title_mobile": "",
             "subheading": "KNOWING IT TAKES A LITTLE\nPAIN TO GET THERE",
             "subheading_mobile": "",
@@ -486,7 +486,7 @@
           "settings": {
             "image": "shopify://shop_images/Leisure_Desktop_01.jpg",
             "mobile_image": "shopify://shop_images/Leisure_Mobile_01.jpg",
-            "title": "Pleasure",
+            "title": "Pleasure ®",
             "title_mobile": "",
             "subheading": "KNOWING IT TAKES A LITTLE\nPAIN TO GET THERE",
             "subheading_mobile": "",
@@ -543,7 +543,7 @@
           "settings": {
             "image": "shopify://shop_images/M_Frame_Pages_Header_Gigawatt_Desktop.png",
             "mobile_image": "shopify://shop_images/M_Frame_Pages_Header_Gigawatt_Mobile.png",
-            "title": "Gigawatt",
+            "title": "Gigawatt ®",
             "title_mobile": "",
             "subheading": "THE ALTERNATING CURRENT IN A\nWORLD GONE MAD WITH SAMENESS",
             "subheading_mobile": "",

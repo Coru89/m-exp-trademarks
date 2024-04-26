@@ -191,7 +191,7 @@
           "type": "variant-collection",
           "settings": {
             "product": "business",
-            "subheading": "Business",
+            "subheading": "Business ™",
             "title": "",
             "link_text": "",
             "link_url": "",
@@ -206,7 +206,7 @@
         "f8028b86-6b95-44e9-834e-8e26efb7ca8f"
       ],
       "settings": {
-        "subheading": "Pleasure",
+        "subheading": "Pleasure ®",
         "title": "LEISURE",
         "content": "",
         "products_count": 8,
@@ -255,7 +255,7 @@
       ],
       "disabled": true,
       "settings": {
-        "subheading": "Business",
+        "subheading": "Business ™",
         "title": "",
         "content": "",
         "products_count": 8,
@@ -291,7 +291,7 @@
       "disabled": true,
       "settings": {
         "subheading": "LEISURE",
-        "title": "Business",
+        "title": "Business ™",
         "content": "",
         "products_count": 30,
         "products_per_row": 5,
@@ -326,7 +326,7 @@
       "disabled": true,
       "settings": {
         "subheading": "Leisure",
-        "title": "PLEASURE",
+        "title": "PLEASURE ®",
         "content": "",
         "products_count": 20,
         "products_per_row": 5,
@@ -359,7 +359,7 @@
           "disabled": true,
           "settings": {
             "product": "jigawatt",
-            "subheading": "Jigawatt",
+            "subheading": "Jigawatt ®",
             "title": "",
             "link_text": "",
             "link_url": "",
@@ -374,7 +374,7 @@
         "3e488f62-cf76-4109-bf05-e81a8a9eb8ce"
       ],
       "settings": {
-        "subheading": "GIGAWATT",
+        "subheading": "GIGAWATT ®",
         "title": "ACTION",
         "content": "",
         "products_count": 8,
@@ -410,7 +410,7 @@
       "disabled": true,
       "settings": {
         "subheading": "ACTION",
-        "title": "GIGAWATT",
+        "title": "GIGAWATT ®",
         "content": "",
         "products_count": 24,
         "products_per_row": 5,
@@ -444,7 +444,7 @@
       ],
       "disabled": true,
       "settings": {
-        "subheading": "Jigawatt",
+        "subheading": "Jigawatt ®",
         "title": "",
         "content": "",
         "products_count": 8,
@@ -495,7 +495,7 @@
       "disabled": true,
       "settings": {
         "subheading": "action",
-        "title": "JIGAWATT",
+        "title": "JIGAWATT ®",
         "content": "",
         "products_count": 20,
         "products_per_row": 5,

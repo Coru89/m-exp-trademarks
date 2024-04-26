@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify://shop_images/DESKTOP_BUSINESS_7.jpg",
             "mobile_image": "shopify://shop_images/MOBILE_-_BUSINESS_7.jpg",
-            "title": "Business",
+            "title": "Business ™",
             "title_mobile": "",
             "subheading": "ANYTHING BUT ANOTHER\nDAY AT THE OFFICE",
             "subheading_mobile": "",
@@ -62,7 +62,7 @@
           "settings": {
             "image": "shopify://shop_images/DESKTOP_BUSINESS_4.jpg",
             "mobile_image": "shopify://shop_images/MOBILE_-_BUSINESS_4.jpg",
-            "title": "Business",
+            "title": "Business ™",
             "title_mobile": "",
             "subheading": "Anything but another \nday at the office",
             "subheading_mobile": "",
@@ -115,7 +115,7 @@
           "settings": {
             "image": "shopify://shop_images/DESKTOP_-BUSINESS_1.jpg",
             "mobile_image": "shopify://shop_images/MOBILE_-_BUSINESS_1.jpg",
-            "title": "Business",
+            "title": "Business ™",
             "title_mobile": "",
             "subheading": "ANYTHING BUT ANOTHER\nDAY AT THE OFFICE",
             "subheading_mobile": "",
@@ -169,7 +169,7 @@
           "settings": {
             "image": "shopify://shop_images/DESKTOP_BUSINESS_1.jpg",
             "mobile_image": "shopify://shop_images/MOBILE_-_BUSINESS_1_1230b992-f631-475e-bb74-2e6eb8da6cb3.jpg",
-            "title": "Business",
+            "title": "Business ™",
             "title_mobile": "",
             "subheading": "Anything but another \nday at the office",
             "subheading_mobile": "",
@@ -223,7 +223,7 @@
           "settings": {
             "image": "shopify://shop_images/DESKTOP_BUSINESS_5.jpg",
             "mobile_image": "shopify://shop_images/MOBILE_-_BUSINESS_5.jpg",
-            "title": "Business",
+            "title": "Business ™",
             "title_mobile": "",
             "subheading": "Anything but another \nday at the office",
             "subheading_mobile": "",
@@ -399,7 +399,7 @@
       "disabled": true,
       "settings": {
         "subheading": "Leisure",
-        "title": "Pleasure",
+        "title": "Pleasure ®",
         "content": "",
         "products_count": 12,
         "products_per_row": 5,
@@ -433,7 +433,7 @@
       ],
       "disabled": true,
       "settings": {
-        "subheading": "Business",
+        "subheading": "Business ™",
         "title": "",
         "content": "",
         "products_count": 8,
@@ -469,7 +469,7 @@
       "disabled": true,
       "settings": {
         "subheading": "Leisure",
-        "title": "Business",
+        "title": "Business ™",
         "content": "",
         "products_count": 8,
         "products_per_row": 4,
@@ -611,7 +611,7 @@
       "settings": {
         "subheading": "Leisure",
         "use_impact": false,
-        "title": "PLEASURE",
+        "title": "PLEASURE ®",
         "content": "",
         "products_count": 8,
         "products_per_row": 4,
@@ -694,7 +694,7 @@
       "settings": {
         "subheading": "LEISURE",
         "use_impact": false,
-        "title": "BUSINESS",
+        "title": "BUSINESS ™",
         "content": "",
         "products_count": 8,
         "products_per_row": 4,
@@ -892,9 +892,9 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "title": "Plasmachromatic Lenses",
+        "title": "PLASMACHROMATIC Lenses",
         "subheading": "Advanced Light Filtration System",
-        "title2": "Plasmachromatic Polarized",
+        "title2": "PLASMACHROMATIC Polarized",
         "subheading2": "Plasma + Polar",
         "column_alignment": "center",
         "mobile_item_size": "small",
@@ -989,7 +989,7 @@
             "collection": "place-holder-collection",
             "image": "shopify://shop_images/1100x1400_placeholder.png",
             "subheading": "Leisure",
-            "title": "BUSINESS BLACK",
+            "title": "BUSINESS ™ BLACK",
             "link_text": "buy",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
@@ -1076,7 +1076,7 @@
         "reveal_on_scroll": false,
         "layout": "carousel",
         "subheading": "LEISURE",
-        "title": "BUSINESS",
+        "title": "BUSINESS ™",
         "background": "#bfbfbf",
         "text_color": "#000000"
       }

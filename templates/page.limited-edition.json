@@ -221,7 +221,7 @@
           "settings": {
             "image": "shopify://shop_images/M_Limited_Edition_Header_02_Desktop_9cb98950-305d-4d39-bc8b-873b2351bda2.jpg",
             "mobile_image": "shopify://shop_images/M_Limited-Edition_Header_02_Mobile_6281ccb0-24e3-40e0-92ef-d2f79758cfc6.jpg",
-            "title": "Jigawatt",
+            "title": "Jigawatt ®",
             "title_mobile": "",
             "subheading": "Cerakote<sup>®</sup>",
             "subheading_mobile": "",
@@ -511,7 +511,7 @@
           "settings": {
             "image": "shopify://shop_images/M_Limited_Edition_Header_03_Desktop_NC_04778c70-ba27-4de8-b72c-7e40c6a81751.jpg",
             "mobile_image": "shopify://shop_images/M_Limited_Edition_Header_03_Mobile_NC_0e4feb90-e75f-4c0b-aded-a01bf3de1ce5.jpg",
-            "title": "Business",
+            "title": "Business ™",
             "title_mobile": "",
             "subheading": "",
             "subheading_mobile": "",
@@ -582,7 +582,7 @@
           "settings": {
             "image": "shopify://shop_images/M_Limited_Edition_Header_04_Desktop_NC_89d7119a-a01b-4dff-bb56-8e4d780c4baa.jpg",
             "mobile_image": "shopify://shop_images/M_Limited_Edition_Header_04_Mobile_NC_2522fc33-ce20-46bf-9b83-1a057e6ec119.jpg",
-            "title": "Pleasure",
+            "title": "Pleasure ®",
             "title_mobile": "",
             "subheading": "",
             "subheading_mobile": "",
@@ -650,13 +650,13 @@
         "frame_9FYFhQ": {
           "type": "frame",
           "settings": {
-            "rollup_title": "Jigawatt",
+            "rollup_title": "Jigawatt ®",
             "rollup_subheading": "Army / Sand",
             "rollup_image": "shopify://shop_images/Jigawatt-Sand-Army-LE-Desktop2_0981eba5-8b56-43fa-b1a3-6ef7a217400d.png",
             "rollup_mobile_image": "shopify://shop_images/Jigawatt-Sand-Army-LE-Mobile_21012249-9f6a-4ba7-960a-63eebc37eae7.png",
             "rollup_image_2": "shopify://shop_images/Jigawatt-Sand-Army-Hero-Desktop.png",
             "rollup_mobile_image_2": "shopify://shop_images/Jigawatt_Army-Sand_Social_Jordy.jpg",
-            "modal_heading": "Jigawatt",
+            "modal_heading": "Jigawatt ®",
             "modal_heading_mobile": "",
             "modal_section_heading_1": "Army",
             "modal_section_image_1": "shopify://shop_images/modal-army.png",
@@ -675,22 +675,22 @@
             "rollup_mobile_image_2": "shopify://shop_images/RoseCrackle_JJF_Mobile_Clean.jpg",
             "modal_heading": "Rose Crackle",
             "modal_heading_mobile": "",
-            "modal_section_heading_1": "Business",
+            "modal_section_heading_1": "Business ™",
             "modal_section_image_1": "shopify://shop_images/business_89397dc3-ca8f-4f5f-ad71-0699cc1d995c.jpg",
-            "modal_section_heading_2": "Pleasure",
+            "modal_section_heading_2": "Pleasure ®",
             "modal_section_image_2": "shopify://shop_images/pleasure_3a5bddfd-b1ab-46db-ad1b-cd4244a83a25.jpg"
           }
         },
         "984f4b57-191d-4ea1-b178-9275517ef6da": {
           "type": "frame",
           "settings": {
-            "rollup_title": "Jigawatt",
+            "rollup_title": "Jigawatt ®",
             "rollup_subheading": "CERAKOTE®",
             "rollup_image": "shopify://shop_images/M_Homepage_Jiga_Desktop_NC_1_bae5b97f-7b9b-4100-8152-366d831450d1.png",
             "rollup_mobile_image": "shopify://shop_images/M_Homepage_Jiga_Mobile_NC_1_7e738338-1db9-4cc4-b278-ac5a97f4f518.png",
             "rollup_image_2": "shopify://shop_images/M_Homepage_Jiga_Life_Desktop.jpg",
             "rollup_mobile_image_2": "shopify://shop_images/M_Homepage_Jiga_Life_Mobile_1.png",
-            "modal_heading": "Jigawatt",
+            "modal_heading": "Jigawatt ®",
             "modal_heading_mobile": "",
             "modal_section_heading_1": "Cerakote<sup>®</sup> Black",
             "modal_section_image_1": "shopify://shop_images/Modal_Jigawatt_Black.png",
@@ -709,9 +709,9 @@
             "rollup_mobile_image_2": "shopify://shop_images/M_Homepage_Dalmatian_Life_Mobile_1.png",
             "modal_heading": "Dalmatian Ghost",
             "modal_heading_mobile": "",
-            "modal_section_heading_1": "Business",
+            "modal_section_heading_1": "Business ™",
             "modal_section_image_1": "shopify://shop_images/Dalmatian-business-past-collection.jpg",
-            "modal_section_heading_2": "Pleasure",
+            "modal_section_heading_2": "Pleasure ®",
             "modal_section_image_2": "shopify://shop_images/Dalmatian-pleasure-past-collection.jpg"
           }
         }

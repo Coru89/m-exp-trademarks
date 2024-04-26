@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify://shop_images/M_Whats_Next_Desktop_01_No_Copy.png",
             "mobile_image": "shopify://shop_images/M_Whats_Next_Mobile_01_No_Copy.png",
-            "title": "Pleasure",
+            "title": "Pleasure ®",
             "title_mobile": "",
             "subheading": "KNOWING IT TAKES A LITTLE \nPAIN TO GET THERE",
             "subheading_mobile": "",
@@ -61,7 +61,7 @@
           "settings": {
             "image": "shopify://shop_images/DESKTOP_-_PLEASURE_10.jpg",
             "mobile_image": "shopify://shop_images/M0BILE_-_PLEASURE_3.jpg",
-            "title": "Pleasure",
+            "title": "Pleasure ®",
             "title_mobile": "",
             "subheading": "KNOWING IT TAKES A LITTLE \nPAIN TO GET THERE",
             "subheading_mobile": "",
@@ -115,7 +115,7 @@
           "settings": {
             "image": "shopify://shop_images/DESKTOP_-_PLEASURE_1.jpg",
             "mobile_image": "shopify://shop_images/M0BILE_-_PLEASURE_1.jpg",
-            "title": "Pleasure",
+            "title": "Pleasure ®",
             "title_mobile": "",
             "subheading": "KNOWING IT TAKES A LITTLE PAIN TO\nGET THERE",
             "subheading_mobile": "",
@@ -169,7 +169,7 @@
           "settings": {
             "image": "shopify://shop_images/DESKTOP_-_PLEASURE_2.jpg",
             "mobile_image": "shopify://shop_images/MOBILE_-_PLEASURE_1.jpg",
-            "title": "Pleasure",
+            "title": "Pleasure ®",
             "title_mobile": "",
             "subheading": "KNOWING IT TAKES A LITTLE\nPAIN TO GET THERE",
             "subheading_mobile": "",
@@ -254,7 +254,7 @@
           "disabled": true,
           "settings": {
             "product": "business",
-            "subheading": "Business",
+            "subheading": "Business ™",
             "title": "",
             "link_text": "",
             "link_url": "",
@@ -314,7 +314,7 @@
       "disabled": true,
       "settings": {
         "subheading": "Leisure",
-        "title": "Pleasure",
+        "title": "Pleasure ®",
         "content": "",
         "products_count": 12,
         "products_per_row": 5,
@@ -348,7 +348,7 @@
       ],
       "disabled": true,
       "settings": {
-        "subheading": "Business",
+        "subheading": "Business ™",
         "title": "",
         "content": "",
         "products_count": 8,
@@ -500,9 +500,9 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "title": "Plasmachromatic Lenses",
+        "title": "PLASMACHROMATIC Lenses",
         "subheading": "Advanced Light Filtration System",
-        "title2": "Plasmachromatic Polarized",
+        "title2": "PLASMACHROMATIC Polarized",
         "subheading2": "Plasma + Polar",
         "column_alignment": "center",
         "mobile_item_size": "small",
@@ -535,7 +535,7 @@
       "disabled": true,
       "settings": {
         "subheading": "Leisure",
-        "title": "Business",
+        "title": "Business ™",
         "content": "",
         "products_count": 8,
         "products_per_row": 4,
@@ -677,7 +677,7 @@
       "settings": {
         "subheading": "Leisure",
         "use_impact": false,
-        "title": "PLEASURE",
+        "title": "PLEASURE ®",
         "content": "",
         "products_count": 8,
         "products_per_row": 4,
@@ -760,7 +760,7 @@
       "settings": {
         "subheading": "LEISURE",
         "use_impact": false,
-        "title": "BUSINESS",
+        "title": "BUSINESS ™",
         "content": "",
         "products_count": 8,
         "products_per_row": 4,
@@ -889,7 +889,7 @@
             "collection": "place-holder-collection",
             "image": "shopify://shop_images/1100x1400_placeholder.png",
             "subheading": "Leisure",
-            "title": "BUSINESS BLACK",
+            "title": "BUSINESS ™ BLACK",
             "link_text": "buy",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
@@ -976,7 +976,7 @@
         "reveal_on_scroll": false,
         "layout": "carousel",
         "subheading": "LEISURE",
-        "title": "BUSINESS",
+        "title": "BUSINESS ™",
         "background": "#bfbfbf",
         "text_color": "#000000"
       }

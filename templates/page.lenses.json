@@ -87,7 +87,7 @@
           "disabled": true,
           "settings": {
             "product": "jigawatt-lenses",
-            "subheading": "JIGAWATT",
+            "subheading": "JIGAWATT ®",
             "title": "",
             "link_text": "",
             "link_url": "",
@@ -109,7 +109,7 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "GIGAWATT",
+        "title": "GIGAWATT ®",
         "content": "",
         "products_count": 10,
         "products_per_row": 4,
@@ -142,7 +142,7 @@
           "disabled": true,
           "settings": {
             "product": "pleasure-lenses",
-            "subheading": "Pleasure",
+            "subheading": "Pleasure ®",
             "title": "",
             "link_text": "",
             "link_url": "",
@@ -164,7 +164,7 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "BUSINESS",
+        "title": "BUSINESS ™",
         "content": "",
         "products_count": 10,
         "products_per_row": 4,
@@ -184,7 +184,7 @@
           "disabled": true,
           "settings": {
             "product": "business-lenses",
-            "subheading": "Business",
+            "subheading": "Business ™",
             "title": "",
             "link_text": "",
             "link_url": "",
@@ -219,7 +219,7 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "PLEASURE",
+        "title": "PLEASURE ®",
         "content": "",
         "products_count": 10,
         "products_per_row": 4,

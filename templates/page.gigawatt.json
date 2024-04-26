@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify://shop_images/DESKTOP_-_GIGAWATT_1.jpg",
             "mobile_image": "shopify://shop_images/MOBILE_-_GIGAWATT_1.jpg",
-            "title": "Gigawatt",
+            "title": "Gigawatt ®",
             "title_mobile": "",
             "subheading": "THE ALTERNATING CURRENT IN A\nWORLD GONE MAD WITH SAMENESS",
             "subheading_mobile": "",
@@ -62,7 +62,7 @@
           "settings": {
             "image": "shopify://shop_images/DESKTOP_-_GIGAWATT_2_e7b9cb21-7c8e-40c6-b5b8-9a054e9e7767.jpg",
             "mobile_image": "shopify://shop_images/MOBILE_-_GIGAWATT_2_ba02a42f-22fb-43b8-9161-45c7aaa27985.jpg",
-            "title": "Gigawatt",
+            "title": "Gigawatt ®",
             "title_mobile": "",
             "subheading": "THE ALTERNATING CURRENT IN A\nWORLD GONE MAD WITH SAMENESS",
             "subheading_mobile": "",
@@ -116,7 +116,7 @@
           "settings": {
             "image": "shopify://shop_images/DESKTOP_GIGAWATT__NC.jpg",
             "mobile_image": "shopify://shop_images/MOBILE_GIGAWATT_NC.jpg",
-            "title": "Gigawatt",
+            "title": "Gigawatt ®",
             "title_mobile": "",
             "subheading": "THE ALTERNATING CURRENT IN A\nWORLD GONE MAD WITH SAMENESS",
             "subheading_mobile": "",
@@ -200,7 +200,7 @@
           "disabled": true,
           "settings": {
             "product": "jigawatt",
-            "subheading": "Jigawatt",
+            "subheading": "Jigawatt ®",
             "title": "",
             "link_text": "",
             "link_url": "",
@@ -452,9 +452,9 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "title": "Plasmachromatic Lenses",
+        "title": "PLASMACHROMATIC Lenses",
         "subheading": "Advanced Light Filtration System",
-        "title2": "Plasmachromatic Polarized",
+        "title2": "PLASMACHROMATIC Polarized",
         "subheading2": "Plasma + Polar",
         "column_alignment": "center",
         "mobile_item_size": "small",
@@ -471,7 +471,7 @@
           "type": "variant-collection",
           "settings": {
             "product": "gigawatt",
-            "subheading": "Gigawatt",
+            "subheading": "Gigawatt ®",
             "title": "",
             "link_text": "",
             "link_url": "",
@@ -487,7 +487,7 @@
       "disabled": true,
       "settings": {
         "subheading": "ACTION",
-        "title": "GIGAWATT",
+        "title": "GIGAWATT ®",
         "content": "",
         "products_count": 20,
         "products_per_row": 5,
@@ -521,7 +521,7 @@
       ],
       "disabled": true,
       "settings": {
-        "subheading": "Jigawatt",
+        "subheading": "Jigawatt ®",
         "title": "",
         "content": "",
         "products_count": 8,
@@ -557,7 +557,7 @@
       "disabled": true,
       "settings": {
         "subheading": "ACTION",
-        "title": "JIGAWATT",
+        "title": "JIGAWATT ®",
         "content": "",
         "products_count": 20,
         "products_per_row": 5,
@@ -822,7 +822,7 @@
       "settings": {
         "subheading": "ACTION",
         "use_impact": false,
-        "title": "GIGAWATT",
+        "title": "GIGAWATT ®",
         "content": "",
         "products_count": 20,
         "products_per_row": 4,
@@ -1027,7 +1027,7 @@
       "settings": {
         "subheading": "ACTION",
         "use_impact": false,
-        "title": "JIGAWATT",
+        "title": "JIGAWATT ®",
         "content": "",
         "products_count": 8,
         "products_per_row": 4,
@@ -1156,7 +1156,7 @@
             "collection": "place-holder-collection",
             "image": "shopify://shop_images/1100x1400_placeholder.png",
             "subheading": "Leisure",
-            "title": "BUSINESS BLACK",
+            "title": "BUSINESS ™ BLACK",
             "link_text": "buy",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
@@ -1243,7 +1243,7 @@
         "reveal_on_scroll": false,
         "layout": "carousel",
         "subheading": "LEISURE",
-        "title": "BUSINESS",
+        "title": "BUSINESS ™",
         "background": "#bfbfbf",
         "text_color": "#000000"
       }
