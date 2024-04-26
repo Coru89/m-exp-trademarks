@@ -221,7 +221,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Limited_Edition_Header_02_Desktop_9cb98950-305d-4d39-bc8b-873b2351bda2.jpg",
             "mobile_image": "shopify:\/\/shop_images\/M_Limited-Edition_Header_02_Mobile_6281ccb0-24e3-40e0-92ef-d2f79758cfc6.jpg",
-            "title": "Jigawatt ®",
+            "title": "Jigawatt",
             "title_mobile": "",
             "subheading": "Cerakote<sup>®<\/sup>",
             "subheading_mobile": "",
@@ -650,7 +650,7 @@
         "frame_9FYFhQ": {
           "type": "frame",
           "settings": {
-            "rollup_title": "Jigawatt <sup>®<\/sup>",
+            "rollup_title": "Jigawatt",
             "rollup_subheading": "Army \/ Sand",
             "rollup_image": "shopify:\/\/shop_images\/Jigawatt-Sand-Army-LE-Desktop2_0981eba5-8b56-43fa-b1a3-6ef7a217400d.png",
             "rollup_mobile_image": "shopify:\/\/shop_images\/Jigawatt-Sand-Army-LE-Mobile_21012249-9f6a-4ba7-960a-63eebc37eae7.png",
@@ -684,7 +684,7 @@
         "984f4b57-191d-4ea1-b178-9275517ef6da": {
           "type": "frame",
           "settings": {
-            "rollup_title": "Jigawatt ®",
+            "rollup_title": "Jigawatt",
             "rollup_subheading": "CERAKOTE®",
             "rollup_image": "shopify:\/\/shop_images\/M_Homepage_Jiga_Desktop_NC_1_bae5b97f-7b9b-4100-8152-366d831450d1.png",
             "rollup_mobile_image": "shopify:\/\/shop_images\/M_Homepage_Jiga_Mobile_NC_1_7e738338-1db9-4cc4-b278-ac5a97f4f518.png",
@@ -723,7 +723,7 @@
         "e62b7a49-10e8-42bc-a979-45bba6329395"
       ],
       "custom_css": [
-        "sup {position: relative; font-size: 20%; line-height: 0; vertical-align: baseline; top: -3.2em; opacity: 70%;}"
+        "sup {position: relative; font-size: 20%; line-height: 0; vertical-align: baseline; top: -3.2em; left: -1rem; opacity: 70%;}"
       ],
       "settings": {
         "heading": "Past Collections",
