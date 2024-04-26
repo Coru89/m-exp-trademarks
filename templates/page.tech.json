@@ -481,7 +481,7 @@
         "ul {text-align: left;}"
       ],
       "settings": {
-        "title": "Gigawatt ®",
+        "title": "Gigawatt",
         "subheading": "",
         "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>EYE FENCE: Impact resistance for maximum eye protection.<\/li><li> RES+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M CARBON: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.<\/li><\/ul>",
         "image": "shopify:\/\/shop_images\/Gigawatt_Callout_Desktop_Only_Image.svg",
@@ -794,7 +794,7 @@
       "type": "rich-text-image",
       "settings": {
         "title": "Complex Design.\nSimple Result.",
-        "subheading": "THERE ARE 27 INDIVIDUAL PARTS METICULOUSLY ASSEMBLED TOGETHER TO MAKE ONE GIGAWATT ®",
+        "subheading": "THERE ARE 27 INDIVIDUAL PARTS METICULOUSLY ASSEMBLED TOGETHER TO MAKE ONE GIGAWATT",
         "content": "",
         "image": "shopify:\/\/shop_images\/exploded.png",
         "svg": "",
@@ -872,7 +872,7 @@
         "ul {text-align: left;}"
       ],
       "settings": {
-        "title": "Pleasure ®",
+        "title": "Pleasure",
         "subheading": "",
         "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>EYE FENCE: Impact resistance for maximum eye protection.<\/li><li>Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M CARBON: Proprietary frame material providing superior heat resistance and durability.<\/li><li> ATOMIC 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><\/ul>",
         "image": "shopify:\/\/shop_images\/Pleasure_Desktop_Only_Image.png",
@@ -935,7 +935,7 @@
         "ul {text-align: left;}"
       ],
       "settings": {
-        "title": "Business ™",
+        "title": "Business",
         "subheading": "",
         "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>EYE FENCE: Impact resistance for maximum eye protection.<\/li><li>Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M CARBON: Proprietary frame material providing superior heat resistance and durability.<\/li><li>ATOMIC 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><\/ul>",
         "image": "shopify:\/\/shop_images\/Business_Desktop_Only_Image.svg",
@@ -1011,7 +1011,7 @@
         "4dcbe9e5-b3fb-440f-8367-d89c0053eca6": {
           "type": "frame",
           "settings": {
-            "title": "Gigawatt ®",
+            "title": "Gigawatt<sup>®<\/sup>",
             "image": "shopify:\/\/shop_images\/Gigawatt_2c3f2356-41fc-4f6a-8671-7f3d7589e1b2.png",
             "specs": "LENS GEOMETRY….………………9-BASE\nLENS HEIGHT………………………42 mm\nLENS WIDTH…………..……………63 mm\nFRAME WIDTH……….…………….143 mm\nTEMPLE LENGTH…….……………136 mm\nWEIGHT…………………….……….33 g"
           }
@@ -1019,7 +1019,7 @@
         "047e06af-e196-4486-915a-59cf8ee2df31": {
           "type": "frame",
           "settings": {
-            "title": "Jigawatt ®",
+            "title": "Jigawatt<sup>®<\/sup>",
             "image": "shopify:\/\/shop_images\/Jigawatt_1000x1400_57faefea-4abd-4d33-90e7-1841508be171.jpg",
             "specs": "LENS GEOMETRY….………………9-BASE\nLENS HEIGHT………………………38 mm\nLENS WIDTH…………..……………59 mm\nFRAME WIDTH……….…………….143 mm\nTEMPLE LENGTH…….……………138 mm\nWEIGHT…………………….……….32 g"
           }
