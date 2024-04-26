@@ -16628,10 +16628,10 @@ form input[required] + label:after  {
 
 sup {
   position: relative;
-  font-size: 20%;
+  font-size: 40%;
   line-height: 0;
   vertical-align: baseline;
-  top: -3.2em;
+  top: -1.5em;
   left: -1rem;
   opacity: 70%;
 }
