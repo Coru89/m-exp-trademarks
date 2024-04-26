@@ -650,7 +650,7 @@
         "frame_9FYFhQ": {
           "type": "frame",
           "settings": {
-            "rollup_title": "Jigawatt ®",
+            "rollup_title": "Jigawatt <sup>®<\/sup>",
             "rollup_subheading": "Army \/ Sand",
             "rollup_image": "shopify:\/\/shop_images\/Jigawatt-Sand-Army-LE-Desktop2_0981eba5-8b56-43fa-b1a3-6ef7a217400d.png",
             "rollup_mobile_image": "shopify:\/\/shop_images\/Jigawatt-Sand-Army-LE-Mobile_21012249-9f6a-4ba7-960a-63eebc37eae7.png",
@@ -721,6 +721,9 @@
         "frame_hHX99h",
         "984f4b57-191d-4ea1-b178-9275517ef6da",
         "e62b7a49-10e8-42bc-a979-45bba6329395"
+      ],
+      "custom_css": [
+        "sup {position: relative; font-size: 40%; line-height: 0; vertical-align: baseline; top: -3.2em; opacity: 70%;}"
       ],
       "settings": {
         "heading": "Past Collections",
