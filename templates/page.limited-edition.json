@@ -723,7 +723,7 @@
         "e62b7a49-10e8-42bc-a979-45bba6329395"
       ],
       "custom_css": [
-        "sup {position: relative; font-size: 40%; line-height: 0; vertical-align: baseline; top: -3.2em; opacity: 70%;}"
+        "sup {position: relative; font-size: 20%; line-height: 0; vertical-align: baseline; top: -3.2em; opacity: 70%;}"
       ],
       "settings": {
         "heading": "Past Collections",
