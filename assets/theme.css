@@ -16621,3 +16621,17 @@ form input[required] + label:after  {
     width: var(--product-media-width);
 }
 } */
+
+
+/* for trademark symbols */
+
+
+sup {
+  position: relative;
+  font-size: 20%;
+  line-height: 0;
+  vertical-align: baseline;
+  top: -3.2em;
+  left: -1rem;
+  opacity: 70%;
+}
