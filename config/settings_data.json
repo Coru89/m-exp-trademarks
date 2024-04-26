@@ -45,13 +45,13 @@
     "search_unavailable_products": "hide",
     "cart_type": "drawer",
     "cart_icon": "shopping_cart",
-    "cart_empty_button_link": "/",
+    "cart_empty_button_link": "\/",
     "cart_show_free_shipping_threshold": false,
     "cart_free_shipping_threshold": "",
-    "favicon": "shopify://shop_images/96x96_blck.png",
+    "favicon": "shopify:\/\/shop_images\/96x96_blck.png",
     "enable_modal": false,
-    "checkout_header_image": "shopify://shop_images/M_Banner_01.jpg",
-    "checkout_logo_image": "shopify://shop_images/M_icon_logo.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/M_Banner_01.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/M_icon_logo.png",
     "checkout_logo_size": "large",
     "checkout_sidebar_background_color": "#f5f5f5",
     "checkout_heading_font": "Helvetica Neue",
@@ -100,10 +100,10 @@
             "settings": {
               "menu_item": "Leisure",
               "images_position": "right",
-              "image_1": "shopify://shop_images/1100x1400_placeholder.png",
+              "image_1": "shopify:\/\/shop_images\/1100x1400_placeholder.png",
               "image_1_heading": "something here",
               "image_1_text": "something else here",
-              "image_1_link": "shopify://collections/sunglasses",
+              "image_1_link": "shopify:\/\/collections\/sunglasses",
               "image_2_heading": "",
               "image_2_text": "",
               "image_2_link": "",
@@ -127,7 +127,7 @@
         ],
         "settings": {
           "enable_sticky_header": true,
-          "logo": "shopify://shop_images/M_icon_f8976d07-4272-4565-914a-fecab0c4a7fe.png",
+          "logo": "shopify:\/\/shop_images\/M_icon_f8976d07-4272-4565-914a-fecab0c4a7fe.png",
           "logo_max_width": 140,
           "mobile_logo_max_width": 75,
           "navigation_menu": "main-menu",
@@ -148,7 +148,7 @@
           "297d6f37-a99c-446d-b0c0-1220c8fbb01c": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/PL_M4x.127xx.jpg",
+              "image": "shopify:\/\/shop_images\/PL_M4x.127xx.jpg",
               "image_width": 250
             }
           },
@@ -190,7 +190,7 @@
           "show_locale_selector": true,
           "show_cookie_bar": true,
           "cookie_bar_title": "Cookie policy",
-          "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.</p>",
+          "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.<\/p>",
           "color_bg": "#ffffff",
           "color_text": "#000000"
         }
@@ -205,7 +205,7 @@
           "show_only_once": true,
           "image_position": "left",
           "title": "Get 10% off",
-          "content": "<p>Promotions, new products and sales. Directly to your inbox.</p>"
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
         }
       },
       "mini-cart": {
@@ -213,7 +213,7 @@
         "settings": {
           "show_order_note": true,
           "show_checkout_button": true,
-          "empty_button_link": "shopify://collections/all",
+          "empty_button_link": "shopify:\/\/collections\/all",
           "show_recommendations": false,
           "recommendations_title": "You may also like"
         }
@@ -227,7 +227,7 @@
               "icon": "picto-box",
               "custom_icon_width": 50,
               "title": "Free shipping",
-              "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+              "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
             }
           },
           "static-text-with-icons-1": {
@@ -236,7 +236,7 @@
               "icon": "picto-phone",
               "custom_icon_width": 50,
               "title": "Customer service",
-              "content": "<p>We are available from monday to friday to answer your questions.</p>"
+              "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
             }
           },
           "static-text-with-icons-2": {
@@ -245,7 +245,7 @@
               "icon": "picto-lock",
               "custom_icon_width": 50,
               "title": "Secure payment",
-              "content": "<p>Your payment information is processed securely.</p>"
+              "content": "<p>Your payment information is processed securely.<\/p>"
             }
           },
           "static-text-with-icons-3": {
@@ -254,7 +254,7 @@
               "icon": "picto-email",
               "custom_icon_width": 50,
               "title": "Contact us",
-              "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com</p>"
+              "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
             }
           }
         },
@@ -276,7 +276,7 @@
           "show_section": false,
           "reveal_on_scroll": true,
           "subheading": "Subscribe to our newsletter",
-          "content": "<p>Promotions, new products and sales. Directly to your inbox.</p>",
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
           "text_position": "right",
           "text_alignment": "left",
           "text_background": "rgba(0,0,0,0)",
@@ -290,7 +290,7 @@
         "settings": {
           "logo_max_width": 135,
           "mobile_logo_max_width": 100,
-          "image": "shopify://shop_images/M-EP_giftcard_16ab5588-d17a-4ef4-ae4c-f9d1eeeaa82a.png",
+          "image": "shopify:\/\/shop_images\/M-EP_giftcard_16ab5588-d17a-4ef4-ae4c-f9d1eeeaa82a.png",
           "background": "#191919",
           "content_background": "#191919",
           "text_color": "#f1f2f2"
@@ -302,20 +302,20 @@
     ],
     "blocks": {
       "4293466245358296089": {
-        "type": "shopify://apps/smartsize/blocks/app-embed/465a43e0-6a1a-4d30-b82e-fe6118568705",
+        "type": "shopify:\/\/apps\/smartsize\/blocks\/app-embed\/465a43e0-6a1a-4d30-b82e-fe6118568705",
         "disabled": false,
         "settings": {
           "button_horizontal_aligment": "left"
         }
       },
       "5281749993944428517": {
-        "type": "shopify://apps/variant-image-wizard-swatch/blocks/app-embed/66205c03-f474-4e2c-b275-0a2806eeac16",
+        "type": "shopify:\/\/apps\/variant-image-wizard-swatch\/blocks\/app-embed\/66205c03-f474-4e2c-b275-0a2806eeac16",
         "disabled": false,
         "settings": {
         }
       },
       "5149645339031002760": {
-        "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
+        "type": "shopify:\/\/apps\/order-limits-minmaxify\/blocks\/app-embed-block\/3acfba32-89f3-4377-ae20-cbb9abc48475",
         "disabled": false,
         "settings": {
           "async": false

@@ -6,8 +6,8 @@
         "template--16075967168662__2d8e0d90-3e3f-4b98-9d03-af53c28cfc2f-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Lens_Title_Page_New_02.png",
-            "mobile_image": "shopify://shop_images/M_Lens_Title_Moblie_1000x1400_d869848c-67c6-4c3c-94b6-9e1521ec3a02.jpg",
+            "image": "shopify:\/\/shop_images\/M_Lens_Title_Page_New_02.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Lens_Title_Moblie_1000x1400_d869848c-67c6-4c3c-94b6-9e1521ec3a02.jpg",
             "title": "Replacement\nLenses",
             "title_mobile": "",
             "subheading": "",
@@ -238,8 +238,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Lenses-Page-DSC01769.jpg",
-            "mobile_image": "shopify://shop_images/Chick_3_a205afed-0253-4bab-b6d8-e3236621e9c1.jpg",
+            "image": "shopify:\/\/shop_images\/Lenses-Page-DSC01769.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Chick_3_a205afed-0253-4bab-b6d8-e3236621e9c1.jpg",
             "title": "",
             "title_mobile": "",
             "subheading": "",

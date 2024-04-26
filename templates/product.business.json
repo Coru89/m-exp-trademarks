@@ -56,7 +56,7 @@
       "type": "apps",
       "blocks": {
         "da1221cc-287d-48f5-8021-7cc9c97b81d5": {
-          "type": "shopify://apps/variant-description/blocks/app-block/dee11698-5b0b-4a0f-9562-ea29cbe9c77e",
+          "type": "shopify:\/\/apps\/variant-description\/blocks\/app-block\/dee11698-5b0b-4a0f-9562-ea29cbe9c77e",
           "settings": {
             "show_product_description": true,
             "css_class": "rte",
@@ -81,12 +81,12 @@
         "836c6622-f633-446b-a5be-caf807d19308": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Business_lens_Gray_3qtr.56.png",
+            "image": "shopify:\/\/shop_images\/Business_lens_Gray_3qtr.56.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Gray",
             "link_text": "",
-            "link_url": "/pages/lenses#business",
+            "link_url": "\/pages\/lenses#business",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -95,12 +95,12 @@
         "3ea35824-0039-47be-a8e7-6204e3152311": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Business_lens_Sepia_3qtr.64.png",
+            "image": "shopify:\/\/shop_images\/Business_lens_Sepia_3qtr.64.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Sepia",
             "link_text": "",
-            "link_url": "/pages/lenses#business",
+            "link_url": "\/pages\/lenses#business",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -109,12 +109,12 @@
         "fd489872-9b2d-42c3-8ba8-abc5d283e1df": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Business_lens_clear_3qtr.68.png",
+            "image": "shopify:\/\/shop_images\/Business_lens_clear_3qtr.68.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Clear",
             "link_text": "",
-            "link_url": "/pages/lenses#business",
+            "link_url": "\/pages\/lenses#business",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -123,12 +123,12 @@
         "5de81204-dfcf-40fd-91d0-ff033efafb9f": {
           "type": "item-2",
           "settings": {
-            "image": "shopify://shop_images/Business_lens_Gray_Polar_3qtr.52.png",
+            "image": "shopify:\/\/shop_images\/Business_lens_Gray_Polar_3qtr.52.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Gray",
             "link_text": "",
-            "link_url": "/pages/lenses#business",
+            "link_url": "\/pages\/lenses#business",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -137,12 +137,12 @@
         "ef06b9cc-2d2b-4aa7-a700-0e3e1a520660": {
           "type": "item-2",
           "settings": {
-            "image": "shopify://shop_images/Business_lens_Sepia_Polar_3qtr.60.png",
+            "image": "shopify:\/\/shop_images\/Business_lens_Sepia_Polar_3qtr.60.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Sepia",
             "link_text": "",
-            "link_url": "/pages/lenses#business",
+            "link_url": "\/pages\/lenses#business",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -181,12 +181,12 @@
         "b15d25df-b4ac-4561-9631-c0165146229e": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/business_copper_mirrored_3qtr.1014_51b99f56-21ac-4c89-b2b9-7bf57b25dd98.png",
+            "image": "shopify:\/\/shop_images\/business_copper_mirrored_3qtr.1014_51b99f56-21ac-4c89-b2b9-7bf57b25dd98.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Copper",
             "link_text": "",
-            "link_url": "/pages/lenses#business",
+            "link_url": "\/pages\/lenses#business",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -195,12 +195,12 @@
         "d8f401df-a7bf-4f7f-897b-6978a785d1de": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Business_lens_Obsidian_Plasmachromatic_3qtr.44.png",
+            "image": "shopify:\/\/shop_images\/Business_lens_Obsidian_Plasmachromatic_3qtr.44.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Obsidian",
             "link_text": "",
-            "link_url": "/pages/lenses#business",
+            "link_url": "\/pages\/lenses#business",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -209,12 +209,12 @@
         "db30cd4c-072b-4762-aa9d-a657d64ef942": {
           "type": "item-2",
           "settings": {
-            "image": "shopify://shop_images/Business_lens_Obsidian_Plasmachromatic_3qtr.44.png",
+            "image": "shopify:\/\/shop_images\/Business_lens_Obsidian_Plasmachromatic_3qtr.44.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Obsidian",
             "link_text": "",
-            "link_url": "/pages/lenses#business",
+            "link_url": "\/pages\/lenses#business",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -253,15 +253,15 @@
           "settings": {
             "icon_1": "picto-return-box",
             "title_1": "Shipping & Returns",
-            "content_1": "<p>We stand by our quality and second-to-none craftsmanship.</p><p>*Free shipping for all online orders above $65 to all 50 U.S. states, <br/><br/>  Puerto Rico, U.S. Virgin Islands, and Guam addresses.</p><p>*Free returns for all orders within 30 days, no questions asked.</p><p></p>",
+            "content_1": "<p>We stand by our quality and second-to-none craftsmanship.<\/p><p>*Free shipping for all online orders above $65 to all 50 U.S. states, <br\/><br\/>  Puerto Rico, U.S. Virgin Islands, and Guam addresses.<\/p><p>*Free returns for all orders within 30 days, no questions asked.<\/p><p><\/p>",
             "icon_2": "picto-warranty",
             "title_2": "Warranty",
-            "content_2": "<p>M-Experiment eyewear is built to last and so is our warranty.  We’ve got you covered for an unprecedented two years against breakage due to material<br/> or quality defect (not including scratched lenses). Click here for full warranty information. </p><p></p>",
+            "content_2": "<p>M-Experiment eyewear is built to last and so is our warranty.  We’ve got you covered for an unprecedented two years against breakage due to material<br\/> or quality defect (not including scratched lenses). Click here for full warranty information. <\/p><p><\/p>",
             "icon_3": "picto-secure-payment",
             "title_3": "Secure Payment",
-            "content_3": "<p>Our online store is certified Level 1 PCI DSS compliant.  Protecting our customers is a top priority, so you can rest easy knowing that your payment is completely secure.</p><p></p>",
+            "content_3": "<p>Our online store is certified Level 1 PCI DSS compliant.  Protecting our customers is a top priority, so you can rest easy knowing that your payment is completely secure.<\/p><p><\/p>",
             "title_4": "CA Prop 65 Warning",
-            "content_4": "<p><strong>WARNING</strong>. This Product can expose you to chemicals, including Bisphenol A (BPA), which is known to the State of California to cause cancer and birth defects or other reproductive<br/> harm. For more information go to <a href=\"http://www.P65Warnings.ca.gov\" target=\"_blank\" title=\"http://www.P65Warnings.ca.gov\">www.P65Warnings.ca.gov</a>.</p><p></p>"
+            "content_4": "<p><strong>WARNING<\/strong>. This Product can expose you to chemicals, including Bisphenol A (BPA), which is known to the State of California to cause cancer and birth defects or other reproductive<br\/> harm. For more information go to <a href=\"http:\/\/www.P65Warnings.ca.gov\" target=\"_blank\" title=\"http:\/\/www.P65Warnings.ca.gov\">www.P65Warnings.ca.gov<\/a>.<\/p><p><\/p>"
           }
         },
         "cc2942b1-cea6-4a49-8332-469adec51ff8": {

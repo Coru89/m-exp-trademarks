@@ -6,8 +6,8 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify://shop_images/home-banner.png",
-        "mobile_image": "shopify://shop_images/M_Home_Page_Mobile_Header.png",
+        "image": "shopify:\/\/shop_images\/home-banner.png",
+        "mobile_image": "shopify:\/\/shop_images\/M_Home_Page_Mobile_Header.png",
         "title": "New\nBeginnings",
         "title_mobile": "",
         "subheading": "DNA DRIVEN",
@@ -51,8 +51,8 @@
         "template--16075967168662__721c34b5-a7ae-41d9-a00d-a142fa6e734d-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/home-banner.png",
-            "mobile_image": "shopify://shop_images/M_Home_Page_Mobile_Header.png",
+            "image": "shopify:\/\/shop_images\/home-banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Home_Page_Mobile_Header.png",
             "title": "New\nBeginnings",
             "title_mobile": "",
             "subheading": "DNA DRIVEN",
@@ -107,8 +107,8 @@
         "template--16075967168662__4dd61dff-09c6-42c4-ae22-4498aaea97d5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/FirstBorn2Clean.png",
-            "mobile_image": "shopify://shop_images/M_Homepage_Mobile_First_Born_No_Text.jpg",
+            "image": "shopify:\/\/shop_images\/FirstBorn2Clean.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Homepage_Mobile_First_Born_No_Text.jpg",
             "title": "The First born",
             "title_mobile": "",
             "subheading": "",
@@ -163,8 +163,8 @@
         "template--16075967168662__7db9d82d-3a91-473c-8e4e-d2b314bb15b7-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Business_DT.jpg",
-            "mobile_image": "shopify://shop_images/M_Business_Mobile.jpg",
+            "image": "shopify:\/\/shop_images\/M_Business_DT.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Business_Mobile.jpg",
             "title": "Business ™",
             "title_mobile": "",
             "subheading": "",
@@ -219,8 +219,8 @@
         "template--16075967168662__ae956d73-dcdf-469f-987f-68b84744382b-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Pleasure_DT.jpg",
-            "mobile_image": "shopify://shop_images/M_Pleasure_Mobile.jpg",
+            "image": "shopify:\/\/shop_images\/M_Pleasure_DT.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Pleasure_Mobile.jpg",
             "title": "Pleasure ®",
             "title_mobile": "",
             "subheading": "",
@@ -275,8 +275,8 @@
         "template--16075967168662__6e83d562-a578-4e20-bb33-e2bfe4224d96-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Giga_DT.jpg",
-            "mobile_image": "shopify://shop_images/M_Giga_Mobile.jpg",
+            "image": "shopify:\/\/shop_images\/M_Giga_DT.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Giga_Mobile.jpg",
             "title": "Gigawatt ®",
             "title_mobile": "",
             "subheading": "",
@@ -331,8 +331,8 @@
         "template--16071078969494__fcf2f9d8-0831-413b-8d0c-74c8163cac6b-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Whats_Next_Desktop_01_No_Copy_3ea6cab6-0b57-45be-a840-e4f513319ccf.png",
-            "mobile_image": "shopify://shop_images/M_Whats_Next_Mobile_01_No_Copy.png",
+            "image": "shopify:\/\/shop_images\/M_Whats_Next_Desktop_01_No_Copy_3ea6cab6-0b57-45be-a840-e4f513319ccf.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Whats_Next_Mobile_01_No_Copy.png",
             "title": "The\nRelentless\nPursuit\nof fun",
             "title_mobile": "",
             "subheading": "JOHN JOHN FLORENCE",
@@ -387,8 +387,8 @@
         "template--16075967168662__7ae362c0-bf29-437e-8a61-5ba34e7afaba-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Frame_Pages_Header_Business_Desktop.png",
-            "mobile_image": "shopify://shop_images/M_Frame_Pages_Header_Business_Mobile.png",
+            "image": "shopify:\/\/shop_images\/M_Frame_Pages_Header_Business_Desktop.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Frame_Pages_Header_Business_Mobile.png",
             "title": "Business ™",
             "title_mobile": "",
             "subheading": "ANYTHING BUT ANOTHER\nDAY AT THE OFFICE",
@@ -443,8 +443,8 @@
         "template--16071078969494__323076ff-8d2f-456b-a8f6-746786b5340f-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Leisure-Main_01_e48ab377-45a1-4ab8-a027-3aa4a9948505.png",
-            "mobile_image": "shopify://shop_images/M_Leisure_Mobile_02.png",
+            "image": "shopify:\/\/shop_images\/Leisure-Main_01_e48ab377-45a1-4ab8-a027-3aa4a9948505.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Leisure_Mobile_02.png",
             "title": "Pleasure ®",
             "title_mobile": "",
             "subheading": "KNOWING IT TAKES A LITTLE\nPAIN TO GET THERE",
@@ -484,8 +484,8 @@
         "template--16071078969494__323076ff-8d2f-456b-a8f6-746786b5340f-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Leisure_Desktop_01.jpg",
-            "mobile_image": "shopify://shop_images/Leisure_Mobile_01.jpg",
+            "image": "shopify:\/\/shop_images\/Leisure_Desktop_01.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Leisure_Mobile_01.jpg",
             "title": "Pleasure ®",
             "title_mobile": "",
             "subheading": "KNOWING IT TAKES A LITTLE\nPAIN TO GET THERE",
@@ -541,8 +541,8 @@
         "template--16075967168662__390770f2-175f-4b75-a506-16ee3d8dcc3e-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Frame_Pages_Header_Gigawatt_Desktop.png",
-            "mobile_image": "shopify://shop_images/M_Frame_Pages_Header_Gigawatt_Mobile.png",
+            "image": "shopify:\/\/shop_images\/M_Frame_Pages_Header_Gigawatt_Desktop.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Frame_Pages_Header_Gigawatt_Mobile.png",
             "title": "Gigawatt ®",
             "title_mobile": "",
             "subheading": "THE ALTERNATING CURRENT IN A\nWORLD GONE MAD WITH SAMENESS",
@@ -597,8 +597,8 @@
         "template--16075967168662__2d8e0d90-3e3f-4b98-9d03-af53c28cfc2f-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Lens_Title_Page_New_02.png",
-            "mobile_image": "shopify://shop_images/M_Lens_Title_Moblie_1000x1400_d869848c-67c6-4c3c-94b6-9e1521ec3a02.jpg",
+            "image": "shopify:\/\/shop_images\/M_Lens_Title_Page_New_02.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Lens_Title_Moblie_1000x1400_d869848c-67c6-4c3c-94b6-9e1521ec3a02.jpg",
             "title": "Replacement\nLenses",
             "title_mobile": "",
             "subheading": "",
@@ -653,8 +653,8 @@
         "template--16075967168662__db7e789d-5708-4651-8043-7bf4f5bb7a8a-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Website_2160x1080_09_4b851c2f-5317-4f41-84cc-38a4a4dd9b24.jpg",
-            "mobile_image": "shopify://shop_images/M_Website_1000x1400_09_46204e54-5fc7-47ea-8d0d-4cabd917aa6d.jpg",
+            "image": "shopify:\/\/shop_images\/M_Website_2160x1080_09_4b851c2f-5317-4f41-84cc-38a4a4dd9b24.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Website_1000x1400_09_46204e54-5fc7-47ea-8d0d-4cabd917aa6d.jpg",
             "title": "Stuff",
             "title_mobile": "",
             "subheading": "IN WITH THE NEW",
@@ -709,8 +709,8 @@
         "template--16075967168662__7c397d8b-4535-435d-a70f-4a09d1f10ae7-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Tech_Page_Header_Desktop_Nocopy.jpg",
-            "mobile_image": "shopify://shop_images/M_Tech_Page_Header_Mobile_Nocopy.jpg",
+            "image": "shopify:\/\/shop_images\/M_Tech_Page_Header_Desktop_Nocopy.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Header_Mobile_Nocopy.jpg",
             "title": "M-Technology",
             "title_mobile": "",
             "subheading": "THE MOST ADVANCED MATERIALS WITH A DASH OF MAD SCIENCE",
@@ -765,8 +765,8 @@
         "template--16075967168662__cc23e019-e5a1-4958-b7ad-bf35b2a1cfff-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Brand_Title_Desktop_No_Copy.jpg",
-            "mobile_image": "shopify://shop_images/M_Brand_Title_Mobile_No_Copy.jpg",
+            "image": "shopify:\/\/shop_images\/M_Brand_Title_Desktop_No_Copy.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Brand_Title_Mobile_No_Copy.jpg",
             "title": "New\nBeginnings",
             "title_mobile": "",
             "subheading": "DNA DRIVEN",
@@ -821,8 +821,8 @@
         "template--16075967168662__c029bb32-29fd-4c0d-af2f-820b5785af3f-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Brand_Title_Desktop_02_1f1c9a98-3e93-4e3c-b406-f1afeb3bff48.png",
-            "mobile_image": "shopify://shop_images/M_Brand_Title_Mobile_02_e4abf438-4f60-46b1-bb1f-936e98bf9b53.png",
+            "image": "shopify:\/\/shop_images\/M_Brand_Title_Desktop_02_1f1c9a98-3e93-4e3c-b406-f1afeb3bff48.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Brand_Title_Mobile_02_e4abf438-4f60-46b1-bb1f-936e98bf9b53.png",
             "title": "A Fun\nExperiment",
             "title_mobile": "",
             "subheading": "Oakley and RED founder Jim Jannard and his son Jamin\nare back to scratch their design itch... and just have some fun.",
@@ -877,8 +877,8 @@
         "template--16075967168662__94bd7d29-ec02-4ece-98b1-c7fceea5d968-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Whats_Next_Desktop_fefa1da1-6d34-4e07-9f02-f3211956d445.png",
-            "mobile_image": "shopify://shop_images/M_Whats_Next_Mobile_b067b6e9-d5a2-43b5-ba7e-d29ba45b959b.png",
+            "image": "shopify:\/\/shop_images\/M_Whats_Next_Desktop_fefa1da1-6d34-4e07-9f02-f3211956d445.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Whats_Next_Mobile_b067b6e9-d5a2-43b5-ba7e-d29ba45b959b.png",
             "title": "What's Next?",
             "title_mobile": "",
             "subheading": "this is the beginning of the\nexperiment. there are many\ndesigns in the works that\nrange from mild to mars.\nno timetables...released\nwhen ready.",

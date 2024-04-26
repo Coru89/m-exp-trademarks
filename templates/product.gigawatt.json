@@ -56,7 +56,7 @@
       "type": "apps",
       "blocks": {
         "da1221cc-287d-48f5-8021-7cc9c97b81d5": {
-          "type": "shopify://apps/variant-description/blocks/app-block/dee11698-5b0b-4a0f-9562-ea29cbe9c77e",
+          "type": "shopify:\/\/apps\/variant-description\/blocks\/app-block\/dee11698-5b0b-4a0f-9562-ea29cbe9c77e",
           "settings": {
             "show_product_description": true,
             "css_class": "rte",
@@ -81,12 +81,12 @@
         "836c6622-f633-446b-a5be-caf807d19308": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_gray_Polar_3qtr.41.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_gray_Polar_3qtr.41.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Gray",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -95,12 +95,12 @@
         "3ea35824-0039-47be-a8e7-6204e3152311": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Sepia_3qtr.29.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Sepia_3qtr.29.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Sepia",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -109,12 +109,12 @@
         "fd489872-9b2d-42c3-8ba8-abc5d283e1df": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_clear_3qtr.21.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_clear_3qtr.21.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Clear",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -123,12 +123,12 @@
         "329d5c60-0ca6-42f4-9f4f-624f5b79be73": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Flash2_3qtr.17.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Flash2_3qtr.17.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Flash",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -137,12 +137,12 @@
         "93c00516-52ac-4457-8d07-06112d0f7695": {
           "type": "item-2",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_gray_Polar_3qtr.41.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_gray_Polar_3qtr.41.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Gray",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -151,12 +151,12 @@
         "5c6b4bd8-33da-4b88-89f6-21390a6d66eb": {
           "type": "item-2",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Sepia_Polar_3qtr.25.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Sepia_Polar_3qtr.25.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Sepia",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -196,12 +196,12 @@
         "b15d25df-b4ac-4561-9631-c0165146229e": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Obsidian-Plasmachromatic_3qtr.8.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_3qtr.8.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Obsidian",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -210,12 +210,12 @@
         "d8f401df-a7bf-4f7f-897b-6978a785d1de": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Blaze-Plasmachromatic_3qtr.1.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Blaze-Plasmachromatic_3qtr.1.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Blaze",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -224,12 +224,12 @@
         "2f9280bc-ed23-479f-b150-2a4a258068b0": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Glacier-Plasmachromatic_3qtr.5.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Glacier-Plasmachromatic_3qtr.5.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Glacier",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -238,12 +238,12 @@
         "2cb0ec50-9dd7-45af-bd4e-091e6c509df2": {
           "type": "item-2",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Obsidian-Plasmachromatic_Polar_3qtr.11.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_3qtr.11.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Obsidian",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -283,15 +283,15 @@
           "settings": {
             "icon_1": "picto-return-box",
             "title_1": "Shipping & Returns",
-            "content_1": "<p>We stand by our quality and second-to-none craftsmanship.</p><p>*Free shipping for all online orders above $65 to all 50 U.S. states, <br/><br/>  Puerto Rico, U.S. Virgin Islands, and Guam addresses.</p><p>*Free returns for all orders within 30 days, no questions asked.</p><p></p>",
+            "content_1": "<p>We stand by our quality and second-to-none craftsmanship.<\/p><p>*Free shipping for all online orders above $65 to all 50 U.S. states, <br\/><br\/>  Puerto Rico, U.S. Virgin Islands, and Guam addresses.<\/p><p>*Free returns for all orders within 30 days, no questions asked.<\/p><p><\/p>",
             "icon_2": "picto-warranty",
             "title_2": "Warranty",
-            "content_2": "<p>M-Experiment eyewear is built to last and so is our warranty.  We’ve got you covered for an unprecedented two years against breakage due to material<br/> or quality defect (not including scratched lenses). Click here for full warranty information. </p><p></p>",
+            "content_2": "<p>M-Experiment eyewear is built to last and so is our warranty.  We’ve got you covered for an unprecedented two years against breakage due to material<br\/> or quality defect (not including scratched lenses). Click here for full warranty information. <\/p><p><\/p>",
             "icon_3": "picto-secure-payment",
             "title_3": "Secure Payment",
-            "content_3": "<p>Our online store is certified Level 1 PCI DSS compliant.  Protecting our customers is a top priority, so you can rest easy knowing that your payment is completely secure.</p><p></p>",
+            "content_3": "<p>Our online store is certified Level 1 PCI DSS compliant.  Protecting our customers is a top priority, so you can rest easy knowing that your payment is completely secure.<\/p><p><\/p>",
             "title_4": "CA Prop 65 Warning",
-            "content_4": "<p><strong>WARNING</strong>. This Product can expose you to chemicals, including Bisphenol A (BPA), which is known to the State of California to cause cancer and birth defects or other reproductive<br/> harm. For more information go to <a href=\"http://www.P65Warnings.ca.gov\" target=\"_blank\" title=\"http://www.P65Warnings.ca.gov\">www.P65Warnings.ca.gov</a>.</p><p></p>"
+            "content_4": "<p><strong>WARNING<\/strong>. This Product can expose you to chemicals, including Bisphenol A (BPA), which is known to the State of California to cause cancer and birth defects or other reproductive<br\/> harm. For more information go to <a href=\"http:\/\/www.P65Warnings.ca.gov\" target=\"_blank\" title=\"http:\/\/www.P65Warnings.ca.gov\">www.P65Warnings.ca.gov<\/a>.<\/p><p><\/p>"
           }
         },
         "cc2942b1-cea6-4a49-8332-469adec51ff8": {
