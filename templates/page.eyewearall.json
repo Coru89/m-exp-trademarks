@@ -6,8 +6,8 @@
         "4ac999bb-2fa4-4a24-9d93-37080621c381": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x1000_collection_ddb07450-1153-4c55-9ee8-eb2dbe8919e1.jpg",
-            "mobile_image": "shopify://shop_images/1000x1400_mob_collection_fd7807a9-7523-4fd7-8f1b-e02cb73ab42d.jpg",
+            "image": "shopify:\/\/shop_images\/2160x1000_collection_ddb07450-1153-4c55-9ee8-eb2dbe8919e1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_collection_fd7807a9-7523-4fd7-8f1b-e02cb73ab42d.jpg",
             "overlay_opacity": 30,
             "title": "M-Experiment",
             "title_mobile": "",
@@ -52,8 +52,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2160x1000_collection_1_eae80a5a-a759-4cdf-8831-1afd733b2517.jpg",
-            "mobile_image": "shopify://shop_images/1000x1400_mob_collection_1_fbc66d74-4b21-416c-b0ce-4c6336c1d685.jpg",
+            "image": "shopify:\/\/shop_images\/2160x1000_collection_1_eae80a5a-a759-4cdf-8831-1afd733b2517.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_collection_1_fbc66d74-4b21-416c-b0ce-4c6336c1d685.jpg",
             "overlay_opacity": 0,
             "title": "",
             "title_mobile": "",
@@ -97,8 +97,8 @@
         "template--15725203914902__db6ac7d7-65e1-4bf7-af11-e11036663098-1666196739b1b13fce-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/fishing_gear_4936fcc6-9f17-47ee-b1c5-8c720ce49748.jpg",
-            "mobile_image": "shopify://shop_images/Drums_2_edeff6d2-837f-44d8-926f-861c3bfe95ac.jpg",
+            "image": "shopify:\/\/shop_images\/fishing_gear_4936fcc6-9f17-47ee-b1c5-8c720ce49748.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Drums_2_edeff6d2-837f-44d8-926f-861c3bfe95ac.jpg",
             "overlay_opacity": 0,
             "title": "",
             "title_mobile": "",
@@ -159,10 +159,10 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify://shop_images/2160x1080_Slide_Leisure_4.jpg",
+        "image": "shopify:\/\/shop_images\/2160x1080_Slide_Leisure_4.jpg",
         "title": "M eyewear",
         "subheading": "Complete collection of",
-        "content": "<p>THE RELENTLESS PURSUIT OF FUN </p>",
+        "content": "<p>THE RELENTLESS PURSUIT OF FUN <\/p>",
         "background_type": "full_width",
         "text_color": "#ffffff",
         "button_background": "#ffffff",

@@ -6,8 +6,8 @@
         "df89e6a7-abae-441d-8239-a92197213279": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DESKTOP_-_GIGAWATT_1.jpg",
-            "mobile_image": "shopify://shop_images/MOBILE_-_GIGAWATT_1.jpg",
+            "image": "shopify:\/\/shop_images\/DESKTOP_-_GIGAWATT_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/MOBILE_-_GIGAWATT_1.jpg",
             "title": "Gigawatt ®",
             "title_mobile": "",
             "subheading": "THE ALTERNATING CURRENT IN A\nWORLD GONE MAD WITH SAMENESS",
@@ -60,8 +60,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/DESKTOP_-_GIGAWATT_2_e7b9cb21-7c8e-40c6-b5b8-9a054e9e7767.jpg",
-            "mobile_image": "shopify://shop_images/MOBILE_-_GIGAWATT_2_ba02a42f-22fb-43b8-9161-45c7aaa27985.jpg",
+            "image": "shopify:\/\/shop_images\/DESKTOP_-_GIGAWATT_2_e7b9cb21-7c8e-40c6-b5b8-9a054e9e7767.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/MOBILE_-_GIGAWATT_2_ba02a42f-22fb-43b8-9161-45c7aaa27985.jpg",
             "title": "Gigawatt ®",
             "title_mobile": "",
             "subheading": "THE ALTERNATING CURRENT IN A\nWORLD GONE MAD WITH SAMENESS",
@@ -114,8 +114,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/DESKTOP_GIGAWATT__NC.jpg",
-            "mobile_image": "shopify://shop_images/MOBILE_GIGAWATT_NC.jpg",
+            "image": "shopify:\/\/shop_images\/DESKTOP_GIGAWATT__NC.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/MOBILE_GIGAWATT_NC.jpg",
             "title": "Gigawatt ®",
             "title_mobile": "",
             "subheading": "THE ALTERNATING CURRENT IN A\nWORLD GONE MAD WITH SAMENESS",
@@ -257,12 +257,12 @@
         "836c6622-f633-446b-a5be-caf807d19308": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_gray_Polar_3qtr.41.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_gray_Polar_3qtr.41.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Gray",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -271,12 +271,12 @@
         "3ea35824-0039-47be-a8e7-6204e3152311": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Sepia_3qtr.29.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Sepia_3qtr.29.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Sepia",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -285,12 +285,12 @@
         "fd489872-9b2d-42c3-8ba8-abc5d283e1df": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_clear_3qtr.21.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_clear_3qtr.21.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Clear",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -299,12 +299,12 @@
         "329d5c60-0ca6-42f4-9f4f-624f5b79be73": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Flash2_3qtr.17.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Flash2_3qtr.17.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Flash",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -313,7 +313,7 @@
         "489e190a-9683-49ff-8d4d-09453ee80749": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Sage_3qtr.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Sage_3qtr.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Sage",
@@ -327,12 +327,12 @@
         "93c00516-52ac-4457-8d07-06112d0f7695": {
           "type": "item-2",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_gray_Polar_3qtr.41.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_gray_Polar_3qtr.41.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Gray",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -341,12 +341,12 @@
         "5c6b4bd8-33da-4b88-89f6-21390a6d66eb": {
           "type": "item-2",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Sepia_Polar_3qtr.25.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Sepia_Polar_3qtr.25.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Sepia",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -386,12 +386,12 @@
         "b15d25df-b4ac-4561-9631-c0165146229e": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Obsidian-Plasmachromatic_3qtr.8.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_3qtr.8.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Obsidian",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -400,12 +400,12 @@
         "d8f401df-a7bf-4f7f-897b-6978a785d1de": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Blaze-Plasmachromatic_3qtr.1.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Blaze-Plasmachromatic_3qtr.1.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Blaze",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -414,12 +414,12 @@
         "2f9280bc-ed23-479f-b150-2a4a258068b0": {
           "type": "item-1",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Glacier-Plasmachromatic_3qtr.5.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Glacier-Plasmachromatic_3qtr.5.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Glacier",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -428,12 +428,12 @@
         "2cb0ec50-9dd7-45af-bd4e-091e6c509df2": {
           "type": "item-2",
           "settings": {
-            "image": "shopify://shop_images/Gig_lens_Obsidian-Plasmachromatic_Polar_3qtr.11.png",
+            "image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_3qtr.11.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Obsidian<br>Coming Soon",
             "link_text": "",
-            "link_url": "/pages/lenses#gigawatt",
+            "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -575,7 +575,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "large",
-        "image": "shopify://shop_images/2160x1000_0003_Day-2_11795-a.jpg",
+        "image": "shopify:\/\/shop_images\/2160x1000_0003_Day-2_11795-a.jpg",
         "title": "",
         "title_mobile": "",
         "subheading": "",
@@ -619,8 +619,8 @@
         "template--15666477727894__f9fbd69f-181a-45ee-97a6-49ce87b49ab2-1667965810689b1a15-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Golf_2301d357-4d72-4f6b-872e-a1af75d7efff.jpg",
-            "mobile_image": "shopify://shop_images/Golf_1_d0ccd5df-7dd0-482b-a928-12c8d349282f.jpg",
+            "image": "shopify:\/\/shop_images\/Golf_2301d357-4d72-4f6b-872e-a1af75d7efff.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Golf_1_d0ccd5df-7dd0-482b-a928-12c8d349282f.jpg",
             "title": "",
             "title_mobile": "",
             "subheading": "",
@@ -742,12 +742,12 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify://shop_images/Business_MatBlk_transTurqWalrs2160x1080_copy.jpg",
+        "image": "shopify:\/\/shop_images\/Business_MatBlk_transTurqWalrs2160x1080_copy.jpg",
         "title": "ACTION",
         "title_mobile": "",
         "subheading": "",
         "subheading_mobile": "",
-        "content": "<p>Performance Eyewear engineered for action packed moments, rough seas, and blazing days.</p>",
+        "content": "<p>Performance Eyewear engineered for action packed moments, rough seas, and blazing days.<\/p>",
         "panel_link": "",
         "heading_font_size_desktop": 82,
         "heading_font_size_mobile": 26,
@@ -842,7 +842,7 @@
           "settings": {
             "label": "",
             "title": "HYDRO",
-            "content": "<p>PRINTS</p>",
+            "content": "<p>PRINTS<\/p>",
             "button_text": "",
             "button_link": ""
           }
@@ -852,7 +852,7 @@
           "settings": {
             "label": "",
             "title": "CAMO",
-            "content": "<p>prints</p>",
+            "content": "<p>prints<\/p>",
             "button_text": "",
             "button_link": ""
           }
@@ -860,10 +860,10 @@
         "1657318925fec2f8fb-2": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/manufacturing_video1_0.jpg",
+            "image": "shopify:\/\/shop_images\/manufacturing_video1_0.jpg",
             "label": "",
             "title": "SOLIDS",
-            "content": "<p>COLOR</p>",
+            "content": "<p>COLOR<\/p>",
             "button_text": "",
             "button_link": ""
           }
@@ -891,7 +891,7 @@
         "16577787753b2b146f-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/manufacturing_video1_0.jpg",
+            "image": "shopify:\/\/shop_images\/manufacturing_video1_0.jpg",
             "title": "PATTERN ONE",
             "title_mobile": "",
             "subheading": "HYDRO",
@@ -943,7 +943,7 @@
         "16577787753b2b146f-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/manufacturing_video1_0.jpg",
+            "image": "shopify:\/\/shop_images\/manufacturing_video1_0.jpg",
             "title": "PATTERN TWO",
             "title_mobile": "",
             "subheading": "HYDRO",
@@ -1077,12 +1077,12 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify://shop_images/Business_MatBlk_transTurqWalrs2160x1080_copy.jpg",
+        "image": "shopify:\/\/shop_images\/Business_MatBlk_transTurqWalrs2160x1080_copy.jpg",
         "title": "RX",
         "title_mobile": "",
         "subheading": "Available in",
         "subheading_mobile": "",
-        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
         "panel_link": "",
         "heading_font_size_desktop": 82,
         "heading_font_size_mobile": 26,
@@ -1154,7 +1154,7 @@
           "type": "collection",
           "settings": {
             "collection": "place-holder-collection",
-            "image": "shopify://shop_images/1100x1400_placeholder.png",
+            "image": "shopify:\/\/shop_images\/1100x1400_placeholder.png",
             "subheading": "Leisure",
             "title": "BUSINESS ™ BLACK",
             "link_text": "buy",
@@ -1254,7 +1254,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "large",
-        "image": "shopify://shop_images/2160x1000_0009_101MBSR3_2878.jpg",
+        "image": "shopify:\/\/shop_images\/2160x1000_0009_101MBSR3_2878.jpg",
         "title": "",
         "title_mobile": "",
         "subheading": "",
@@ -1298,8 +1298,8 @@
         "template--16029444276374__afa1bbd5-d220-4dfb-8c17-095f0221e26e-16870589452ad38cbd-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/M_Gigawatt_Exploded__Desktop_2f21faa6-02a9-481b-bb2e-cd55823aa126.jpg",
-            "mobile_image": "shopify://shop_images/M_Gigawatt_Exploded__Mobile.jpg",
+            "image": "shopify:\/\/shop_images\/M_Gigawatt_Exploded__Desktop_2f21faa6-02a9-481b-bb2e-cd55823aa126.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Gigawatt_Exploded__Mobile.jpg",
             "title": "",
             "title_mobile": "",
             "subheading": "",
@@ -1368,8 +1368,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Fishing_f0bc5926-a080-4818-aa93-8a66f0f7ba16.jpg",
-            "mobile_image": "shopify://shop_images/Drums2_2_fbe97daa-b502-4bff-8497-05d219454ce8.jpg",
+            "image": "shopify:\/\/shop_images\/Fishing_f0bc5926-a080-4818-aa93-8a66f0f7ba16.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Drums2_2_fbe97daa-b502-4bff-8497-05d219454ce8.jpg",
             "title": "",
             "title_mobile": "",
             "subheading": "",
