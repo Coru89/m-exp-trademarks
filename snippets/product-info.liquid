@@ -49,13 +49,13 @@
       </h2>
     {%- endif -%}
 
-    {% unless featured %}
-      <h1 class="product-meta__title heading h3">{{ product.title }}</h1>
-    {% else %}
+    {%- unless featured -%}
+      <h1 class="product-meta__title heading h3">{{ product.title }}{%- if product.metafields.custom.trademark_text -%}<sup class="product-meta__trademark">{{ product.metafields.custom.trademark_text }}</sup>{%- endif -%}</h1>
+    {%- else -%}
       <h2 class="product-meta__title heading h3">
         <a href="{{ product.url }}">{{ product.title }}</a>
       </h2>
-    {% endunless %}
+    {%- endunless -%}
 
       <div class="product-meta__price-list-container" role="region" aria-live="polite">
         <div class="price-list" data-product-price-list>

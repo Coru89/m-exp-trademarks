@@ -12615,6 +12615,16 @@ input:checked + .popover__choice-label::after,
   }
 }
 
+.product-meta__trademark {
+  position: relative;
+  font-size: 40%;
+  line-height: 0;
+  vertical-align: baseline;
+  top: -1.5em;
+  left: 0.25rem;
+  opacity: 100%;
+}
+
 @media screen and (pointer: fine) {
   .product-meta__reviews-badge:hover .spr-badge-caption::after,
   .product-meta__reviews-badge:hover .rating__caption::after {
@@ -16634,4 +16644,13 @@ sup {
   top: -1.5em;
   left: -1rem;
   opacity: 70%;
+}
+
+sup-pdp {
+  position: relative;
+  font-size: 40%;
+  line-height: 0;
+  vertical-align: baseline;
+  top: -1.5em;
+  left: 0.25rem;
 }
