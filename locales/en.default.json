@@ -61,13 +61,13 @@
       "account": "Account",
       "cart": "Cart",
       "language": "Language",
-      "country": "Country/region"
+      "country": "Country\/region"
     }
   },
   "footer": {
     "general": {
       "language": "Language",
-      "country": "Country/region",
+      "country": "Country\/region",
       "we_accept": "We accept"
     },
     "newsletter": {
@@ -152,7 +152,7 @@
       }
     },
     "product": {
-      "sold_out": "Sold out",
+      "sold_out": "Coming Soon",
       "discount_html": "Save {{ savings }}",
       "from_price_html": "From {{ price_min }}",
       "add_to_cart": "+ Add to cart",
@@ -178,7 +178,7 @@
       "need_help": "Need help?",
       "view_details": "View details",
       "include_taxes": "Tax included.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Shipping calculated</a> at checkout",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Shipping calculated<\/a> at checkout",
       "reviews_count": {
         "zero": "No reviews",
         "one": "{{ count }} review",
@@ -192,7 +192,7 @@
       "unavailable": "Unavailable",
       "pre_order": "Pre-order",
       "add_to_cart": "Add to cart",
-      "sold_out": "Sold out",
+      "sold_out": "Coming Soon",
       "in_stock": "In stock",
       "oversell_stock": "Re-stocking soon",
       "incoming_stock": "Re-stocking on {{ next_incoming_date }}",
@@ -324,12 +324,12 @@
       "fulfillment_status": "Order status",
       "view_details": "View order details",
       "cancelled_at": "Cancelled at: {{date}}. Reason: {{reason}}",
-      "fulfillment_with_url_and_number_html": "All products have been sent on {{date}}. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
-      "fulfillment_with_url_html": "All products have been sent on {{date}}. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
+      "fulfillment_with_url_and_number_html": "All products have been sent on {{date}}. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "fulfillment_with_url_html": "All products have been sent on {{date}}. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
       "fulfillment_with_number_html": "All products have been sent on {{date}}. Track the shipment with number {{tracking_number}}.",
       "fulfillment_html": "All products have been sent on {{date}}.",
-      "line_fulfillment_with_url_and_number_html": "This product has been sent on {{date}}. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
-      "line_fulfillment_with_url_html": "This product has been sent on {{date}}. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
+      "line_fulfillment_with_url_and_number_html": "This product has been sent on {{date}}. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "line_fulfillment_with_url_html": "This product has been sent on {{date}}. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
       "line_fulfillment_with_number_html": "This product has been sent on {{date}}. Track the shipment with number {{tracking_number}}.",
       "line_fulfillment_html": "This product has been sent on {{date}}.",
       "total": "Total",
