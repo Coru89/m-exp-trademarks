@@ -152,7 +152,7 @@
       }
     },
     "product": {
-      "sold_out": "Coming Soon",
+      "sold_out": "Sold out",
       "discount_html": "Save {{ savings }}",
       "from_price_html": "From {{ price_min }}",
       "add_to_cart": "+ Add to cart",
@@ -192,7 +192,7 @@
       "unavailable": "Unavailable",
       "pre_order": "Pre-order",
       "add_to_cart": "Add to cart",
-      "sold_out": "Coming Soon",
+      "sold_out": "Sold out",
       "in_stock": "In stock",
       "oversell_stock": "Re-stocking soon",
       "incoming_stock": "Re-stocking on {{ next_incoming_date }}",
