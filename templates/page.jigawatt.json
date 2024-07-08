@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "390770f2-175f-4b75-a506-16ee3d8dcc3e": {
@@ -75,7 +84,7 @@
         "template--15942754271382__f96d95ff-6ca2-44ca-b60e-9a41d5956d90-1676636640e95fea90-0": {
           "type": "variant-collection",
           "settings": {
-            "product": "jigawatt",
+            "product": "jigawatt-orig",
             "subheading": "",
             "title": "",
             "link_text": "",
@@ -326,7 +335,7 @@
         "16617768522f639ab3-0": {
           "type": "variant-collection",
           "settings": {
-            "product": "jigawatt",
+            "product": "jigawatt-orig",
             "subheading": "Jigawatt ®",
             "title": "",
             "link_text": "",
@@ -361,7 +370,7 @@
         "1661942926e3ce0162-0": {
           "type": "variant-collection",
           "settings": {
-            "product": "jigawatt",
+            "product": "jigawatt-orig",
             "subheading": "",
             "title": "",
             "link_text": "",
