@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "video_new_yhfC9W": {
@@ -1051,7 +1060,7 @@
             "title_mobile": "",
             "subheading": "",
             "subheading_mobile": "",
-            "panel_link": "shopify:\/\/pages\/jigawatt",
+            "panel_link": "shopify:\/\/pages\/jigawatt-le",
             "heading_font_size_desktop": 68,
             "heading_font_size_mobile": 28,
             "subheading_font_size_desktop": 22,
